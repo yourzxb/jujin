@@ -18,3 +18,7 @@ awesome-passive-income/
 验收记录.md
 scripts/register-current-projects.mjs
 scripts/prepare-public-release.mjs
+
+# Public documentation images
+!docs/images/*.jpg
+!docs/images/*.png
