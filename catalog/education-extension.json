@@ -1,0 +1,619 @@
+{
+  "reviewedAt": "2026-10-31",
+  "resources": [
+    {
+      "id": "cn-edu-repo-pipipi-pikachu-pptist",
+      "name": "PPTist 在线幻灯片编辑器",
+      "repository": "pipipi-pikachu/PPTist",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "教育工具",
+      "categoryLabel": "教育工具",
+      "type": "开源工具",
+      "url": "https://github.com/pipipi-pikachu/PPTist",
+      "documentationUrl": "https://github.com/pipipi-pikachu/PPTist/blob/master/README_zh.md",
+      "description": "提供浏览器中的幻灯片编辑、演示及基础 AI 生成参考，需要开发者自行完成产品化。",
+      "resourceDescription": "提供浏览器中的幻灯片编辑、演示及基础 AI 生成参考，需要开发者自行完成产品化。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-31T14:02:51Z",
+      "upstreamCommitDate": "2026-10-31",
+      "upstreamCommit": "ec89d1c4d4a7743e2c8645dd935dd4aa70229a92",
+      "licenseNote": "AGPL-3.0；作者另提供独立商业授权，部署和分发前核对当前条款。",
+      "sources": [
+        {
+          "name": "pipipi-pikachu/PPTist 原始仓库",
+          "url": "https://github.com/pipipi-pikachu/PPTist",
+          "note": "核验用途、仓库状态和提交记录；没有部署或验证收益。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/pipipi-pikachu/PPTist/blob/master/LICENSE",
+          "note": "AGPL-3.0；作者另提供独立商业授权，部署和分发前核对当前条款。"
+        },
+        {
+          "name": "核验时最近提交",
+          "url": "https://github.com/pipipi-pikachu/PPTist/commit/ec89d1c4d4a7743e2c8645dd935dd4aa70229a92",
+          "note": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "cn-edu-repo-lrriver-aippt",
+      "name": "AIPPT 可编辑课件生成工作台",
+      "repository": "LRriver/AIPPT",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "教育工具",
+      "categoryLabel": "教育工具",
+      "type": "开源工具",
+      "url": "https://github.com/LRriver/AIPPT",
+      "documentationUrl": "https://github.com/LRriver/AIPPT/blob/main/README_zh.md",
+      "description": "将文档资料整理为演示文稿，支持逐页调整以及 PDF、PPTX 等导出。",
+      "resourceDescription": "将文档资料整理为演示文稿，支持逐页调整以及 PDF、PPTX 等导出。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-07-08T13:56:38Z",
+      "upstreamCommitDate": "2026-07-08",
+      "upstreamCommit": "e70fbfcde611cc619939d83a19c3226a8a674171",
+      "licenseNote": "Apache-2.0；生成所用模型、图片和素材按各自条件使用。",
+      "sources": [
+        {
+          "name": "LRriver/AIPPT 原始仓库",
+          "url": "https://github.com/LRriver/AIPPT",
+          "note": "核验用途、仓库状态和提交记录；没有部署或验证收益。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/LRriver/AIPPT/blob/main/LICENSE",
+          "note": "Apache-2.0；生成所用模型、图片和素材按各自条件使用。"
+        },
+        {
+          "name": "核验时最近提交",
+          "url": "https://github.com/LRriver/AIPPT/commit/e70fbfcde611cc619939d83a19c3226a8a674171",
+          "note": "2026-07-08"
+        }
+      ]
+    },
+    {
+      "id": "cn-edu-repo-wanglin2-mind-map",
+      "name": "思绪 Web 思维导图库",
+      "repository": "wanglin2/mind-map",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "教育工具",
+      "categoryLabel": "教育工具",
+      "type": "开源工具",
+      "url": "https://github.com/wanglin2/mind-map",
+      "documentationUrl": "https://github.com/wanglin2/mind-map/blob/main/README.md",
+      "description": "JavaScript 思维导图库及 Web 编辑器；仓库的开源 Web 部分已进入低维护状态，客户端和插件另行区分。",
+      "resourceDescription": "JavaScript 思维导图库及 Web 编辑器；仓库的开源 Web 部分已进入低维护状态，客户端和插件另行区分。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-07-07T03:09:47Z",
+      "upstreamCommitDate": "2026-07-07",
+      "upstreamCommit": "e8e5ef9c41bc13ca7b13084e078123adff002242",
+      "licenseNote": "MIT 适用于仓库开源代码；闭源客户端与插件不包含在该开源许可中。",
+      "sources": [
+        {
+          "name": "wanglin2/mind-map 原始仓库",
+          "url": "https://github.com/wanglin2/mind-map",
+          "note": "核验用途、仓库状态和提交记录；没有部署或验证收益。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/wanglin2/mind-map/blob/main/LICENSE",
+          "note": "MIT 适用于仓库开源代码；闭源客户端与插件不包含在该开源许可中。"
+        },
+        {
+          "name": "核验时最近提交",
+          "url": "https://github.com/wanglin2/mind-map/commit/e8e5ef9c41bc13ca7b13084e078123adff002242",
+          "note": "2026-07-07"
+        }
+      ]
+    },
+    {
+      "id": "cn-edu-repo-modelscope-funasr",
+      "name": "FunASR 中文语音识别工具包",
+      "repository": "modelscope/FunASR",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "内容制作与写作",
+      "categoryLabel": "内容制作与写作",
+      "type": "开源工具",
+      "url": "https://github.com/modelscope/FunASR",
+      "documentationUrl": "https://github.com/modelscope/FunASR/blob/main/README_zh.md",
+      "description": "提供语音转写、标点及相关语音处理管线，可用于授权录音的文字整理。",
+      "resourceDescription": "提供语音转写、标点及相关语音处理管线，可用于授权录音的文字整理。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-31T14:23:51Z",
+      "upstreamCommitDate": "2026-10-31",
+      "upstreamCommit": "e49cdd9f6651185286fbedd2aba14b04cfb3bf92",
+      "licenseNote": "代码 MIT；预训练模型单独授权，按实际选用模型卡核对。",
+      "sources": [
+        {
+          "name": "modelscope/FunASR 原始仓库",
+          "url": "https://github.com/modelscope/FunASR",
+          "note": "核验用途、仓库状态和提交记录；没有部署或验证收益。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/modelscope/FunASR/blob/main/LICENSE",
+          "note": "代码 MIT；预训练模型单独授权，按实际选用模型卡核对。"
+        },
+        {
+          "name": "核验时最近提交",
+          "url": "https://github.com/modelscope/FunASR/commit/e49cdd9f6651185286fbedd2aba14b04cfb3bf92",
+          "note": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "cn-edu-repo-paddlepaddle-paddleocr",
+      "name": "PaddleOCR 图片与文档识别工具",
+      "repository": "PaddlePaddle/PaddleOCR",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "人工智能应用",
+      "categoryLabel": "人工智能应用",
+      "type": "开源工具",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "documentationUrl": "https://github.com/PaddlePaddle/PaddleOCR/blob/main/README.md",
+      "description": "将图片、扫描文档中的文字及版面信息整理为可处理的数据。",
+      "resourceDescription": "将图片、扫描文档中的文字及版面信息整理为可处理的数据。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-09-16T03:30:53Z",
+      "upstreamCommitDate": "2026-09-16",
+      "upstreamCommit": "dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf",
+      "licenseNote": "Apache-2.0；具体模型、组件及输入资料的条件分别核对。",
+      "sources": [
+        {
+          "name": "PaddlePaddle/PaddleOCR 原始仓库",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR",
+          "note": "核验用途、仓库状态和提交记录；没有部署或验证收益。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR/blob/main/LICENSE",
+          "note": "Apache-2.0；具体模型、组件及输入资料的条件分别核对。"
+        },
+        {
+          "name": "核验时最近提交",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR/commit/dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf",
+          "note": "2026-09-16"
+        }
+      ]
+    },
+    {
+      "id": "cn-edu-repo-opendatalab-mineru",
+      "name": "MinerU 文档解析工具",
+      "repository": "opendatalab/MinerU",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "人工智能应用",
+      "categoryLabel": "人工智能应用",
+      "type": "开源工具",
+      "url": "https://github.com/opendatalab/MinerU",
+      "documentationUrl": "https://github.com/opendatalab/MinerU/blob/master/README_zh-CN.md",
+      "description": "将 PDF、Office 等文档转换为 Markdown、JSON 等结构化资料，供资料整理或知识库处理。",
+      "resourceDescription": "将 PDF、Office 等文档转换为 Markdown、JSON 等结构化资料，供资料整理或知识库处理。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-30T10:44:06Z",
+      "upstreamCommitDate": "2026-10-30",
+      "upstreamCommit": "0ef2c20c4a56e68f81a66647f819d924ef2d89ce",
+      "licenseNote": "基于 Apache-2.0 的附加许可：对外在线服务须显著标明使用 MinerU；达到协议规定规模须另获商业许可。",
+      "sources": [
+        {
+          "name": "opendatalab/MinerU 原始仓库",
+          "url": "https://github.com/opendatalab/MinerU",
+          "note": "核验用途、仓库状态和提交记录；没有部署或验证收益。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/opendatalab/MinerU/blob/master/LICENSE.md",
+          "note": "基于 Apache-2.0 的附加许可：对外在线服务须显著标明使用 MinerU；达到协议规定规模须另获商业许可。"
+        },
+        {
+          "name": "核验时最近提交",
+          "url": "https://github.com/opendatalab/MinerU/commit/0ef2c20c4a56e68f81a66647f819d924ef2d89ce",
+          "note": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "cn-edu-repo-diygod-rsshub",
+      "name": "RSSHub 订阅源聚合工具",
+      "repository": "DIYgod/RSSHub",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "内容制作与写作",
+      "categoryLabel": "内容制作与写作",
+      "type": "开源工具",
+      "url": "https://github.com/DIYgod/RSSHub",
+      "documentationUrl": "https://github.com/DIYgod/RSSHub/blob/master/README.md",
+      "description": "将支持的信息源整理为 RSS 订阅，供更新追踪和人工选题使用。",
+      "resourceDescription": "将支持的信息源整理为 RSS 订阅，供更新追踪和人工选题使用。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-31T15:04:41Z",
+      "upstreamCommitDate": "2026-10-31",
+      "upstreamCommit": "21601e45ee22de8cd1bf353aba00968da91975ee",
+      "licenseNote": "AGPL-3.0；信息源内容与访问条件另行核对，订阅能力不等于转载授权。",
+      "sources": [
+        {
+          "name": "DIYgod/RSSHub 原始仓库",
+          "url": "https://github.com/DIYgod/RSSHub",
+          "note": "核验用途、仓库状态和提交记录；没有部署或验证收益。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/DIYgod/RSSHub/blob/master/LICENSE",
+          "note": "AGPL-3.0；信息源内容与访问条件另行核对，订阅能力不等于转载授权。"
+        },
+        {
+          "name": "核验时最近提交",
+          "url": "https://github.com/DIYgod/RSSHub/commit/21601e45ee22de8cd1bf353aba00968da91975ee",
+          "note": "2026-10-31"
+        }
+      ]
+    }
+  ],
+  "inspirations": [
+    {
+      "id": "cn-idea-lesson-slide-assistant",
+      "name": "AI 备课课件生成助手",
+      "category": "教育工具",
+      "description": "面向教师，把自有教学提纲转换成可编辑课件草稿，保留逐页审核和修改，再做成单一学科的中文工具。",
+      "monetization": "工具次数包或教师订阅；先验证三位教师能否减少备课时间",
+      "deliverable": "可编辑课件、讲课备注和人工审核清单",
+      "maintenance": "中至高：维护导出兼容、内容准确性、模型和图片费用",
+      "firstSteps": [
+        "选一个年级和一个学科，收集三份已获授权的教学提纲",
+        "生成并人工核对十页样课，检查公式、图片和导出效果",
+        "邀请三位教师试用，记录修改时间与付费意愿"
+      ],
+      "costNotes": "模型调用、图像生成、服务器及人工校对时间；先用小规模样课核算单次成本。",
+      "region": "中国大陆",
+      "categoryLabel": "教育工具",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "LRriver/AIPPT",
+      "url": "https://github.com/LRriver/AIPPT",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31",
+      "existingBusinessFit": "教育知识付费社群可先提供实测样课和工具体验",
+      "requirements": "Apache-2.0；生成所用模型、图片和素材按各自条件使用。 教育知识付费社群可先提供实测样课和工具体验 方案由工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "LRriver/AIPPT 原始仓库",
+          "url": "https://github.com/LRriver/AIPPT",
+          "note": "源码能力是实现参考，项目方案及收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/LRriver/AIPPT/blob/main/LICENSE",
+          "note": "Apache-2.0；生成所用模型、图片和素材按各自条件使用。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-teacher-original-slide-pack",
+      "name": "教师说课与教研原创模板包",
+      "category": "教育知识社群",
+      "description": "围绕说课、公开课复盘和校本教研制作原创可编辑模板，附完整示例与填写说明，作为可重复交付的数字产品。",
+      "monetization": "原创模板单品或系列包，也可作为星球会员专题内容",
+      "deliverable": "模板文件、填写示例、素材清单与版本说明",
+      "maintenance": "低至中：维护兼容性、素材授权和集中答疑",
+      "firstSteps": [
+        "访谈三位教师，限定一个说课或教研场景",
+        "制作一份原创模板及一份完整示例，不复制上游演示素材",
+        "让两位教师实际编辑，确认格式可用后再决定销售"
+      ],
+      "costNotes": "主要是设计、示例制作和售后时间；工具二次开发、托管服务另核算。",
+      "region": "中国大陆",
+      "categoryLabel": "教育知识社群",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "pipipi-pikachu/PPTist",
+      "url": "https://github.com/pipipi-pikachu/PPTist",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31",
+      "existingBusinessFit": "可从现有星球收集需求，由公众号展示原创样例",
+      "requirements": "AGPL-3.0；作者另提供独立商业授权，部署和分发前核对当前条款。 可从现有星球收集需求，由公众号展示原创样例 方案由工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "pipipi-pikachu/PPTist 原始仓库",
+          "url": "https://github.com/pipipi-pikachu/PPTist",
+          "note": "源码能力是实现参考，项目方案及收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/pipipi-pikachu/PPTist/blob/master/LICENSE",
+          "note": "AGPL-3.0；作者另提供独立商业授权，部署和分发前核对当前条款。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-subject-mindmap-pack",
+      "name": "学科知识导图与复习路径包",
+      "category": "教育知识社群",
+      "description": "为一个明确知识单元制作原创知识结构图、概念联系和复习顺序，提供可编辑导图与讲解，便于老师重复使用。",
+      "monetization": "原创资料包、专题更新或星球会员内容",
+      "deliverable": "可编辑导图、导出图片、知识来源与讲解文件",
+      "maintenance": "中：人工检查知识关系，跟随课程范围与反馈修订",
+      "firstSteps": [
+        "选择一个熟悉知识单元，用原创提纲整理概念关系",
+        "用开源 Web 导图制作可编辑样稿，检查导出和中文显示",
+        "请一位学科教师评审，再制作三个免费样例验证需求"
+      ],
+      "costNotes": "内容校核和绘图时间为主；开源 Web 低维护，产品化需承担兼容维护。",
+      "region": "中国大陆",
+      "categoryLabel": "教育知识社群",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "wanglin2/mind-map",
+      "url": "https://github.com/wanglin2/mind-map",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31",
+      "existingBusinessFit": "适合补充“AI 教育实践”的原创资源栏目",
+      "requirements": "MIT 适用于仓库开源代码；闭源客户端与插件不包含在该开源许可中。 适合补充“AI 教育实践”的原创资源栏目 方案由工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "wanglin2/mind-map 原始仓库",
+          "url": "https://github.com/wanglin2/mind-map",
+          "note": "源码能力是实现参考，项目方案及收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/wanglin2/mind-map/blob/main/LICENSE",
+          "note": "MIT 适用于仓库开源代码；闭源客户端与插件不包含在该开源许可中。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-planet-replay-chapters",
+      "name": "星球直播回放章节与讲义库",
+      "category": "教育知识社群",
+      "description": "整理你自己或已获授权的星球直播，把录音转为带时间定位的章节索引、摘要和讲义，改善历史内容的重复交付。",
+      "monetization": "增强现有会员服务，或销售已获授权的主题回放资料包",
+      "deliverable": "回放章节目录、可检索文字稿与经校对的讲义",
+      "maintenance": "中：每次直播后的人工校对、更新与录音保存管理",
+      "firstSteps": [
+        "选一段自己有权使用的十五分钟直播录音",
+        "测试转写，并人工核对术语和时间位置",
+        "整理五个章节与一页讲义，邀请会员验证是否容易找到内容"
+      ],
+      "costNotes": "语音识别计算、录音存储与人工校对；不同模型的时间戳能力应先实测。",
+      "region": "中国大陆",
+      "categoryLabel": "教育知识社群",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "modelscope/FunASR",
+      "url": "https://github.com/modelscope/FunASR",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31",
+      "existingBusinessFit": "直接服务你正在运营的教育知识付费社群",
+      "requirements": "代码 MIT；预训练模型单独授权，按实际选用模型卡核对。 直接服务你正在运营的教育知识付费社群 方案由工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "modelscope/FunASR 原始仓库",
+          "url": "https://github.com/modelscope/FunASR",
+          "note": "源码能力是实现参考，项目方案及收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/modelscope/FunASR/blob/main/LICENSE",
+          "note": "代码 MIT；预训练模型单独授权，按实际选用模型卡核对。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-course-audio-study-notes",
+      "name": "授权课程音频转学习资料服务",
+      "category": "写作与资料工具",
+      "description": "面向有课程版权的老师，将其音频整理为文字稿、复习提纲和术语表。先做标准交付，再评估是否工具化。",
+      "monetization": "按授权音频时长或固定交付套餐收费；初期属于持续服务",
+      "deliverable": "校对后的文字稿、提纲、术语表及修改记录",
+      "maintenance": "高：每单都需人工核对，不能直接当作无人维护收入",
+      "firstSteps": [
+        "获得一位课程作者的明确授权和十分钟样本",
+        "约定文字稿、术语表及修改次数等交付边界",
+        "记录实际转写、校对时间与成本，再试做一笔真实订单"
+      ],
+      "costNotes": "语音识别计算和人工校对是主要成本；不可只按模型调用费用定价。",
+      "region": "中国大陆",
+      "categoryLabel": "写作与资料工具",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "modelscope/FunASR",
+      "url": "https://github.com/modelscope/FunASR",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31",
+      "existingBusinessFit": "可在教师社群验证需求，再决定是否成为独立项目",
+      "requirements": "代码 MIT；预训练模型单独授权，按实际选用模型卡核对。 可在教师社群验证需求，再决定是否成为独立项目 方案由工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "modelscope/FunASR 原始仓库",
+          "url": "https://github.com/modelscope/FunASR",
+          "note": "源码能力是实现参考，项目方案及收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/modelscope/FunASR/blob/main/LICENSE",
+          "note": "代码 MIT；预训练模型单独授权，按实际选用模型卡核对。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-mini-error-note-print",
+      "name": "截图错题整理与打印小程序",
+      "category": "小程序工具",
+      "description": "为用户整理自己上传的题目截图，提供识别、人工修正、标签归档和打印排版；先做整理工具，不承诺自动批改。",
+      "monetization": "高级导出或容量功能；广告收入须另核对流量主条件",
+      "deliverable": "可编辑错题记录、标签检索与打印页面原型",
+      "maintenance": "中至高：识别纠错、公式兼容、上传存储和小程序维护",
+      "firstSteps": [
+        "用二十张获授权的题目截图测试文字及公式识别",
+        "制作用户可手动修正的单页原型，先不接支付或广告",
+        "请五位用户试整理并打印，观察重复使用和纠错时间"
+      ],
+      "costNotes": "OCR 计算、存储和开发维护；应只保留提供服务所需的资料。",
+      "region": "中国大陆",
+      "categoryLabel": "小程序工具",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "PaddlePaddle/PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31",
+      "existingBusinessFit": "与你的微信小程序流量主方向衔接，可先验证留存",
+      "requirements": "Apache-2.0；具体模型、组件及输入资料的条件分别核对。 与你的微信小程序流量主方向衔接，可先验证留存 方案由工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "PaddlePaddle/PaddleOCR 原始仓库",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR",
+          "note": "源码能力是实现参考，项目方案及收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR/blob/main/LICENSE",
+          "note": "Apache-2.0；具体模型、组件及输入资料的条件分别核对。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-small-business-form-ocr",
+      "name": "小微机构纸质表格转电子表工具",
+      "category": "人工智能产品",
+      "description": "针对一种固定格式的库存表或活动签到表，提取为可人工校正的电子表格，避免一开始支持所有表单。",
+      "monetization": "本地工具授权、次数包或固定格式服务",
+      "deliverable": "原图对照、字段校正界面和 CSV 导出文件",
+      "maintenance": "中：维护版式样例、错误处理和格式兼容",
+      "firstSteps": [
+        "找一家真实使用机构，取得脱敏且获授权的样表",
+        "限定一种版式，人工制作十份标准结果对比识别输出",
+        "完成原图对照与导出原型，测试重复使用价值"
+      ],
+      "costNotes": "识别计算、开发和样例整理；关键字段必须提供人工确认。",
+      "region": "中国大陆",
+      "categoryLabel": "人工智能产品",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "PaddlePaddle/PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31",
+      "existingBusinessFit": "适合独立小工具，也可作为公众号 AI 实操案例",
+      "requirements": "Apache-2.0；具体模型、组件及输入资料的条件分别核对。 适合独立小工具，也可作为公众号 AI 实操案例 方案由工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "PaddlePaddle/PaddleOCR 原始仓库",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR",
+          "note": "源码能力是实现参考，项目方案及收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR/blob/main/LICENSE",
+          "note": "Apache-2.0；具体模型、组件及输入资料的条件分别核对。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-authorized-pdf-conversion",
+      "name": "授权 PDF 资料数字化与导出工具",
+      "category": "写作与资料工具",
+      "description": "处理用户自有或已授权的扫描讲义、操作手册，整理为可搜索的 Markdown 和结构化文件，保留页码来源方便核查。",
+      "monetization": "单批次处理服务或本地工具授权；模板稳定后再考虑自动交付",
+      "deliverable": "转换文件、源页对应说明和人工检查报告",
+      "maintenance": "中至高：复杂版面、公式表格和失败文件需人工处理",
+      "firstSteps": [
+        "收集三种获授权的文档样例并约定输出格式",
+        "测试十页样稿，人工比对文字、公式和表格",
+        "计算单批转换与校对成本，试交付一个小规模样本"
+      ],
+      "costNotes": "算力、文档存储及人工校对；对外在线服务须遵守 MinerU 的标识等条件。",
+      "region": "中国大陆",
+      "categoryLabel": "写作与资料工具",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "opendatalab/MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31",
+      "existingBusinessFit": "可服务教师资料整理需求，先验证后再产品化",
+      "requirements": "基于 Apache-2.0 的附加许可：对外在线服务须显著标明使用 MinerU；达到协议规定规模须另获商业许可。 可服务教师资料整理需求，先验证后再产品化 方案由工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "opendatalab/MinerU 原始仓库",
+          "url": "https://github.com/opendatalab/MinerU",
+          "note": "源码能力是实现参考，项目方案及收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/opendatalab/MinerU/blob/master/LICENSE.md",
+          "note": "基于 Apache-2.0 的附加许可：对外在线服务须显著标明使用 MinerU；达到协议规定规模须另获商业许可。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-planet-import-cleaning",
+      "name": "星球资料入库检查与清洗工具",
+      "category": "教育工具",
+      "description": "为已有 AI 教育资料库做文档转换、目录整理和来源页码记录，让后续检索有可核对的输入；先解决自己的入库流程。",
+      "monetization": "先减少自有社群维护时间，再验证工具授权或机构实施需求",
+      "deliverable": "规范化文件、来源清单和问题文档列表",
+      "maintenance": "中：维护解析版本、清洗规则及资料更新记录",
+      "firstSteps": [
+        "选十份自己拥有使用权的星球资料，定义统一文件结构",
+        "制作转换、页码记录及人工抽检流程，输出问题列表",
+        "对比整理前后检索体验，确认值得持续使用后再考虑售卖"
+      ],
+      "costNotes": "解析计算和人工整理时间；不把尚未实现的知识库问答功能作为现成功能销售。",
+      "region": "中国大陆",
+      "categoryLabel": "教育工具",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "opendatalab/MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31",
+      "existingBusinessFit": "直接衔接教育知识付费社群的资料沉淀",
+      "requirements": "基于 Apache-2.0 的附加许可：对外在线服务须显著标明使用 MinerU；达到协议规定规模须另获商业许可。 直接衔接教育知识付费社群的资料沉淀 方案由工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "opendatalab/MinerU 原始仓库",
+          "url": "https://github.com/opendatalab/MinerU",
+          "note": "源码能力是实现参考，项目方案及收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/opendatalab/MinerU/blob/master/LICENSE.md",
+          "note": "基于 Apache-2.0 的附加许可：对外在线服务须显著标明使用 MinerU；达到协议规定规模须另获商业许可。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-education-ai-release-radar",
+      "name": "教育 AI 工具更新简报",
+      "category": "公众号内容产品",
+      "description": "订阅允许访问的工具发布信息和官方更新，人工实测后整理对教师有用的变化、用法和原始链接，形成固定栏目。",
+      "monetization": "公众号内容收入、会员实测简报或明确标注的商业合作",
+      "deliverable": "每期原创简报、测试记录与可追溯来源",
+      "maintenance": "高：需持续筛选、实测和编辑，订阅只辅助发现信息",
+      "firstSteps": [
+        "选择五个有稳定公开更新源的教育或 AI 工具",
+        "用 RSS 订阅或官方发布页收集更新，不绕过登录和付费内容",
+        "连续两周发布原创实测简报，观察读者反馈与星球转化"
+      ],
+      "costNotes": "订阅部署、模型辅助整理和人工实测时间；不整篇搬运第三方内容。",
+      "region": "中国大陆",
+      "categoryLabel": "公众号内容产品",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "DIYgod/RSSHub",
+      "url": "https://github.com/DIYgod/RSSHub",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31",
+      "existingBusinessFit": "可同时支持公众号选题和星球的会员更新栏目",
+      "requirements": "AGPL-3.0；信息源内容与访问条件另行核对，订阅能力不等于转载授权。 可同时支持公众号选题和星球的会员更新栏目 方案由工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "DIYgod/RSSHub 原始仓库",
+          "url": "https://github.com/DIYgod/RSSHub",
+          "note": "源码能力是实现参考，项目方案及收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/DIYgod/RSSHub/blob/master/LICENSE",
+          "note": "AGPL-3.0；信息源内容与访问条件另行核对，订阅能力不等于转载授权。"
+        }
+      ]
+    }
+  ]
+}

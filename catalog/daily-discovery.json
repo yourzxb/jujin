@@ -1,0 +1,854 @@
+{
+  "resources": [
+    {
+      "id": "cn-daily-astrbotdevs-astrbot",
+      "name": "AstrBot 多平台 AI 社群助手",
+      "repository": "AstrBotDevs/AstrBot",
+      "category": "知识付费与社群",
+      "categoryLabel": "知识付费与社群",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "documentationUrl": "https://github.com/AstrBotDevs/AstrBot/blob/master/README.md",
+      "description": "支持企业微信、公众号等平台的 AI 对话与插件扩展，可用于教师社群的资料答疑。",
+      "resourceDescription": "支持企业微信、公众号等平台的 AI 对话与插件扩展，可用于教师社群的资料答疑。",
+      "licenseNote": "AGPL-3.0；另有 EULA 使用条件，商用部署与修改分发须一并核对；插件、模型和平台权限另查。",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "upstreamCommit": "831abae85da8b6e58dc44d4544d163f8f9459ba1",
+      "upstreamCommitAt": "2026-10-31T16:02:46Z",
+      "upstreamCommitDate": "2026-11-01",
+      "stars": 45332,
+      "starsObservedAt": "2026-11-01T01:02:19.085Z",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "公众号流量主"
+      ],
+      "existingBusinessFit": "先服务现有星球的课程与资料答疑，通过获授权的公众号或企业微信入口使用。",
+      "growthNote": "北京时间 2026-11-01 09:02 的 GitHub 周榜显示本周新增 2137 星；本地从 2026/11/1 00:22:16 至 2026/11/1 09:02:19 的 8.67 小时快照净增 62 星，不能当作完整一天的增量。",
+      "starGrowth": {
+        "count": 2137,
+        "period": "weekly",
+        "observedAt": "2026-11-01T01:02:19.085Z",
+        "sourceUrl": "https://github.com/trending?since=weekly",
+        "basis": "GitHub Trending 页面快照"
+      },
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/README.md",
+          "note": "支持企业微信、公众号等平台的 AI 对话与插件扩展，可用于教师社群的资料答疑。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/LICENSE",
+          "note": "AGPL-3.0；另有 EULA 使用条件，商用部署与修改分发须一并核对；插件、模型和平台权限另查。"
+        },
+        {
+          "name": "EULA 使用条件",
+          "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/EULA.md",
+          "note": "与源码 LICENSE 一并核对。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/AstrBotDevs/AstrBot/commit/831abae85da8b6e58dc44d4544d163f8f9459ba1",
+          "note": "2026-10-31T16:02:46Z"
+        },
+        {
+          "name": "GitHub 趋势榜快照",
+          "url": "https://github.com/trending?since=weekly",
+          "note": "北京时间 2026-11-01 09:02 的 GitHub 周榜显示本周新增 2137 星；本地从 2026/11/1 00:22:16 至 2026/11/1 09:02:19 的 8.67 小时快照净增 62 星，不能当作完整一天的增量。"
+        }
+      ],
+      "starDeltaObservation": {
+        "repository": "AstrBotDevs/AstrBot",
+        "from": "2026-10-31T16:22:16.750Z",
+        "to": "2026-11-01T01:02:19.085Z",
+        "previousStars": 45270,
+        "currentStars": 45332,
+        "netChange": 62,
+        "elapsedHours": 8.67
+      }
+    },
+    {
+      "id": "cn-daily-hkuds-deeptutor",
+      "name": "DeepTutor AI 学习与资料辅导",
+      "repository": "HKUDS/DeepTutor",
+      "category": "教育工具",
+      "categoryLabel": "教育工具",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "documentationUrl": "https://github.com/HKUDS/DeepTutor/blob/main/README.md",
+      "description": "基于学习资料提供引导式学习、练习与问答，带中文资料和可配置模型服务。",
+      "resourceDescription": "基于学习资料提供引导式学习、练习与问答，带中文资料和可配置模型服务。",
+      "licenseNote": "Apache-2.0；教材、模型、解析服务及生成内容分别核对使用条件。",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "upstreamCommit": "f7aed0744c36c5afef16a4261c31ebee1208cac2",
+      "upstreamCommitAt": "2026-10-31T16:50:27Z",
+      "upstreamCommitDate": "2026-11-01",
+      "stars": 52820,
+      "starsObservedAt": "2026-11-01T01:02:19.085Z",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "AI 写作辅助"
+      ],
+      "existingBusinessFit": "用于星球教师实操课程与文献阅读辅导，先核查输出引用与答案。",
+      "growthNote": "北京时间 2026-11-01 09:02 的 GitHub 日榜显示今日新增 1034 星；本地从 2026/11/1 00:20:58 至 2026/11/1 09:02:19 的 8.69 小时快照净增 323 星，不能当作完整一天的增量。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/HKUDS/DeepTutor/blob/main/README.md",
+          "note": "基于学习资料提供引导式学习、练习与问答，带中文资料和可配置模型服务。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/HKUDS/DeepTutor/blob/main/LICENSE",
+          "note": "Apache-2.0；教材、模型、解析服务及生成内容分别核对使用条件。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/HKUDS/DeepTutor/commit/f7aed0744c36c5afef16a4261c31ebee1208cac2",
+          "note": "2026-10-31T16:50:27Z"
+        },
+        {
+          "name": "GitHub 趋势榜快照",
+          "url": "https://github.com/trending?since=daily",
+          "note": "北京时间 2026-11-01 09:02 的 GitHub 日榜显示今日新增 1034 星；本地从 2026/11/1 00:20:58 至 2026/11/1 09:02:19 的 8.69 小时快照净增 323 星，不能当作完整一天的增量。"
+        }
+      ],
+      "starDeltaObservation": {
+        "repository": "HKUDS/DeepTutor",
+        "from": "2026-10-31T16:20:58.849Z",
+        "to": "2026-11-01T01:02:19.085Z",
+        "previousStars": 52497,
+        "currentStars": 52820,
+        "netChange": 323,
+        "elapsedHours": 8.69
+      },
+      "starGrowth": {
+        "count": 1034,
+        "period": "daily",
+        "observedAt": "2026-11-01T01:02:19.085Z",
+        "sourceUrl": "https://github.com/trending?since=daily",
+        "basis": "GitHub Trending 页面快照"
+      }
+    },
+    {
+      "id": "cn-daily-aiworkskills-wechat-article-skills",
+      "name": "微信公众号 AI 内容工作流",
+      "repository": "aiworkskills/wechat-article-skills",
+      "category": "公众号与微信开发",
+      "categoryLabel": "公众号与微信开发",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/aiworkskills/wechat-article-skills",
+      "documentationUrl": "https://github.com/aiworkskills/wechat-article-skills/blob/main/README.md",
+      "description": "把选题、写作、审稿、排版、配图和草稿箱交付组织成可分步确认的技能流程。",
+      "resourceDescription": "把选题、写作、审稿、排版、配图和草稿箱交付组织成可分步确认的技能流程。",
+      "licenseNote": "Apache-2.0；图片、模型和微信接口另需授权或账号权限。",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "upstreamCommit": "ca036f75f4bac4fcefe6eaedd8d22d97bf8c92ca",
+      "upstreamCommitAt": "2026-09-23T01:36:05Z",
+      "upstreamCommitDate": "2026-09-23",
+      "stars": 719,
+      "starsObservedAt": "2026-10-31T16:20:58.849Z",
+      "relatedBusinesses": [
+        "公众号流量主",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "将教育公众号的原创内容沉淀成星球练习与专题资料，减少重复排版整理。",
+      "growthNote": "首次保存星数快照，尚无本地跨日增量，未标为近期快速涨星。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/aiworkskills/wechat-article-skills/blob/main/README.md",
+          "note": "把选题、写作、审稿、排版、配图和草稿箱交付组织成可分步确认的技能流程。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/aiworkskills/wechat-article-skills/blob/main/LICENSE",
+          "note": "Apache-2.0；图片、模型和微信接口另需授权或账号权限。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/aiworkskills/wechat-article-skills/commit/ca036f75f4bac4fcefe6eaedd8d22d97bf8c92ca",
+          "note": "2026-09-23T01:36:05Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-cherryhq-cherry-studio",
+      "name": "Cherry Studio 多模型工作台",
+      "repository": "CherryHQ/cherry-studio",
+      "category": "人工智能应用",
+      "categoryLabel": "人工智能应用",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "documentationUrl": "https://github.com/CherryHQ/cherry-studio/blob/main/README.md",
+      "description": "统一配置模型、助手和资料工作流，可连接自定义兼容接口，适合对比教师常用 AI 任务。",
+      "resourceDescription": "统一配置模型、助手和资料工作流，可连接自定义兼容接口，适合对比教师常用 AI 任务。",
+      "licenseNote": "社区版 AGPL-3.0；豁免 AGPL 的商业许可需单独取得，模型服务计费另算。",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "upstreamCommit": "5cfdf14170ee802d3a7cdf82e23a0a15dc55e9b8",
+      "upstreamCommitAt": "2026-10-31T12:16:56Z",
+      "upstreamCommitDate": "2026-10-31",
+      "stars": 53128,
+      "starsObservedAt": "2026-10-31T16:20:58.849Z",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "AI 写作辅助"
+      ],
+      "existingBusinessFit": "复用现有第三方 OpenAI 兼容接口的经验，制作可复测的教学与写作任务对比。",
+      "growthNote": "首次保存星数快照，尚无本地跨日增量，未标为近期快速涨星。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/CherryHQ/cherry-studio/blob/main/README.md",
+          "note": "统一配置模型、助手和资料工作流，可连接自定义兼容接口，适合对比教师常用 AI 任务。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/CherryHQ/cherry-studio/blob/main/LICENSE",
+          "note": "社区版 AGPL-3.0；豁免 AGPL 的商业许可需单独取得，模型服务计费另算。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/CherryHQ/cherry-studio/commit/5cfdf14170ee802d3a7cdf82e23a0a15dc55e9b8",
+          "note": "2026-10-31T12:16:56Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-bytedance-deer-flow",
+      "name": "DeerFlow 资料调研与创作工作流",
+      "repository": "bytedance/deer-flow",
+      "category": "内容制作与写作",
+      "categoryLabel": "内容制作与写作",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/bytedance/deer-flow",
+      "documentationUrl": "https://github.com/bytedance/deer-flow/blob/main/README.md",
+      "description": "通过搜索、工具和多步骤任务组织调研与创作流程，可配置国内模型及搜索服务。",
+      "resourceDescription": "通过搜索、工具和多步骤任务组织调研与创作流程，可配置国内模型及搜索服务。",
+      "licenseNote": "MIT；模型、搜索、沙箱与资料来源的使用条件分别核对。",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "upstreamCommit": "a9bd03ef572a4898ea1ba977e906408dc2f28d7d",
+      "upstreamCommitAt": "2026-10-31T15:00:39Z",
+      "upstreamCommitDate": "2026-10-31",
+      "stars": 84762,
+      "starsObservedAt": "2026-10-31T16:20:58.849Z",
+      "relatedBusinesses": [
+        "AI 写作辅助",
+        "公众号流量主",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "用于教育专题资料搜集、来源核查和证据整理，交付前保留人工复核。",
+      "growthNote": "首次保存星数快照，尚无本地跨日增量，未标为近期快速涨星。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/bytedance/deer-flow/blob/main/README.md",
+          "note": "通过搜索、工具和多步骤任务组织调研与创作流程，可配置国内模型及搜索服务。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/bytedance/deer-flow/blob/main/LICENSE",
+          "note": "MIT；模型、搜索、沙箱与资料来源的使用条件分别核对。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/bytedance/deer-flow/commit/a9bd03ef572a4898ea1ba977e906408dc2f28d7d",
+          "note": "2026-10-31T15:00:39Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-feige996-unibest",
+      "name": "unibest 小程序启动模板",
+      "repository": "feige996/unibest",
+      "category": "小程序开发",
+      "categoryLabel": "小程序开发",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/feige996/unibest",
+      "documentationUrl": "https://github.com/feige996/unibest/blob/base/README.md",
+      "description": "基于 uni-app、Vue 3 和 TypeScript 的跨端启动模板，包含常用界面与开发配置。",
+      "resourceDescription": "基于 uni-app、Vue 3 和 TypeScript 的跨端启动模板，包含常用界面与开发配置。",
+      "licenseNote": "MIT；第三方组件、微信广告接入和内容素材条件另查。",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "upstreamCommit": "dc3af8ddb99b78fa806078c80434b664a4b1ce93",
+      "upstreamCommitAt": "2026-09-15T02:44:22Z",
+      "upstreamCommitDate": "2026-09-15",
+      "stars": 2317,
+      "starsObservedAt": "2026-10-31T16:22:16.750Z",
+      "relatedBusinesses": [
+        "微信小程序流量主"
+      ],
+      "existingBusinessFit": "为现有小程序业务制作低模型成本的教师计算与课堂工具原型。",
+      "growthNote": "首次保存星数快照，尚无本地跨日增量，未标为近期快速涨星。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/feige996/unibest/blob/base/README.md",
+          "note": "基于 uni-app、Vue 3 和 TypeScript 的跨端启动模板，包含常用界面与开发配置。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/feige996/unibest/blob/base/LICENSE",
+          "note": "MIT；第三方组件、微信广告接入和内容素材条件另查。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/feige996/unibest/commit/dc3af8ddb99b78fa806078c80434b664a4b1ce93",
+          "note": "2026-09-15T02:44:22Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-thu-maic-openmaic",
+      "repository": "THU-MAIC/OpenMAIC",
+      "name": "OpenMAIC 多智能体互动课堂",
+      "category": "教育工具",
+      "categoryLabel": "教育工具",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "documentationUrl": "https://github.com/THU-MAIC/OpenMAIC/blob/main/README.md",
+      "description": "将主题或授权文档组织为课件、测验和互动课堂，支持 AI 教师、同伴讨论及白板；可配置 DeepSeek、通义千问等国内模型或兼容接口。",
+      "resourceDescription": "将主题或授权文档组织为课件、测验和互动课堂，支持 AI 教师、同伴讨论及白板；可配置 DeepSeek、通义千问等国内模型或兼容接口。",
+      "licenseNote": "MIT；模型、语音、图像及素材服务的费用和授权单独核对。",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T01:02:44.945Z",
+      "upstreamCommit": "fe2cf7dade345f4eaaf9afb1771e6734e17edaab",
+      "upstreamCommitAt": "2026-10-30T09:30:33Z",
+      "upstreamCommitDate": "2026-10-30",
+      "stars": 42189,
+      "starsObservedAt": "2026-11-01T01:02:44.945Z",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "公众号流量主"
+      ],
+      "existingBusinessFit": "可为星球教师制作课堂提问与追问演练案例，并将经过人工复核的使用体验整理成公众号原创内容。",
+      "growthNote": "GitHub 日榜于北京时间 2026-11-01 09:02 显示今日新增 116 星；这是榜单快照，并非本地连续 24 小时测量。",
+      "starGrowth": {
+        "count": 116,
+        "period": "daily",
+        "observedAt": "2026-11-01T01:02:44.945Z",
+        "sourceUrl": "https://github.com/trending?since=daily",
+        "basis": "GitHub Trending 页面快照"
+      },
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/THU-MAIC/OpenMAIC/blob/main/README.md",
+          "note": "将主题或授权文档组织为课件、测验和互动课堂，支持 AI 教师、同伴讨论及白板；可配置 DeepSeek、通义千问等国内模型或兼容接口。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/THU-MAIC/OpenMAIC/blob/main/LICENSE",
+          "note": "MIT；模型、语音、图像及素材服务的费用和授权单独核对。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/THU-MAIC/OpenMAIC/commit/fe2cf7dade345f4eaaf9afb1771e6734e17edaab",
+          "note": "2026-10-30T09:30:33Z"
+        },
+        {
+          "name": "GitHub 当日趋势榜",
+          "url": "https://github.com/trending?since=daily",
+          "note": "GitHub 日榜于北京时间 2026-11-01 09:02 显示今日新增 116 星；这是榜单快照，并非本地连续 24 小时测量。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-tencentcloudbase-awesome-miniprogram-skills",
+      "repository": "TencentCloudBase/awesome-miniprogram-skills",
+      "name": "腾讯云开发小程序 AI 能力示例集",
+      "category": "小程序开发",
+      "categoryLabel": "小程序开发",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/TencentCloudBase/awesome-miniprogram-skills",
+      "documentationUrl": "https://github.com/TencentCloudBase/awesome-miniprogram-skills/blob/main/README.md",
+      "description": "提供待办、活动安排、文本生成等小程序能力示例，区分本地模拟预览与云函数正式运行，可参考接口和组件的组织方式。",
+      "resourceDescription": "提供待办、活动安排、文本生成等小程序能力示例，区分本地模拟预览与云函数正式运行，可参考接口和组件的组织方式。",
+      "licenseNote": "MIT；正式云资源、模型调用和微信接口权限需自行配置；示例不表示已通过审核或具备流量主资格。",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T01:02:44.945Z",
+      "upstreamCommit": "72523cad942a7d80de53646c3f1b7c367f0bc80b",
+      "upstreamCommitAt": "2026-06-18T14:58:26Z",
+      "upstreamCommitDate": "2026-06-18",
+      "stars": 48,
+      "starsObservedAt": "2026-11-01T01:02:19.085Z",
+      "relatedBusinesses": [
+        "微信小程序流量主",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "用于研究现有小程序的 AI 能力接入与确认流程，先用模拟模式验证交互，再核算云服务成本。",
+      "growthNote": "本次首次保存星数快照，没有可比跨日记录；未标为近期快速涨星。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/TencentCloudBase/awesome-miniprogram-skills/blob/main/README.md",
+          "note": "提供待办、活动安排、文本生成等小程序能力示例，区分本地模拟预览与云函数正式运行，可参考接口和组件的组织方式。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/TencentCloudBase/awesome-miniprogram-skills/blob/main/LICENSE",
+          "note": "MIT；正式云资源、模型调用和微信接口权限需自行配置；示例不表示已通过审核或具备流量主资格。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/TencentCloudBase/awesome-miniprogram-skills/commit/72523cad942a7d80de53646c3f1b7c367f0bc80b",
+          "note": "2026-06-18T14:58:26Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-modelscope-awesome-vibe-research",
+      "repository": "modelscope/Awesome-Vibe-Research",
+      "name": "魔搭 AI 辅助科研资源目录",
+      "category": "人工智能学习",
+      "categoryLabel": "人工智能学习",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "开源资源目录",
+      "url": "https://github.com/modelscope/Awesome-Vibe-Research",
+      "documentationUrl": "https://github.com/modelscope/Awesome-Vibe-Research/blob/main/README.md",
+      "description": "中文分类目录，按文献检索、数据整理、科学绘图、写作和复现等阶段链接工具与实践，适合查找后再逐项核验。",
+      "resourceDescription": "中文分类目录，按文献检索、数据整理、科学绘图、写作和复现等阶段链接工具与实践，适合查找后再逐项核验。",
+      "licenseNote": "目录采用 Apache-2.0；所链接工具、模型和素材分别遵守自己的许可，收录不等于统一商用授权。",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T01:02:44.945Z",
+      "upstreamCommit": "e379fce2b50ae954fd75b3f4962a0955e281f57b",
+      "upstreamCommitAt": "2026-10-31T07:47:43Z",
+      "upstreamCommitDate": "2026-10-31",
+      "stars": 467,
+      "starsObservedAt": "2026-11-01T01:02:19.085Z",
+      "relatedBusinesses": [
+        "AI 写作辅助",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "帮助为文献阅读、引用核查和科研可视化服务寻找工具；只将进一步核验后的项目用于具体交付。",
+      "growthNote": "本次首次保存星数快照，没有可比跨日记录；未标为近期快速涨星。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/modelscope/Awesome-Vibe-Research/blob/main/README.md",
+          "note": "中文分类目录，按文献检索、数据整理、科学绘图、写作和复现等阶段链接工具与实践，适合查找后再逐项核验。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/modelscope/Awesome-Vibe-Research/blob/main/LICENSE",
+          "note": "目录采用 Apache-2.0；所链接工具、模型和素材分别遵守自己的许可，收录不等于统一商用授权。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/modelscope/Awesome-Vibe-Research/commit/e379fce2b50ae954fd75b3f4962a0955e281f57b",
+          "note": "2026-10-31T07:47:43Z"
+        }
+      ]
+    }
+  ],
+  "inspirations": [
+    {
+      "id": "cn-idea-planet-course-qa",
+      "name": "星球课前预习答疑助手",
+      "category": "教育知识社群",
+      "categoryLabel": "教育知识社群",
+      "description": "将自己已授权的课程提纲和常见问题接入企业微信或公众号入口，给会员提供课前定位资料与答疑。",
+      "monetization": "提升现有星球会员服务，验证后再考虑独立专题支持服务",
+      "deliverable": "20 条经核验问答、来源链接与转人工说明",
+      "maintenance": "持续校验答案、处理资料更新和模型费用",
+      "firstSteps": [
+        "选一门已有星球课程，整理 20 个真实的课前问题",
+        "用有授权的资料建立小范围演示，检查来源及无法回答时的提示",
+        "邀请五名会员试用，记录节省的答疑时间和错误率"
+      ],
+      "sourceRepository": "AstrBotDevs/AstrBot",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "batch": "daily-2026-11-01",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "公众号流量主"
+      ],
+      "existingBusinessFit": "先服务现有星球的课程与资料答疑，通过获授权的公众号或企业微信入口使用。",
+      "costNotes": "需核算原型与人工校验时间；涉及模型、托管或搜索服务时按实际用量记录成本。",
+      "requirements": "AGPL-3.0；另有 EULA 使用条件，商用部署与修改分发须一并核对；插件、模型和平台权限另查。 本方案由聚金根据源码能力推导，实际效果和收入尚待验证。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/README.md",
+          "note": "支持企业微信、公众号等平台的 AI 对话与插件扩展，可用于教师社群的资料答疑。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/LICENSE",
+          "note": "AGPL-3.0；另有 EULA 使用条件，商用部署与修改分发须一并核对；插件、模型和平台权限另查。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/AstrBotDevs/AstrBot/commit/831abae85da8b6e58dc44d4544d163f8f9459ba1",
+          "note": "2026-10-31T16:02:46Z"
+        },
+        {
+          "name": "GitHub 本周趋势榜",
+          "url": "https://github.com/trending?since=weekly",
+          "note": "2026-11-01 北京时间快照：本周新增 2133 星。后续榜单会变化。"
+        },
+        {
+          "name": "EULA 使用条件",
+          "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/EULA.md",
+          "note": "与源码 LICENSE 一并核对。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-teacher-ai-guided-module",
+      "name": "教师 AI 备课引导式微课",
+      "category": "教育知识社群",
+      "categoryLabel": "教育知识社群",
+      "description": "把一个真实备课任务拆成阅读、操作、练习和反馈，形成星球内可反复使用的分步学习模块。",
+      "monetization": "原创微课专题或星球会员内容",
+      "deliverable": "一套自编教学材料、分步练习与答案校验记录",
+      "maintenance": "维护课程案例、练习答案与模型配置",
+      "firstSteps": [
+        "选一个学科的单课时备课场景，准备原创案例",
+        "对引导学习和练习生成逐项核查，补充人工示范",
+        "邀请教师完成全流程，记录卡点后再整理专题"
+      ],
+      "sourceRepository": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "batch": "daily-2026-11-01",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "AI 写作辅助"
+      ],
+      "existingBusinessFit": "用于星球教师实操课程与文献阅读辅导，先核查输出引用与答案。",
+      "costNotes": "需核算原型与人工校验时间；涉及模型、托管或搜索服务时按实际用量记录成本。",
+      "requirements": "Apache-2.0；教材、模型、解析服务及生成内容分别核对使用条件。 本方案由聚金根据源码能力推导，实际效果和收入尚待验证。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/HKUDS/DeepTutor/blob/main/README.md",
+          "note": "基于学习资料提供引导式学习、练习与问答，带中文资料和可配置模型服务。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/HKUDS/DeepTutor/blob/main/LICENSE",
+          "note": "Apache-2.0；教材、模型、解析服务及生成内容分别核对使用条件。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/HKUDS/DeepTutor/commit/1ea7df155447f4caf0e3abc86b3ff5395479cd4a",
+          "note": "2026-10-28T16:36:18Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-paper-evidence-notebook",
+      "name": "文献证据笔记与引用核查包",
+      "category": "写作与资料工具",
+      "categoryLabel": "写作与资料工具",
+      "description": "围绕用户自有或获授权的文献，建立问题、原文位置和可核查摘记的对照笔记，辅助阅读与写作审核。",
+      "monetization": "资料整理与人工引用检查服务",
+      "deliverable": "带原文定位的证据笔记模板、检查记录和用法示例",
+      "maintenance": "人工复核引用、处理解析失误与文件权限",
+      "firstSteps": [
+        "用五篇可合法使用的文献制作原文定位样例",
+        "逐条检查模型摘记与原文是否一致，标出不能支持的结论",
+        "估算单份交付时间和调用成本，验证重复使用需求"
+      ],
+      "sourceRepository": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "batch": "daily-2026-11-01",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "AI 写作辅助"
+      ],
+      "existingBusinessFit": "用于星球教师实操课程与文献阅读辅导，先核查输出引用与答案。",
+      "costNotes": "需核算原型与人工校验时间；涉及模型、托管或搜索服务时按实际用量记录成本。",
+      "requirements": "Apache-2.0；教材、模型、解析服务及生成内容分别核对使用条件。 本方案由聚金根据源码能力推导，实际效果和收入尚待验证。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/HKUDS/DeepTutor/blob/main/README.md",
+          "note": "基于学习资料提供引导式学习、练习与问答，带中文资料和可配置模型服务。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/HKUDS/DeepTutor/blob/main/LICENSE",
+          "note": "Apache-2.0；教材、模型、解析服务及生成内容分别核对使用条件。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/HKUDS/DeepTutor/commit/1ea7df155447f4caf0e3abc86b3ff5395479cd4a",
+          "note": "2026-10-28T16:36:18Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-wechat-to-planet-lab",
+      "name": "公众号文章转星球实操包",
+      "category": "公众号内容产品",
+      "categoryLabel": "公众号内容产品",
+      "description": "把自己已发布的教育原创文章重新设计为操作清单、练习和答疑，串起公众号内容与星球深度交付。",
+      "monetization": "公众号引流与星球原创专题交付；实际转化需验证",
+      "deliverable": "一篇原创推文配一份操作清单、两道练习和复盘表",
+      "maintenance": "内容更新、会员反馈和流程兼容",
+      "firstSteps": [
+        "选一篇读者反馈明确的自有教育文章",
+        "用工作流辅助排版并手工设计练习与操作清单",
+        "先交付给小范围会员，记录完成率和后续问题"
+      ],
+      "sourceRepository": "aiworkskills/wechat-article-skills",
+      "url": "https://github.com/aiworkskills/wechat-article-skills",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "batch": "daily-2026-11-01",
+      "relatedBusinesses": [
+        "公众号流量主",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "将教育公众号的原创内容沉淀成星球练习与专题资料，减少重复排版整理。",
+      "costNotes": "需核算原型与人工校验时间；涉及模型、托管或搜索服务时按实际用量记录成本。",
+      "requirements": "Apache-2.0；图片、模型和微信接口另需授权或账号权限。 本方案由聚金根据源码能力推导，实际效果和收入尚待验证。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/aiworkskills/wechat-article-skills/blob/main/README.md",
+          "note": "把选题、写作、审稿、排版、配图和草稿箱交付组织成可分步确认的技能流程。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/aiworkskills/wechat-article-skills/blob/main/LICENSE",
+          "note": "Apache-2.0；图片、模型和微信接口另需授权或账号权限。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/aiworkskills/wechat-article-skills/commit/ca036f75f4bac4fcefe6eaedd8d22d97bf8c92ca",
+          "note": "2026-09-23T01:36:05Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-teacher-model-evaluation-kit",
+      "name": "教师国产模型选型实测包",
+      "category": "教育知识社群",
+      "categoryLabel": "教育知识社群",
+      "description": "围绕教案、练习反馈和资料摘要，记录不同模型的成本、耗时与人工评分，沉淀可复测的选择依据。",
+      "monetization": "原创测评专题与星球工具配置课",
+      "deliverable": "任务集、评分标准、模型配置说明和实测结果表",
+      "maintenance": "模型版本或价格变化后重新实测",
+      "firstSteps": [
+        "挑选三个自己熟悉的教学任务，去掉个人隐私资料",
+        "使用同一任务条件进行小批量对比并保留原始记录",
+        "区分事实和个人评价，先向教师展示样例验证需求"
+      ],
+      "sourceRepository": "CherryHQ/cherry-studio",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "batch": "daily-2026-11-01",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "AI 写作辅助"
+      ],
+      "existingBusinessFit": "复用现有第三方 OpenAI 兼容接口的经验，制作可复测的教学与写作任务对比。",
+      "costNotes": "需核算原型与人工校验时间；涉及模型、托管或搜索服务时按实际用量记录成本。",
+      "requirements": "社区版 AGPL-3.0；豁免 AGPL 的商业许可需单独取得，模型服务计费另算。 本方案由聚金根据源码能力推导，实际效果和收入尚待验证。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/CherryHQ/cherry-studio/blob/main/README.md",
+          "note": "统一配置模型、助手和资料工作流，可连接自定义兼容接口，适合对比教师常用 AI 任务。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/CherryHQ/cherry-studio/blob/main/LICENSE",
+          "note": "社区版 AGPL-3.0；豁免 AGPL 的商业许可需单独取得，模型服务计费另算。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/CherryHQ/cherry-studio/commit/5cfdf14170ee802d3a7cdf82e23a0a15dc55e9b8",
+          "note": "2026-10-31T12:16:56Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-education-evidence-map",
+      "name": "教育选题证据地图工作流",
+      "category": "公众号内容产品",
+      "categoryLabel": "公众号内容产品",
+      "description": "围绕一个教育 AI 选题，整理来源、相互支持或矛盾的证据及待核实事项，帮助写出有依据的原创分析。",
+      "monetization": "提升公众号原创内容质量；可进一步整理原创调研模板",
+      "deliverable": "来源清单、主张与证据对照表、人工核查清单",
+      "maintenance": "检查链接、筛除失效来源和追踪关键更新",
+      "firstSteps": [
+        "从自己准备写的一个具体教育选题开始",
+        "限定公开来源，要求每个主要主张能回到原始资料",
+        "人工复核十条证据，并比较与手工调研的用时"
+      ],
+      "sourceRepository": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "batch": "daily-2026-11-01",
+      "relatedBusinesses": [
+        "AI 写作辅助",
+        "公众号流量主",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "用于教育专题资料搜集、来源核查和证据整理，交付前保留人工复核。",
+      "costNotes": "需核算原型与人工校验时间；涉及模型、托管或搜索服务时按实际用量记录成本。",
+      "requirements": "MIT；模型、搜索、沙箱与资料来源的使用条件分别核对。 本方案由聚金根据源码能力推导，实际效果和收入尚待验证。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/bytedance/deer-flow/blob/main/README.md",
+          "note": "通过搜索、工具和多步骤任务组织调研与创作流程，可配置国内模型及搜索服务。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/bytedance/deer-flow/blob/main/LICENSE",
+          "note": "MIT；模型、搜索、沙箱与资料来源的使用条件分别核对。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/bytedance/deer-flow/commit/a9bd03ef572a4898ea1ba977e906408dc2f28d7d",
+          "note": "2026-10-31T15:00:39Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-mini-teacher-hours-calculator",
+      "name": "教师课时与学期进度计算小程序",
+      "category": "小程序工具",
+      "categoryLabel": "小程序工具",
+      "description": "提供课时合计、剩余教学周和课程进度计算等单一工具，优先在本地完成计算，降低模型调用成本。",
+      "monetization": "满足平台条件后的流量主广告；先验证教师留存",
+      "deliverable": "可交互的计算原型、边界样例和使用说明",
+      "maintenance": "学期日历与节假日处理、审核及兼容",
+      "firstSteps": [
+        "向现有教师读者收集三种课时计算场景",
+        "用模板搭建输入与结果页，对零课时、调课和假期做边界测试",
+        "让十位教师试用，验证重复使用后再考虑广告接入"
+      ],
+      "sourceRepository": "feige996/unibest",
+      "url": "https://github.com/feige996/unibest",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "batch": "daily-2026-11-01",
+      "relatedBusinesses": [
+        "微信小程序流量主"
+      ],
+      "existingBusinessFit": "为现有小程序业务制作低模型成本的教师计算与课堂工具原型。",
+      "costNotes": "需核算原型与人工校验时间；涉及模型、托管或搜索服务时按实际用量记录成本。",
+      "requirements": "MIT；第三方组件、微信广告接入和内容素材条件另查。 本方案由聚金根据源码能力推导，实际效果和收入尚待验证。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/feige996/unibest/blob/base/README.md",
+          "note": "基于 uni-app、Vue 3 和 TypeScript 的跨端启动模板，包含常用界面与开发配置。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/feige996/unibest/blob/base/LICENSE",
+          "note": "MIT；第三方组件、微信广告接入和内容素材条件另查。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/feige996/unibest/commit/dc3af8ddb99b78fa806078c80434b664a4b1ce93",
+          "note": "2026-09-15T02:44:22Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-teacher-questioning-rehearsal",
+      "name": "教师课堂提问与追问演练室",
+      "category": "教育知识社群",
+      "categoryLabel": "教育知识社群",
+      "description": "围绕一个具体教学片段，用 AI 同伴的不同回答帮助教师演练提问、追问和解释，再用人工制定的量表进行复盘；先作为星球中的小范围教研活动。",
+      "monetization": "原创教研演练专题、可复用场景包与星球会员内容；付费意愿需先验证",
+      "deliverable": "三个原创课堂情境、提问与追问脚本、人工复盘量表及演示记录",
+      "maintenance": "持续校验学科知识、调整模拟角色与评估模型成本；AI 同伴不能代表真实学生表现",
+      "firstSteps": [
+        "选择一个学科知识点，自己编写三种常见理解偏差与追问目标",
+        "用公开或原创材料搭建讨论演示，人工逐项检查答案和角色行为",
+        "邀请五位教师试演，记录追问质量、实际用时与每次模型成本后再决定产品化"
+      ],
+      "sourceRepository": "THU-MAIC/OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T01:02:44.945Z",
+      "batch": "daily-2026-11-01-0902",
+      "relatedBusinesses": [
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "拓展现有星球的教师实操服务，交付重点是提问演练与人工复盘，区别于已有的备课引导微课。",
+      "costNotes": "需人工编写学科情境与量表；先关闭不必要的图像和视频生成，分别记录文本、语音及托管费用。",
+      "requirements": "MIT；模型、语音、图像及素材服务的费用和授权单独核对。 不使用真实学生隐私资料；课堂效果和收入尚未实测，本方案是聚金依据仓库能力作出的产品推导。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/THU-MAIC/OpenMAIC/blob/main/README.md",
+          "note": "将主题或授权文档组织为课件、测验和互动课堂，支持 AI 教师、同伴讨论及白板；可配置 DeepSeek、通义千问等国内模型或兼容接口。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/THU-MAIC/OpenMAIC/blob/main/LICENSE",
+          "note": "MIT；模型、语音、图像及素材服务的费用和授权单独核对。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/THU-MAIC/OpenMAIC/commit/fe2cf7dade345f4eaaf9afb1771e6734e17edaab",
+          "note": "2026-10-30T09:30:33Z"
+        },
+        {
+          "name": "GitHub 当日趋势榜",
+          "url": "https://github.com/trending?since=daily",
+          "note": "GitHub 日榜于北京时间 2026-11-01 09:02 显示今日新增 116 星；这是榜单快照，并非本地连续 24 小时测量。"
+        }
+      ]
+    }
+  ],
+  "reviewedAt": "2026-11-01",
+  "updatedAt": "2026-11-01T01:06:00.298Z"
+}

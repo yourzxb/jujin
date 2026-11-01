@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#15140f">
+  <title>聚金 · 被动收入工作台</title>
+  <link rel="icon" type="image/svg+xml" href="/brand.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <aside class="sidebar" aria-label="主导航">
+    <a class="brand" href="#overview" aria-label="聚金工作台首页">
+      <span class="brand-mark" aria-hidden="true"><img src="/brand.svg" alt=""></span>
+      <span><strong>聚金</strong><small>被动收入工作台</small></span>
+    </a>
+    <div class="nav-label">我的工作空间</div>
+    <nav id="navigation"></nav>
+    <div class="sidebar-bottom">
+      <div class="local-card"><span class="local-dot"></span><strong>业务数据本地保存</strong><p>AI 规划按需联网。</p></div>
+      <a class="source-link" href="/source/china-resources.md" target="_blank" rel="noopener noreferrer">国内项目与资料来源 <span aria-hidden="true">↗</span></a>
+      <div class="version">聚金 <span>个人版</span></div>
+    </div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><div class="breadcrumb">我的工作空间 <span>/</span> <strong id="page-name">概览</strong></div><div class="save-state" id="save-state"><span class="local-dot"></span>本地运行</div></header>
+    <main id="main" tabindex="-1"><div class="loading"><span class="spinner"></span>正在打开你的工作空间…</div></main>
+    <footer class="footer"><span>聚金 · 本地工作台</span><span>人民币记账</span></footer>
+  </div>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

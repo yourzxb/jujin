@@ -1,0 +1,718 @@
+{
+  "version": "国内项目版-2026-10-31",
+  "reviewedAt": "2026-10-31",
+  "scope": "面向中国大陆用户的项目方向",
+  "notice": "项目方向由工作台整理；来源用于核对工具能力与条件，不代表收入已经验证。重复销售和订阅仍需要获客、维护与售后。",
+  "resources": [
+    {
+      "id": "cn-ai-industry-docs",
+      "name": "行业文档与流程模板生成器",
+      "region": "中国大陆",
+      "category": "人工智能产品",
+      "categoryLabel": "人工智能产品",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "为一个熟悉的行业，把重复填写的运营文档整理成可复用生成工具。先选低风险场景，例如活动执行清单或店铺交接表。",
+      "monetization": "按次生成、模板包授权或工具订阅",
+      "deliverable": "可编辑文档、输入示例与人工审核说明",
+      "maintenance": "中：维护模板、评估输出质量和控制调用成本",
+      "firstSteps": [
+        "访谈三位行业用户，确认重复文档场景",
+        "制作五个经人工验证的模板",
+        "用国内模型接口做单一场景原型"
+      ],
+      "requirements": "只销售原创或已获授权的内容；先核实所选平台的发布、收款和交付条件。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "DeepSeek 官方接口文档",
+          "url": "https://api-docs.deepseek.com/zh-cn/",
+          "note": "需自己的模型服务账号与调用额度；按实际使用控制成本，生成内容需人工检查。"
+        },
+        {
+          "name": "ShopXO 国内商城源码",
+          "url": "https://github.com/gongfuxiang/shopxo",
+          "note": "商城提供虚拟等商品模式；文件交付、支付和扩展插件需按实际版本配置，插件可能另收费。"
+        }
+      ],
+      "url": "https://api-docs.deepseek.com/zh-cn/",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-ai-course-notes",
+      "name": "课程讲义与复习卡片制作工具",
+      "region": "中国大陆",
+      "category": "人工智能产品",
+      "categoryLabel": "人工智能产品",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "帮助拥有课程版权的老师把自己的文字讲稿整理成讲义、提纲和复习卡片，形成标准化工具。",
+      "monetization": "按次处理或机构订阅",
+      "deliverable": "讲义、复习卡片和可编辑导出文件",
+      "maintenance": "中：持续检查准确性，维护导出与调用额度",
+      "firstSteps": [
+        "获得老师对样例讲稿的使用许可",
+        "定义讲义和卡片格式",
+        "用样例验证准确性，再做付费意愿测试"
+      ],
+      "requirements": "只销售原创或已获授权的内容；先核实所选平台的发布、收款和交付条件。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "阿里云百炼官方文档",
+          "url": "https://help.aliyun.com/zh/model-studio/what-is-model-studio",
+          "note": "提供模型调用与应用构建能力；按所选地域、服务和账户实际条件配置。"
+        },
+        {
+          "name": "DeepSeek 官方接口文档",
+          "url": "https://api-docs.deepseek.com/zh-cn/",
+          "note": "需自己的模型服务账号与调用额度；按实际使用控制成本，生成内容需人工检查。"
+        }
+      ],
+      "url": "https://help.aliyun.com/zh/model-studio/what-is-model-studio",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-ai-shop-copy",
+      "name": "国内小店商品文案辅助工具",
+      "region": "中国大陆",
+      "category": "人工智能产品",
+      "categoryLabel": "人工智能产品",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "针对一类商品，把商家提供的真实参数整理成详情草稿与常见问答。保留人工审核，不自动编造功效或批量发布。",
+      "monetization": "按次生成、套餐或店铺订阅",
+      "deliverable": "详情文案草稿、问答与修改记录",
+      "maintenance": "中：维护商品模板、审核规则和成本上限",
+      "firstSteps": [
+        "选定一个熟悉的商品类目",
+        "收集十份已授权的真实参数样例",
+        "验证草稿可用性与商家付费意愿"
+      ],
+      "requirements": "只销售原创或已获授权的内容；先核实所选平台的发布、收款和交付条件。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "DeepSeek 官方接口文档",
+          "url": "https://api-docs.deepseek.com/zh-cn/",
+          "note": "需自己的模型服务账号与调用额度；按实际使用控制成本，生成内容需人工检查。"
+        },
+        {
+          "name": "ShopXO 国内商城源码",
+          "url": "https://github.com/gongfuxiang/shopxo",
+          "note": "商城提供虚拟等商品模式；文件交付、支付和扩展插件需按实际版本配置，插件可能另收费。"
+        }
+      ],
+      "url": "https://api-docs.deepseek.com/zh-cn/",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-ai-knowledge-assistant",
+      "name": "授权资料知识库问答助手",
+      "region": "中国大陆",
+      "category": "人工智能产品",
+      "categoryLabel": "人工智能产品",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "为小型团队或课程资料库提供有来源的问答工具，围绕明确资料范围提供持续使用服务。",
+      "monetization": "知识库使用订阅；实施服务需单独计价",
+      "deliverable": "带出处的问答界面与资料更新流程",
+      "maintenance": "高：更新知识、处理反馈和监控模型费用，属于持续服务型",
+      "firstSteps": [
+        "获得资料授权并限定问答范围",
+        "先整理二十个问题和正确答案",
+        "评估答案出处与错误率后再试运行"
+      ],
+      "requirements": "资料和用户数据应获得使用授权；先核对所选系统的商业部署许可。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "FastGPT 知识库与工作流源码",
+          "url": "https://github.com/labring/FastGPT",
+          "note": "自定义许可对类似平台的多租户 SaaS 有书面授权要求，并要求保留标识；拟开展收费服务前先核对实际业务与授权。资料应得到使用授权。"
+        },
+        {
+          "name": "阿里云百炼官方文档",
+          "url": "https://help.aliyun.com/zh/model-studio/what-is-model-studio",
+          "note": "提供模型调用与应用构建能力；按所选地域、服务和账户实际条件配置。"
+        }
+      ],
+      "url": "https://github.com/labring/FastGPT",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-ai-office-cleaner",
+      "name": "中文表格清洗与归类工具",
+      "region": "中国大陆",
+      "category": "人工智能产品",
+      "categoryLabel": "人工智能产品",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "为国内小团队处理重复表格中的字段归一、分类和摘要。先做固定表格格式，避免一开始承诺所有文件都可处理。",
+      "monetization": "软件授权或处理次数套餐",
+      "deliverable": "清洗结果、错误提示和导出文件",
+      "maintenance": "中：维护兼容格式与错误样例；可先做本地处理",
+      "firstSteps": [
+        "找一份已脱敏且获授权的样表",
+        "建立人工核对的标准结果",
+        "开发单一格式处理与结果预览"
+      ],
+      "requirements": "敏感资料优先在本地处理；发送给模型前获得授权并做必要脱敏。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "DeepSeek 官方接口文档",
+          "url": "https://api-docs.deepseek.com/zh-cn/",
+          "note": "需自己的模型服务账号与调用额度；按实际使用控制成本，生成内容需人工检查。"
+        },
+        {
+          "name": "uni-app 跨端开发源码",
+          "url": "https://github.com/dcloudio/uni-app",
+          "note": "开发框架本身不产生收入；小程序发布、付费能力和经营类目需另行核对。"
+        }
+      ],
+      "url": "https://api-docs.deepseek.com/zh-cn/",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-ai-report-builder",
+      "name": "经营周报与汇报提纲生成工具",
+      "region": "中国大陆",
+      "category": "人工智能产品",
+      "categoryLabel": "人工智能产品",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "把用户主动提供的经营指标整理为周报草稿和汇报提纲，不代替财务审计，也不承诺经营结果。",
+      "monetization": "报告次数包或团队订阅",
+      "deliverable": "可核对数字的报告草稿与提纲",
+      "maintenance": "中：维护数据映射、数字核对和调用预算",
+      "firstSteps": [
+        "确定一套固定输入字段",
+        "人工写好三份正确报告作基准",
+        "上线可逐项核对数字的预览原型"
+      ],
+      "requirements": "只销售原创或已获授权的内容；先核实所选平台的发布、收款和交付条件。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "阿里云百炼官方文档",
+          "url": "https://help.aliyun.com/zh/model-studio/what-is-model-studio",
+          "note": "提供模型调用与应用构建能力；按所选地域、服务和账户实际条件配置。"
+        },
+        {
+          "name": "DeepSeek 官方接口文档",
+          "url": "https://api-docs.deepseek.com/zh-cn/",
+          "note": "需自己的模型服务账号与调用额度；按实际使用控制成本，生成内容需人工检查。"
+        }
+      ],
+      "url": "https://help.aliyun.com/zh/model-studio/what-is-model-studio",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-wps-sheets",
+      "name": "面向小店的表格模板包",
+      "region": "中国大陆",
+      "category": "原创数字产品",
+      "categoryLabel": "原创数字产品",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "制作适合国内小店使用的库存、排班和订单记录表，附说明与示例数据，提供可重复交付的文件。",
+      "monetization": "单次销售或多模板组合包",
+      "deliverable": "兼容常用办公软件的表格、说明与示例",
+      "maintenance": "低：按季度更新兼容性与常见问题",
+      "firstSteps": [
+        "选一个具体店铺场景",
+        "完成三张有使用说明的模板",
+        "找真实使用者测试后再上架"
+      ],
+      "requirements": "只销售原创或已获授权的内容；先核实所选平台的发布、收款和交付条件。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "ShopXO 国内商城源码",
+          "url": "https://github.com/gongfuxiang/shopxo",
+          "note": "商城提供虚拟等商品模式；文件交付、支付和扩展插件需按实际版本配置，插件可能另收费。"
+        }
+      ],
+      "url": "https://github.com/gongfuxiang/shopxo",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-presentation-kit",
+      "name": "中文汇报与简历演示模板",
+      "region": "中国大陆",
+      "category": "原创数字产品",
+      "categoryLabel": "原创数字产品",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "针对国内求职或企业汇报场景制作原创演示模板，采用清楚的字体、图片和图标授权。",
+      "monetization": "模板单品或套装授权",
+      "deliverable": "演示文件、字体素材清单与修改说明",
+      "maintenance": "低：处理兼容问题与少量售后",
+      "firstSteps": [
+        "限定一个具体汇报场景",
+        "制作完整示例与空白模板",
+        "明确个人和企业使用范围"
+      ],
+      "requirements": "只销售原创或已获授权的内容；先核实所选平台的发布、收款和交付条件。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "ShopXO 国内商城源码",
+          "url": "https://github.com/gongfuxiang/shopxo",
+          "note": "商城提供虚拟等商品模式；文件交付、支付和扩展插件需按实际版本配置，插件可能另收费。"
+        }
+      ],
+      "url": "https://github.com/gongfuxiang/shopxo",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-original-handbook",
+      "name": "细分技能电子手册",
+      "region": "中国大陆",
+      "category": "原创数字产品",
+      "categoryLabel": "原创数字产品",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "把自己熟悉的办公、园艺、手工等技能写成结构清晰的原创中文手册，可附练习文件。",
+      "monetization": "电子手册与附件包销售",
+      "deliverable": "电子手册、版本日期和练习附件",
+      "maintenance": "低至中：定期修正内容与回答集中问题",
+      "firstSteps": [
+        "确定一个读者和一个具体问题",
+        "完成免费样章验证需求",
+        "按反馈完成小体量首版"
+      ],
+      "requirements": "只销售原创或已获授权的内容；先核实所选平台的发布、收款和交付条件。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "ShopXO 国内商城源码",
+          "url": "https://github.com/gongfuxiang/shopxo",
+          "note": "商城提供虚拟等商品模式；文件交付、支付和扩展插件需按实际版本配置，插件可能另收费。"
+        },
+        {
+          "name": "爱发电创作者会员指南",
+          "url": "https://guide.afdian.com/new/for-new-users",
+          "note": "支持会员可见内容；发布、结算、收费和准入按平台当前规则核对。"
+        }
+      ],
+      "url": "https://github.com/gongfuxiang/shopxo",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-workflow-pack",
+      "name": "小团队流程清单与表单包",
+      "region": "中国大陆",
+      "category": "原创数字产品",
+      "categoryLabel": "原创数字产品",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "为国内小团队整理可重复使用的交接、入职和活动执行清单，解决文档分散的问题。",
+      "monetization": "标准资料包与更新版本销售",
+      "deliverable": "可编辑表单、填写示例与操作说明",
+      "maintenance": "低：按反馈更新字段，不包含逐家定制服务",
+      "firstSteps": [
+        "访谈一个明确行业",
+        "整理一套从开始到结束的流程",
+        "用真实场景试填验证遗漏项"
+      ],
+      "requirements": "只销售原创或已获授权的内容；先核实所选平台的发布、收款和交付条件。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "ShopXO 国内商城源码",
+          "url": "https://github.com/gongfuxiang/shopxo",
+          "note": "商城提供虚拟等商品模式；文件交付、支付和扩展插件需按实际版本配置，插件可能另收费。"
+        }
+      ],
+      "url": "https://github.com/gongfuxiang/shopxo",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-design-assets",
+      "name": "原创插画与图标素材包",
+      "region": "中国大陆",
+      "category": "原创数字产品",
+      "categoryLabel": "原创数字产品",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "围绕国内节日、办公或行业主题制作原创视觉素材，明确授权用途，按标准文件交付。",
+      "monetization": "素材包授权或会员更新",
+      "deliverable": "图片和矢量文件、预览与授权说明",
+      "maintenance": "中：持续更新和管理授权范围",
+      "firstSteps": [
+        "选择一个高重复使用的主题",
+        "制作一小套统一风格素材",
+        "核对素材权利并试投放预览"
+      ],
+      "requirements": "只销售原创或已获授权的内容；先核实所选平台的发布、收款和交付条件。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "爱发电创作者会员指南",
+          "url": "https://guide.afdian.com/new/for-new-users",
+          "note": "支持会员可见内容；发布、结算、收费和准入按平台当前规则核对。"
+        },
+        {
+          "name": "ShopXO 国内商城源码",
+          "url": "https://github.com/gongfuxiang/shopxo",
+          "note": "商城提供虚拟等商品模式；文件交付、支付和扩展插件需按实际版本配置，插件可能另收费。"
+        }
+      ],
+      "url": "https://guide.afdian.com/new/for-new-users",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-printable-planner",
+      "name": "中文可打印计划本与打卡表",
+      "region": "中国大陆",
+      "category": "原创数字产品",
+      "categoryLabel": "原创数字产品",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "制作家庭计划、读书记录等可打印模板，提供不同尺寸与使用示例。",
+      "monetization": "文件套装销售或主题更新包",
+      "deliverable": "打印文件、尺寸与打印说明",
+      "maintenance": "低：更新主题与解决打印兼容问题",
+      "firstSteps": [
+        "限定一种使用场景",
+        "打印测试所有尺寸",
+        "制作预览和填写示例"
+      ],
+      "requirements": "只销售原创或已获授权的内容；先核实所选平台的发布、收款和交付条件。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "ShopXO 国内商城源码",
+          "url": "https://github.com/gongfuxiang/shopxo",
+          "note": "商城提供虚拟等商品模式；文件交付、支付和扩展插件需按实际版本配置，插件可能另收费。"
+        }
+      ],
+      "url": "https://github.com/gongfuxiang/shopxo",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-recorded-skill-course",
+      "name": "自录职业技能小课程",
+      "region": "中国大陆",
+      "category": "课程与内容",
+      "categoryLabel": "课程与内容",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "围绕一种自己能教清楚的实用技能制作短录播课程，以已完成内容重复交付。",
+      "monetization": "单课销售或课程组合包",
+      "deliverable": "录播视频、练习材料和课后说明",
+      "maintenance": "中：答疑与内容更新；不是零维护收入",
+      "firstSteps": [
+        "先确认学习者愿意解决的问题",
+        "录制一节样课测试效果",
+        "核对平台与系统授权再发布课程"
+      ],
+      "requirements": "使用 MeEdu 商业运营前按作者附加条款申请相应许可；课程和素材需有权使用。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "MeEdu 在线网校源码",
+          "url": "https://github.com/Qsnh/meedu",
+          "note": "商用需遵守仓库附加条款并先申请相应授权，不能把开源下载等同于已获商用许可。"
+        }
+      ],
+      "url": "https://github.com/Qsnh/meedu",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-creator-membership",
+      "name": "原创图文资料会员库",
+      "region": "中国大陆",
+      "category": "课程与内容",
+      "categoryLabel": "课程与内容",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "围绕稳定主题形成原创资料库，向国内读者提供会员可见内容与定期更新。",
+      "monetization": "内容会员或专题资料包",
+      "deliverable": "资料目录、已完成内容与明确的更新计划",
+      "maintenance": "中至高：持续创作与会员沟通",
+      "firstSteps": [
+        "选定可持续创作的主题",
+        "先完成一批基础内容",
+        "明确更新频率与交付边界"
+      ],
+      "requirements": "只销售原创或已获授权的内容；先核实所选平台的发布、收款和交付条件。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "爱发电创作者会员指南",
+          "url": "https://guide.afdian.com/new/for-new-users",
+          "note": "支持会员可见内容；发布、结算、收费和准入按平台当前规则核对。"
+        }
+      ],
+      "url": "https://guide.afdian.com/new/for-new-users",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-audio-lessons",
+      "name": "原创音频讲解与练习课程",
+      "region": "中国大陆",
+      "category": "课程与内容",
+      "categoryLabel": "课程与内容",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "为兴趣学习或实用技能制作原创中文音频，配套文字和练习，避免承诺无法保证的学习效果。",
+      "monetization": "音频课程套装或专题会员",
+      "deliverable": "音频、文字稿和练习单",
+      "maintenance": "中：录音质量维护与内容答疑",
+      "firstSteps": [
+        "设计一个小主题课程",
+        "录制样音并让目标用户试听",
+        "制作完整首版和使用说明"
+      ],
+      "requirements": "只销售原创或已获授权的内容；先核实所选平台的发布、收款和交付条件。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "MeEdu 在线网校源码",
+          "url": "https://github.com/Qsnh/meedu",
+          "note": "商用需遵守仓库附加条款并先申请相应授权，不能把开源下载等同于已获商用许可。"
+        },
+        {
+          "name": "爱发电创作者会员指南",
+          "url": "https://guide.afdian.com/new/for-new-users",
+          "note": "支持会员可见内容；发布、结算、收费和准入按平台当前规则核对。"
+        }
+      ],
+      "url": "https://github.com/Qsnh/meedu",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-college-guide",
+      "name": "专科学校公开信息与选校资料站",
+      "region": "中国大陆",
+      "category": "信息产品与网站",
+      "categoryLabel": "信息产品与网站",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "先聚焦一个省份，整理官方院校信息、专业介绍和查证入口，标明来源与更新时间。适合与你现有报考指导项目衔接。",
+      "monetization": "原创整理资料包、筛选工具；网站赞助需自行验证",
+      "deliverable": "有官方出处的资料索引、筛选工具与更新记录",
+      "maintenance": "高：招生季集中更新，需反复核对官方信息",
+      "firstSteps": [
+        "限定省份与目标考生",
+        "建立官方来源及更新时间字段",
+        "先做十所院校的查证样本"
+      ],
+      "requirements": "不得把性格测试或历史信息包装成录取保证；报考信息以当期主管部门和学校官方发布为准。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "Halo 中文建站工具",
+          "url": "https://github.com/halo-dev/halo",
+          "note": "建站与主题插件生态；付费能力、商城版和插件授权须分别核对。"
+        }
+      ],
+      "url": "https://github.com/halo-dev/halo",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-local-calendar",
+      "name": "地方考试与办事时间资料日历",
+      "region": "中国大陆",
+      "category": "信息产品与网站",
+      "categoryLabel": "信息产品与网站",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "围绕一个地区整理公开公告的时间节点和官方入口，提供人工校对后的日历与提醒资料。",
+      "monetization": "原创资料日历或提醒工具订阅",
+      "deliverable": "来源可查的日历文件、通知摘要和更新日志",
+      "maintenance": "高：持续核对公告变动，时效性强",
+      "firstSteps": [
+        "限定一个地区和一种事项",
+        "列出官方公告入口",
+        "用公开样例测试更新与失效提醒"
+      ],
+      "requirements": "只销售原创或已获授权的内容；先核实所选平台的发布、收款和交付条件。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "Halo 中文建站工具",
+          "url": "https://github.com/halo-dev/halo",
+          "note": "建站与主题插件生态；付费能力、商城版和插件授权须分别核对。"
+        },
+        {
+          "name": "uni-app 跨端开发源码",
+          "url": "https://github.com/dcloudio/uni-app",
+          "note": "开发框架本身不产生收入；小程序发布、付费能力和经营类目需另行核对。"
+        }
+      ],
+      "url": "https://github.com/halo-dev/halo",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-niche-directory",
+      "name": "细分行业公开资源导航站",
+      "region": "中国大陆",
+      "category": "信息产品与网站",
+      "categoryLabel": "信息产品与网站",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "为明确的国内行业人群整理公开资料入口、使用说明与对比维度，提供独立维护的中文导航。",
+      "monetization": "增强筛选功能、原创资料包或明确标注的赞助",
+      "deliverable": "分类导航、查证日期与失效反馈入口",
+      "maintenance": "中：检查链接和维护分类，获客仍需投入",
+      "firstSteps": [
+        "选择自己熟悉的细分行业",
+        "人工查证二十个公开入口",
+        "让目标用户测试检索效率"
+      ],
+      "requirements": "只销售原创或已获授权的内容；先核实所选平台的发布、收款和交付条件。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "Halo 中文建站工具",
+          "url": "https://github.com/halo-dev/halo",
+          "note": "建站与主题插件生态；付费能力、商城版和插件授权须分别核对。"
+        }
+      ],
+      "url": "https://github.com/halo-dev/halo",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-quote-calculator",
+      "name": "小店报价与用量计算器",
+      "region": "中国大陆",
+      "category": "软件与插件",
+      "categoryLabel": "软件与插件",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "针对一种国内商家场景，把明确的计价规则做成标准化计算工具，减少反复手算。",
+      "monetization": "软件授权或高级功能订阅",
+      "deliverable": "可核对计算过程的网页或小程序",
+      "maintenance": "中：维护价格规则和兼容性",
+      "firstSteps": [
+        "选择一个简单报价场景",
+        "建立人工核对的计算样例",
+        "制作单场景工具并测试付费意愿"
+      ],
+      "requirements": "只销售原创或已获授权的内容；先核实所选平台的发布、收款和交付条件。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "uni-app 跨端开发源码",
+          "url": "https://github.com/dcloudio/uni-app",
+          "note": "开发框架本身不产生收入；小程序发布、付费能力和经营类目需另行核对。"
+        }
+      ],
+      "url": "https://github.com/dcloudio/uni-app",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-local-file-tool",
+      "name": "本地文件整理与格式工具",
+      "region": "中国大陆",
+      "category": "软件与插件",
+      "categoryLabel": "软件与插件",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "围绕国内用户的一个高频文件问题做本地小工具，例如批量重命名或表格字段整理。",
+      "monetization": "软件授权或付费增强版本",
+      "deliverable": "本地程序、说明和更新包",
+      "maintenance": "中：维护系统兼容与数据处理可靠性",
+      "firstSteps": [
+        "先验证一个高频问题",
+        "用副本测试且提供预览回退",
+        "发布小功能首版测试需求"
+      ],
+      "requirements": "只销售原创或已获授权的内容；先核实所选平台的发布、收款和交付条件。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "uni-app 跨端开发源码",
+          "url": "https://github.com/dcloudio/uni-app",
+          "note": "开发框架本身不产生收入；小程序发布、付费能力和经营类目需另行核对。"
+        }
+      ],
+      "url": "https://github.com/dcloudio/uni-app",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-halo-theme",
+      "name": "中文网站主题与插件",
+      "region": "中国大陆",
+      "category": "软件与插件",
+      "categoryLabel": "软件与插件",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "基于 Halo 生态制作面向国内内容站的原创主题或插件，提供标准化安装和说明文档。",
+      "monetization": "主题或插件授权、可选更新服务",
+      "deliverable": "主题或插件包、安装文档与版本记录",
+      "maintenance": "中：跟随上游版本更新与售后",
+      "firstSteps": [
+        "核对上游与市场授权要求",
+        "制作一个特定内容场景主题",
+        "测试安装升级和异常恢复"
+      ],
+      "requirements": "只销售原创或已获授权的内容；先核实所选平台的发布、收款和交付条件。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "Halo 中文建站工具",
+          "url": "https://github.com/halo-dev/halo",
+          "note": "建站与主题插件生态；付费能力、商城版和插件授权须分别核对。"
+        }
+      ],
+      "url": "https://github.com/halo-dev/halo",
+      "checkedAt": "2026-10-31"
+    },
+    {
+      "id": "cn-habit-miniapp",
+      "name": "细分习惯记录小程序",
+      "region": "中国大陆",
+      "category": "软件与插件",
+      "categoryLabel": "软件与插件",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "项目方向",
+      "description": "围绕读书或手工练习等一个明确场景，开发中文记录和统计工具，先验证持续使用需求。",
+      "monetization": "高级功能；广告收入仅在平台审核通过后另行验证",
+      "deliverable": "小程序、基础记录与统计导出",
+      "maintenance": "中：发布审核、功能维护与用户支持",
+      "firstSteps": [
+        "选择一个小群体场景",
+        "做无付费功能原型验证留存",
+        "核实类目与付费条件后再决定商业模式"
+      ],
+      "requirements": "只销售原创或已获授权的内容；先核实所选平台的发布、收款和交付条件。",
+      "costNotes": "按选用方案核算工具、服务器、平台服务与获客成本；涉及模型时另计调用费用。",
+      "sources": [
+        {
+          "name": "uni-app 跨端开发源码",
+          "url": "https://github.com/dcloudio/uni-app",
+          "note": "开发框架本身不产生收入；小程序发布、付费能力和经营类目需另行核对。"
+        }
+      ],
+      "url": "https://github.com/dcloudio/uni-app",
+      "checkedAt": "2026-10-31"
+    }
+  ]
+}

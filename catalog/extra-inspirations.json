@@ -1,0 +1,1466 @@
+{
+  "revision": "e7895f94-f26c-4ddb-84b1-e8915b897807",
+  "reviewedAt": "2026-11-01",
+  "resources": [
+    {
+      "id": "cn-idea-planet-course-qa",
+      "name": "星球课前预习答疑助手",
+      "category": "教育知识社群",
+      "categoryLabel": "教育知识社群",
+      "description": "将自己已授权的课程提纲和常见问题接入企业微信或公众号入口，给会员提供课前定位资料与答疑。",
+      "monetization": "提升现有星球会员服务，验证后再考虑独立专题支持服务",
+      "deliverable": "20 条经核验问答、来源链接与转人工说明",
+      "maintenance": "持续校验答案、处理资料更新和模型费用",
+      "firstSteps": [
+        "选一门已有星球课程，整理 20 个真实的课前问题",
+        "用有授权的资料建立小范围演示，检查来源及无法回答时的提示",
+        "邀请五名会员试用，记录节省的答疑时间和错误率"
+      ],
+      "sourceRepository": "AstrBotDevs/AstrBot",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "batch": "daily-2026-11-01",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "公众号流量主"
+      ],
+      "existingBusinessFit": "先服务现有星球的课程与资料答疑，通过获授权的公众号或企业微信入口使用。",
+      "costNotes": "需核算原型与人工校验时间；涉及模型、托管或搜索服务时按实际用量记录成本。",
+      "requirements": "AGPL-3.0；另有 EULA 使用条件，商用部署与修改分发须一并核对；插件、模型和平台权限另查。 本方案由聚金根据源码能力推导，实际效果和收入尚待验证。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/README.md",
+          "note": "支持企业微信、公众号等平台的 AI 对话与插件扩展，可用于教师社群的资料答疑。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/LICENSE",
+          "note": "AGPL-3.0；另有 EULA 使用条件，商用部署与修改分发须一并核对；插件、模型和平台权限另查。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/AstrBotDevs/AstrBot/commit/831abae85da8b6e58dc44d4544d163f8f9459ba1",
+          "note": "2026-10-31T16:02:46Z"
+        },
+        {
+          "name": "GitHub 本周趋势榜",
+          "url": "https://github.com/trending?since=weekly",
+          "note": "2026-11-01 北京时间快照：本周新增 2133 星。后续榜单会变化。"
+        },
+        {
+          "name": "EULA 使用条件",
+          "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/EULA.md",
+          "note": "与源码 LICENSE 一并核对。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-teacher-ai-guided-module",
+      "name": "教师 AI 备课引导式微课",
+      "category": "教育知识社群",
+      "categoryLabel": "教育知识社群",
+      "description": "把一个真实备课任务拆成阅读、操作、练习和反馈，形成星球内可反复使用的分步学习模块。",
+      "monetization": "原创微课专题或星球会员内容",
+      "deliverable": "一套自编教学材料、分步练习与答案校验记录",
+      "maintenance": "维护课程案例、练习答案与模型配置",
+      "firstSteps": [
+        "选一个学科的单课时备课场景，准备原创案例",
+        "对引导学习和练习生成逐项核查，补充人工示范",
+        "邀请教师完成全流程，记录卡点后再整理专题"
+      ],
+      "sourceRepository": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "batch": "daily-2026-11-01",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "AI 写作辅助"
+      ],
+      "existingBusinessFit": "用于星球教师实操课程与文献阅读辅导，先核查输出引用与答案。",
+      "costNotes": "需核算原型与人工校验时间；涉及模型、托管或搜索服务时按实际用量记录成本。",
+      "requirements": "Apache-2.0；教材、模型、解析服务及生成内容分别核对使用条件。 本方案由聚金根据源码能力推导，实际效果和收入尚待验证。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/HKUDS/DeepTutor/blob/main/README.md",
+          "note": "基于学习资料提供引导式学习、练习与问答，带中文资料和可配置模型服务。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/HKUDS/DeepTutor/blob/main/LICENSE",
+          "note": "Apache-2.0；教材、模型、解析服务及生成内容分别核对使用条件。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/HKUDS/DeepTutor/commit/1ea7df155447f4caf0e3abc86b3ff5395479cd4a",
+          "note": "2026-10-28T16:36:18Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-paper-evidence-notebook",
+      "name": "文献证据笔记与引用核查包",
+      "category": "写作与资料工具",
+      "categoryLabel": "写作与资料工具",
+      "description": "围绕用户自有或获授权的文献，建立问题、原文位置和可核查摘记的对照笔记，辅助阅读与写作审核。",
+      "monetization": "资料整理与人工引用检查服务",
+      "deliverable": "带原文定位的证据笔记模板、检查记录和用法示例",
+      "maintenance": "人工复核引用、处理解析失误与文件权限",
+      "firstSteps": [
+        "用五篇可合法使用的文献制作原文定位样例",
+        "逐条检查模型摘记与原文是否一致，标出不能支持的结论",
+        "估算单份交付时间和调用成本，验证重复使用需求"
+      ],
+      "sourceRepository": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "batch": "daily-2026-11-01",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "AI 写作辅助"
+      ],
+      "existingBusinessFit": "用于星球教师实操课程与文献阅读辅导，先核查输出引用与答案。",
+      "costNotes": "需核算原型与人工校验时间；涉及模型、托管或搜索服务时按实际用量记录成本。",
+      "requirements": "Apache-2.0；教材、模型、解析服务及生成内容分别核对使用条件。 本方案由聚金根据源码能力推导，实际效果和收入尚待验证。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/HKUDS/DeepTutor/blob/main/README.md",
+          "note": "基于学习资料提供引导式学习、练习与问答，带中文资料和可配置模型服务。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/HKUDS/DeepTutor/blob/main/LICENSE",
+          "note": "Apache-2.0；教材、模型、解析服务及生成内容分别核对使用条件。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/HKUDS/DeepTutor/commit/1ea7df155447f4caf0e3abc86b3ff5395479cd4a",
+          "note": "2026-10-28T16:36:18Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-wechat-to-planet-lab",
+      "name": "公众号文章转星球实操包",
+      "category": "公众号内容产品",
+      "categoryLabel": "公众号内容产品",
+      "description": "把自己已发布的教育原创文章重新设计为操作清单、练习和答疑，串起公众号内容与星球深度交付。",
+      "monetization": "公众号引流与星球原创专题交付；实际转化需验证",
+      "deliverable": "一篇原创推文配一份操作清单、两道练习和复盘表",
+      "maintenance": "内容更新、会员反馈和流程兼容",
+      "firstSteps": [
+        "选一篇读者反馈明确的自有教育文章",
+        "用工作流辅助排版并手工设计练习与操作清单",
+        "先交付给小范围会员，记录完成率和后续问题"
+      ],
+      "sourceRepository": "aiworkskills/wechat-article-skills",
+      "url": "https://github.com/aiworkskills/wechat-article-skills",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "batch": "daily-2026-11-01",
+      "relatedBusinesses": [
+        "公众号流量主",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "将教育公众号的原创内容沉淀成星球练习与专题资料，减少重复排版整理。",
+      "costNotes": "需核算原型与人工校验时间；涉及模型、托管或搜索服务时按实际用量记录成本。",
+      "requirements": "Apache-2.0；图片、模型和微信接口另需授权或账号权限。 本方案由聚金根据源码能力推导，实际效果和收入尚待验证。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/aiworkskills/wechat-article-skills/blob/main/README.md",
+          "note": "把选题、写作、审稿、排版、配图和草稿箱交付组织成可分步确认的技能流程。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/aiworkskills/wechat-article-skills/blob/main/LICENSE",
+          "note": "Apache-2.0；图片、模型和微信接口另需授权或账号权限。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/aiworkskills/wechat-article-skills/commit/ca036f75f4bac4fcefe6eaedd8d22d97bf8c92ca",
+          "note": "2026-09-23T01:36:05Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-teacher-model-evaluation-kit",
+      "name": "教师国产模型选型实测包",
+      "category": "教育知识社群",
+      "categoryLabel": "教育知识社群",
+      "description": "围绕教案、练习反馈和资料摘要，记录不同模型的成本、耗时与人工评分，沉淀可复测的选择依据。",
+      "monetization": "原创测评专题与星球工具配置课",
+      "deliverable": "任务集、评分标准、模型配置说明和实测结果表",
+      "maintenance": "模型版本或价格变化后重新实测",
+      "firstSteps": [
+        "挑选三个自己熟悉的教学任务，去掉个人隐私资料",
+        "使用同一任务条件进行小批量对比并保留原始记录",
+        "区分事实和个人评价，先向教师展示样例验证需求"
+      ],
+      "sourceRepository": "CherryHQ/cherry-studio",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "batch": "daily-2026-11-01",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "AI 写作辅助"
+      ],
+      "existingBusinessFit": "复用现有第三方 OpenAI 兼容接口的经验，制作可复测的教学与写作任务对比。",
+      "costNotes": "需核算原型与人工校验时间；涉及模型、托管或搜索服务时按实际用量记录成本。",
+      "requirements": "社区版 AGPL-3.0；豁免 AGPL 的商业许可需单独取得，模型服务计费另算。 本方案由聚金根据源码能力推导，实际效果和收入尚待验证。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/CherryHQ/cherry-studio/blob/main/README.md",
+          "note": "统一配置模型、助手和资料工作流，可连接自定义兼容接口，适合对比教师常用 AI 任务。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/CherryHQ/cherry-studio/blob/main/LICENSE",
+          "note": "社区版 AGPL-3.0；豁免 AGPL 的商业许可需单独取得，模型服务计费另算。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/CherryHQ/cherry-studio/commit/5cfdf14170ee802d3a7cdf82e23a0a15dc55e9b8",
+          "note": "2026-10-31T12:16:56Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-education-evidence-map",
+      "name": "教育选题证据地图工作流",
+      "category": "公众号内容产品",
+      "categoryLabel": "公众号内容产品",
+      "description": "围绕一个教育 AI 选题，整理来源、相互支持或矛盾的证据及待核实事项，帮助写出有依据的原创分析。",
+      "monetization": "提升公众号原创内容质量；可进一步整理原创调研模板",
+      "deliverable": "来源清单、主张与证据对照表、人工核查清单",
+      "maintenance": "检查链接、筛除失效来源和追踪关键更新",
+      "firstSteps": [
+        "从自己准备写的一个具体教育选题开始",
+        "限定公开来源，要求每个主要主张能回到原始资料",
+        "人工复核十条证据，并比较与手工调研的用时"
+      ],
+      "sourceRepository": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "batch": "daily-2026-11-01",
+      "relatedBusinesses": [
+        "AI 写作辅助",
+        "公众号流量主",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "用于教育专题资料搜集、来源核查和证据整理，交付前保留人工复核。",
+      "costNotes": "需核算原型与人工校验时间；涉及模型、托管或搜索服务时按实际用量记录成本。",
+      "requirements": "MIT；模型、搜索、沙箱与资料来源的使用条件分别核对。 本方案由聚金根据源码能力推导，实际效果和收入尚待验证。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/bytedance/deer-flow/blob/main/README.md",
+          "note": "通过搜索、工具和多步骤任务组织调研与创作流程，可配置国内模型及搜索服务。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/bytedance/deer-flow/blob/main/LICENSE",
+          "note": "MIT；模型、搜索、沙箱与资料来源的使用条件分别核对。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/bytedance/deer-flow/commit/a9bd03ef572a4898ea1ba977e906408dc2f28d7d",
+          "note": "2026-10-31T15:00:39Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-mini-teacher-hours-calculator",
+      "name": "教师课时与学期进度计算小程序",
+      "category": "小程序工具",
+      "categoryLabel": "小程序工具",
+      "description": "提供课时合计、剩余教学周和课程进度计算等单一工具，优先在本地完成计算，降低模型调用成本。",
+      "monetization": "满足平台条件后的流量主广告；先验证教师留存",
+      "deliverable": "可交互的计算原型、边界样例和使用说明",
+      "maintenance": "学期日历与节假日处理、审核及兼容",
+      "firstSteps": [
+        "向现有教师读者收集三种课时计算场景",
+        "用模板搭建输入与结果页，对零课时、调课和假期做边界测试",
+        "让十位教师试用，验证重复使用后再考虑广告接入"
+      ],
+      "sourceRepository": "feige996/unibest",
+      "url": "https://github.com/feige996/unibest",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "batch": "daily-2026-11-01",
+      "relatedBusinesses": [
+        "微信小程序流量主"
+      ],
+      "existingBusinessFit": "为现有小程序业务制作低模型成本的教师计算与课堂工具原型。",
+      "costNotes": "需核算原型与人工校验时间；涉及模型、托管或搜索服务时按实际用量记录成本。",
+      "requirements": "MIT；第三方组件、微信广告接入和内容素材条件另查。 本方案由聚金根据源码能力推导，实际效果和收入尚待验证。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/feige996/unibest/blob/base/README.md",
+          "note": "基于 uni-app、Vue 3 和 TypeScript 的跨端启动模板，包含常用界面与开发配置。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/feige996/unibest/blob/base/LICENSE",
+          "note": "MIT；第三方组件、微信广告接入和内容素材条件另查。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/feige996/unibest/commit/dc3af8ddb99b78fa806078c80434b664a4b1ce93",
+          "note": "2026-09-15T02:44:22Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-teacher-questioning-rehearsal",
+      "name": "教师课堂提问与追问演练室",
+      "category": "教育知识社群",
+      "categoryLabel": "教育知识社群",
+      "description": "围绕一个具体教学片段，用 AI 同伴的不同回答帮助教师演练提问、追问和解释，再用人工制定的量表进行复盘；先作为星球中的小范围教研活动。",
+      "monetization": "原创教研演练专题、可复用场景包与星球会员内容；付费意愿需先验证",
+      "deliverable": "三个原创课堂情境、提问与追问脚本、人工复盘量表及演示记录",
+      "maintenance": "持续校验学科知识、调整模拟角色与评估模型成本；AI 同伴不能代表真实学生表现",
+      "firstSteps": [
+        "选择一个学科知识点，自己编写三种常见理解偏差与追问目标",
+        "用公开或原创材料搭建讨论演示，人工逐项检查答案和角色行为",
+        "邀请五位教师试演，记录追问质量、实际用时与每次模型成本后再决定产品化"
+      ],
+      "sourceRepository": "THU-MAIC/OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T01:02:44.945Z",
+      "batch": "daily-2026-11-01-0902",
+      "relatedBusinesses": [
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "拓展现有星球的教师实操服务，交付重点是提问演练与人工复盘，区别于已有的备课引导微课。",
+      "costNotes": "需人工编写学科情境与量表；先关闭不必要的图像和视频生成，分别记录文本、语音及托管费用。",
+      "requirements": "MIT；模型、语音、图像及素材服务的费用和授权单独核对。 不使用真实学生隐私资料；课堂效果和收入尚未实测，本方案是聚金依据仓库能力作出的产品推导。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/THU-MAIC/OpenMAIC/blob/main/README.md",
+          "note": "将主题或授权文档组织为课件、测验和互动课堂，支持 AI 教师、同伴讨论及白板；可配置 DeepSeek、通义千问等国内模型或兼容接口。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/THU-MAIC/OpenMAIC/blob/main/LICENSE",
+          "note": "MIT；模型、语音、图像及素材服务的费用和授权单独核对。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/THU-MAIC/OpenMAIC/commit/fe2cf7dade345f4eaaf9afb1771e6734e17edaab",
+          "note": "2026-10-30T09:30:33Z"
+        },
+        {
+          "name": "GitHub 当日趋势榜",
+          "url": "https://github.com/trending?since=daily",
+          "note": "GitHub 日榜于北京时间 2026-11-01 09:02 显示今日新增 116 星；这是榜单快照，并非本地连续 24 小时测量。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-community-event-survey-kit",
+      "name": "社群活动报名与反馈问卷包",
+      "category": "教育知识社群",
+      "description": "面向教师社群和小型组织，把活动报名、课前需求与课后反馈整理成原创可复用问卷模板及分析说明。",
+      "monetization": "原创问卷模板包或配置指导服务；每场定制另计工作量",
+      "deliverable": "三类问卷模板、填写说明和反馈解读示例",
+      "maintenance": "低至中：更新字段、移动端显示和常见问题",
+      "firstSteps": [
+        "选一场你实际组织的星球活动，限定必要报名字段",
+        "分别制作课前需求和课后反馈样例，检查分支和导出",
+        "用五份测试答卷跑完整流程，再邀请主办者验证价值"
+      ],
+      "existingBusinessFit": "可先用于“AI 教育实践”星球的活动运营",
+      "costNotes": "模板设计和测试时间；托管系统、短信与数据存储另核算。",
+      "region": "中国大陆",
+      "categoryLabel": "教育知识社群",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "javahuang/SurveyKing",
+      "url": "https://github.com/javahuang/SurveyKing",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31T15:38:32.980Z",
+      "batch": "workflow-2026-10-31",
+      "requirements": "MIT；社区版与商业版本的功能、部署条件分别核对。 以上方案是工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "javahuang/SurveyKing 原始仓库",
+          "url": "https://github.com/javahuang/SurveyKing",
+          "note": "参考源码能力整理，产品定位与收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/javahuang/SurveyKing/blob/main/LICENSE",
+          "note": "MIT；社区版与商业版本的功能、部署条件分别核对。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-original-skill-practice-bank",
+      "name": "原创职业技能自测题库",
+      "category": "教育工具",
+      "description": "围绕一种办公或教师 AI 应用技能制作原创练习与解析，用于学习者自查掌握程度，先做小题库验证使用。",
+      "monetization": "原创题库内容包或练习会员；不作职业资格或考试通过承诺",
+      "deliverable": "三十道原创题、逐题解析与练习入口原型",
+      "maintenance": "中：人工校核答案，修订歧义和模型变化后的内容",
+      "firstSteps": [
+        "限定一个实际技能，例如表格清洗或课件审核",
+        "原创十道样题，交给另一位实践者核查答案与解析",
+        "邀请五位用户练习，记录错误原因和继续使用意愿"
+      ],
+      "existingBusinessFit": "可作为星球研修内容的练习附件，再验证独立产品需求",
+      "costNotes": "题目编写、审校和服务器成本；AI 可起草但答案须人工实测。",
+      "region": "中国大陆",
+      "categoryLabel": "教育工具",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "javahuang/SurveyKing",
+      "url": "https://github.com/javahuang/SurveyKing",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31T15:38:32.980Z",
+      "batch": "workflow-2026-10-31",
+      "requirements": "MIT；社区版与商业版本的功能、部署条件分别核对。 以上方案是工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "javahuang/SurveyKing 原始仓库",
+          "url": "https://github.com/javahuang/SurveyKing",
+          "note": "参考源码能力整理，产品定位与收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/javahuang/SurveyKing/blob/main/LICENSE",
+          "note": "MIT；社区版与商业版本的功能、部署条件分别核对。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-industry-english-typing",
+      "name": "细分行业英语打字练习站",
+      "category": "教育工具",
+      "description": "为一个职业群体整理自有行业术语、原创例句和键盘练习，形成聚焦用途的中文学习站。",
+      "monetization": "原创词库与练习包、机构配置服务或高级练习功能",
+      "deliverable": "可核对术语来源的词库、练习页面和使用说明",
+      "maintenance": "中：词义例句审校、发音来源和软件兼容维护",
+      "firstSteps": [
+        "选定一个你能接触的行业用户群，收集五十个常用术语",
+        "人工审校原创释义和例句，核对词库与发音使用条件",
+        "制作二十词练习原型，请五位用户测试难度和重复使用"
+      ],
+      "existingBusinessFit": "可通过公众号发布免费样例，吸引有明确学习需求的读者",
+      "costNotes": "内容校核、网站托管及开发时间；不直接转售来源不明的考试词书。",
+      "region": "中国大陆",
+      "categoryLabel": "教育工具",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "RealKai42/qwerty-learner",
+      "url": "https://github.com/RealKai42/qwerty-learner",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31T15:38:32.980Z",
+      "batch": "workflow-2026-10-31",
+      "requirements": "GPL-3.0；分发衍生软件及使用词库、发音资料时分别核对许可。 以上方案是工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "RealKai42/qwerty-learner 原始仓库",
+          "url": "https://github.com/RealKai42/qwerty-learner",
+          "note": "参考源码能力整理，产品定位与收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/RealKai42/qwerty-learner/blob/master/LICENSE",
+          "note": "GPL-3.0；分发衍生软件及使用词库、发音资料时分别核对许可。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-bilingual-reading-original-cards",
+      "name": "专业英语精读与原创闪卡包",
+      "category": "教育知识社群",
+      "description": "围绕教师或职场用户的一类英文阅读需求，提供自己撰写或获授权短文、术语讲解和原创复习卡片，利用双语工具辅助制作。",
+      "monetization": "原创精读资料包、主题更新或会员内容",
+      "deliverable": "短文、经审校的双语讲解、术语卡和工具使用步骤",
+      "maintenance": "中：翻译校对、内容权利和模型变化后的检查",
+      "firstSteps": [
+        "选择三篇自己撰写或已获授权的短文",
+        "借助阅读工具起草解释，人工核对术语与上下文",
+        "制作十张原创闪卡及一份免费样章，收集读者反馈"
+      ],
+      "existingBusinessFit": "可成为公众号内容栏目或星球的专业阅读专题",
+      "costNotes": "模型调用和人工审校时间；收费对象是原创内容及服务，不是冒充官方出售插件。",
+      "region": "中国大陆",
+      "categoryLabel": "教育知识社群",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "mengxi-ream/read-frog",
+      "url": "https://github.com/mengxi-ream/read-frog",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31T15:38:32.980Z",
+      "batch": "workflow-2026-10-31",
+      "requirements": "GPLv3 与商业许可双授权；第三方特定商业授权不适用于你，模型调用与阅读素材另查条件。 以上方案是工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "mengxi-ream/read-frog 原始仓库",
+          "url": "https://github.com/mengxi-ream/read-frog",
+          "note": "参考源码能力整理，产品定位与收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/mengxi-ream/read-frog/blob/main/LICENSE",
+          "note": "GPLv3 与商业许可双授权；第三方特定商业授权不适用于你，模型调用与阅读素材另查条件。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-creator-analytics-dashboard",
+      "name": "公众号运营数据复盘看板",
+      "category": "办公与数据工具",
+      "description": "让创作者手动导入自己后台导出的数据，按选题、发布时间和内容类型做可视化复盘，先不依赖自动抓取平台账号。",
+      "monetization": "看板配置包、本地工具授权或复盘辅导；辅导属于持续服务",
+      "deliverable": "字段映射说明、三种图表配置和脱敏演示数据",
+      "maintenance": "中：后台字段变化、图表口径和导入兼容维护",
+      "firstSteps": [
+        "从自己的公众号后台取得一份脱敏导出样本",
+        "明确阅读、互动等字段口径，做三个可人工核对的图表",
+        "请两位创作者导入各自样本，检查是否帮助选择下一步选题"
+      ],
+      "existingBusinessFit": "先复盘你自己的公众号，再决定是否向其他创作者交付",
+      "costNotes": "数据清理与图表开发时间；使用真实数据前明确其使用范围。",
+      "region": "中国大陆",
+      "categoryLabel": "办公与数据工具",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "Kanaries/graphic-walker",
+      "url": "https://github.com/Kanaries/graphic-walker",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31T15:38:32.980Z",
+      "batch": "workflow-2026-10-31",
+      "requirements": "Apache-2.0；自有数据接口、部署和外部服务另行配置。 以上方案是工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "Kanaries/graphic-walker 原始仓库",
+          "url": "https://github.com/Kanaries/graphic-walker",
+          "note": "参考源码能力整理，产品定位与收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/Kanaries/graphic-walker/blob/main/LICENSE",
+          "note": "Apache-2.0；自有数据接口、部署和外部服务另行配置。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-teacher-timetable-hours-sheet",
+      "name": "教师排课与课时核对工作表",
+      "category": "办公与数据工具",
+      "description": "为小型教学团队制作可编辑的排课与课时统计表，利用表格公式提示冲突，先做单用户版本。",
+      "monetization": "原创表格规则包、工具授权或配置服务",
+      "deliverable": "排课表、课时核对规则、示例数据和问题提示",
+      "maintenance": "中：规则审校、浏览器兼容和数据保存维护",
+      "firstSteps": [
+        "与一个小团队确认课时和冲突规则，不预设所有学校通用",
+        "用十条虚拟排课记录建立人工标准结果，再验证公式",
+        "做单用户保存原型，实际试排一周后再考虑协作功能"
+      ],
+      "existingBusinessFit": "可在“AI 教育实践”星球收集需求，作为办公实操案例",
+      "costNotes": "公式设计和开发时间；多人协作、打印和表格文件导入导出等 Pro 能力另核费用。",
+      "region": "中国大陆",
+      "categoryLabel": "办公与数据工具",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31T15:38:32.980Z",
+      "batch": "workflow-2026-10-31",
+      "requirements": "开源核心 Apache-2.0；协作、导入导出、打印等 Pro 功能单独授权，不作为免费核心能力承诺。 以上方案是工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "dream-num/univer 原始仓库",
+          "url": "https://github.com/dream-num/univer",
+          "note": "参考源码能力整理，产品定位与收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/dream-num/univer/blob/dev/LICENSE",
+          "note": "开源核心 Apache-2.0；协作、导入导出、打印等 Pro 功能单独授权，不作为免费核心能力承诺。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-education-event-h5-templates",
+      "name": "教育活动 H5 页面模板包",
+      "category": "原创数字产品",
+      "description": "针对教师沙龙、公开课展示或读书会制作原创移动页面模板，展示议程、讲者与报名入口。",
+      "monetization": "原创模板包或单场页面配置；逐场代做属于服务",
+      "deliverable": "页面模板、替换素材说明、移动端预览与配置示例",
+      "maintenance": "低至中：布局兼容、素材授权与报名入口有效性",
+      "firstSteps": [
+        "选一种活动场景，画出只包含必要信息的页面结构",
+        "用原创图片与文案制作一份可替换内容的样板",
+        "在常用手机上验证页面与外部报名链接，收集两位主办者反馈"
+      ],
+      "existingBusinessFit": "可以先用于你自己的公众号和星球活动推广",
+      "costNotes": "设计、手机适配和图片素材时间；编辑器并不自动提供收款、报名后台。",
+      "region": "中国大陆",
+      "categoryLabel": "原创数字产品",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "MrXujiang/h5-Dooring",
+      "url": "https://github.com/MrXujiang/h5-Dooring",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31T15:38:32.980Z",
+      "batch": "workflow-2026-10-31",
+      "requirements": "GPL-3.0；二次分发及商用版本、组件和素材条件分别核对。 以上方案是工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "MrXujiang/h5-Dooring 原始仓库",
+          "url": "https://github.com/MrXujiang/h5-Dooring",
+          "note": "参考源码能力整理，产品定位与收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/MrXujiang/h5-Dooring/blob/master/LICENSE",
+          "note": "GPL-3.0；二次分发及商用版本、组件和素材条件分别核对。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-original-resource-preview-page",
+      "name": "原创资料产品试读展示模板",
+      "category": "原创数字产品",
+      "description": "为讲义、模板与课程资料制作带样章、适用人群和版本说明的移动展示页，提高现有产品介绍的清晰度。",
+      "monetization": "原创页面模板包或内容配置服务",
+      "deliverable": "试读展示模板、授权说明占位和交付链接配置指南",
+      "maintenance": "低至中：链接检查、展示更新和手机适配",
+      "firstSteps": [
+        "选一份自己的原创资料，整理用户真正需要了解的信息",
+        "制作可替换样章的展示页，不公开完整付费附件",
+        "请三位潜在读者测试是否能理解内容和交付边界"
+      ],
+      "existingBusinessFit": "可以展示星球原创资源，也可供公众号读者先试读",
+      "costNotes": "设计与内容制作时间；订单、支付和文件交付需使用另行核对的服务。",
+      "region": "中国大陆",
+      "categoryLabel": "原创数字产品",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "MrXujiang/h5-Dooring",
+      "url": "https://github.com/MrXujiang/h5-Dooring",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31T15:38:32.980Z",
+      "batch": "workflow-2026-10-31",
+      "requirements": "GPL-3.0；二次分发及商用版本、组件和素材条件分别核对。 以上方案是工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "MrXujiang/h5-Dooring 原始仓库",
+          "url": "https://github.com/MrXujiang/h5-Dooring",
+          "note": "参考源码能力整理，产品定位与收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/MrXujiang/h5-Dooring/blob/master/LICENSE",
+          "note": "GPL-3.0；二次分发及商用版本、组件和素材条件分别核对。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-community-appointment-guide",
+      "name": "社群咨询预约与排期配置包",
+      "category": "社群与运营工具",
+      "description": "围绕你自己的社群答疑时段，设计预约信息、时段确认和取消流程，沉淀原创配置指南；先用自有业务验证。",
+      "monetization": "原创流程指南与配置咨询；对外部署或销售应用须先核对授权",
+      "deliverable": "预约流程图、数据字段表、配置步骤与测试样例",
+      "maintenance": "中至高：时段冲突、访问权限、通知渠道和升级维护",
+      "firstSteps": [
+        "限定自己的一个答疑时段，写清预约与取消规则",
+        "用虚拟预约验证冲突、取消和个人记录访问边界",
+        "在自己社群小规模试用，再核对所需插件与对外交付许可"
+      ],
+      "existingBusinessFit": "可先改善“AI 教育实践”的预约答疑安排",
+      "costNotes": "配置、测试和托管时间；商业插件与对外应用许可可能额外收费。",
+      "region": "中国大陆",
+      "categoryLabel": "社群与运营工具",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "nocobase/nocobase",
+      "url": "https://github.com/nocobase/nocobase",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31T15:38:32.980Z",
+      "batch": "workflow-2026-10-31",
+      "requirements": "自定义协议引用 Apache-2.0 并附条件：保留规定品牌信息，不得公开提供基于它的低代码/AI 平台 SaaS；对外销售上层应用须核对商业版本权限。 以上方案是工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "nocobase/nocobase 原始仓库",
+          "url": "https://github.com/nocobase/nocobase",
+          "note": "参考源码能力整理，产品定位与收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/nocobase/nocobase/blob/main/LICENSE.txt",
+          "note": "自定义协议引用 Apache-2.0 并附条件：保留规定品牌信息，不得公开提供基于它的低代码/AI 平台 SaaS；对外销售上层应用须核对商业版本权限。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-creator-delivery-workflow-kit",
+      "name": "内容制作订单与交付管理配置包",
+      "category": "社群与运营工具",
+      "description": "为原创课件、排版或设计服务整理需求收集、版本审阅和交付记录，形成自己的标准流程与教学案例。",
+      "monetization": "原创流程文档、培训或配置咨询；应用售卖需先核对许可",
+      "deliverable": "需求表、状态字段、版本审阅流程与交付检查清单",
+      "maintenance": "中：流程调整、权限检查和服务范围管理",
+      "firstSteps": [
+        "选择自己实际开展的一类原创内容服务，定义交付边界",
+        "用三笔虚拟订单跑通需求、反馈、修订和完成状态",
+        "记录能节省的沟通时间，再邀请同行评价原创配置指南"
+      ],
+      "existingBusinessFit": "便于管理你已有的内容业务，也能沉淀成星球实操案例",
+      "costNotes": "流程设计与配置时间；不把通用搭建平台改名作为自有低代码 SaaS 出售。",
+      "region": "中国大陆",
+      "categoryLabel": "社群与运营工具",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "nocobase/nocobase",
+      "url": "https://github.com/nocobase/nocobase",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31T15:38:32.980Z",
+      "batch": "workflow-2026-10-31",
+      "requirements": "自定义协议引用 Apache-2.0 并附条件：保留规定品牌信息，不得公开提供基于它的低代码/AI 平台 SaaS；对外销售上层应用须核对商业版本权限。 以上方案是工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "nocobase/nocobase 原始仓库",
+          "url": "https://github.com/nocobase/nocobase",
+          "note": "参考源码能力整理，产品定位与收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/nocobase/nocobase/blob/main/LICENSE.txt",
+          "note": "自定义协议引用 Apache-2.0 并附条件：保留规定品牌信息，不得公开提供基于它的低代码/AI 平台 SaaS；对外销售上层应用须核对商业版本权限。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-lesson-slide-assistant",
+      "name": "AI 备课课件生成助手",
+      "category": "教育工具",
+      "description": "面向教师，把自有教学提纲转换成可编辑课件草稿，保留逐页审核和修改，再做成单一学科的中文工具。",
+      "monetization": "工具次数包或教师订阅；先验证三位教师能否减少备课时间",
+      "deliverable": "可编辑课件、讲课备注和人工审核清单",
+      "maintenance": "中至高：维护导出兼容、内容准确性、模型和图片费用",
+      "firstSteps": [
+        "选一个年级和一个学科，收集三份已获授权的教学提纲",
+        "生成并人工核对十页样课，检查公式、图片和导出效果",
+        "邀请三位教师试用，记录修改时间与付费意愿"
+      ],
+      "costNotes": "模型调用、图像生成、服务器及人工校对时间；先用小规模样课核算单次成本。",
+      "region": "中国大陆",
+      "categoryLabel": "教育工具",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "LRriver/AIPPT",
+      "url": "https://github.com/LRriver/AIPPT",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31",
+      "existingBusinessFit": "教育知识付费社群可先提供实测样课和工具体验",
+      "requirements": "Apache-2.0；生成所用模型、图片和素材按各自条件使用。 教育知识付费社群可先提供实测样课和工具体验 方案由工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "LRriver/AIPPT 原始仓库",
+          "url": "https://github.com/LRriver/AIPPT",
+          "note": "源码能力是实现参考，项目方案及收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/LRriver/AIPPT/blob/main/LICENSE",
+          "note": "Apache-2.0；生成所用模型、图片和素材按各自条件使用。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-teacher-original-slide-pack",
+      "name": "教师说课与教研原创模板包",
+      "category": "教育知识社群",
+      "description": "围绕说课、公开课复盘和校本教研制作原创可编辑模板，附完整示例与填写说明，作为可重复交付的数字产品。",
+      "monetization": "原创模板单品或系列包，也可作为星球会员专题内容",
+      "deliverable": "模板文件、填写示例、素材清单与版本说明",
+      "maintenance": "低至中：维护兼容性、素材授权和集中答疑",
+      "firstSteps": [
+        "访谈三位教师，限定一个说课或教研场景",
+        "制作一份原创模板及一份完整示例，不复制上游演示素材",
+        "让两位教师实际编辑，确认格式可用后再决定销售"
+      ],
+      "costNotes": "主要是设计、示例制作和售后时间；工具二次开发、托管服务另核算。",
+      "region": "中国大陆",
+      "categoryLabel": "教育知识社群",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "pipipi-pikachu/PPTist",
+      "url": "https://github.com/pipipi-pikachu/PPTist",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31",
+      "existingBusinessFit": "可从现有星球收集需求，由公众号展示原创样例",
+      "requirements": "AGPL-3.0；作者另提供独立商业授权，部署和分发前核对当前条款。 可从现有星球收集需求，由公众号展示原创样例 方案由工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "pipipi-pikachu/PPTist 原始仓库",
+          "url": "https://github.com/pipipi-pikachu/PPTist",
+          "note": "源码能力是实现参考，项目方案及收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/pipipi-pikachu/PPTist/blob/master/LICENSE",
+          "note": "AGPL-3.0；作者另提供独立商业授权，部署和分发前核对当前条款。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-subject-mindmap-pack",
+      "name": "学科知识导图与复习路径包",
+      "category": "教育知识社群",
+      "description": "为一个明确知识单元制作原创知识结构图、概念联系和复习顺序，提供可编辑导图与讲解，便于老师重复使用。",
+      "monetization": "原创资料包、专题更新或星球会员内容",
+      "deliverable": "可编辑导图、导出图片、知识来源与讲解文件",
+      "maintenance": "中：人工检查知识关系，跟随课程范围与反馈修订",
+      "firstSteps": [
+        "选择一个熟悉知识单元，用原创提纲整理概念关系",
+        "用开源 Web 导图制作可编辑样稿，检查导出和中文显示",
+        "请一位学科教师评审，再制作三个免费样例验证需求"
+      ],
+      "costNotes": "内容校核和绘图时间为主；开源 Web 低维护，产品化需承担兼容维护。",
+      "region": "中国大陆",
+      "categoryLabel": "教育知识社群",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "wanglin2/mind-map",
+      "url": "https://github.com/wanglin2/mind-map",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31",
+      "existingBusinessFit": "适合补充“AI 教育实践”的原创资源栏目",
+      "requirements": "MIT 适用于仓库开源代码；闭源客户端与插件不包含在该开源许可中。 适合补充“AI 教育实践”的原创资源栏目 方案由工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "wanglin2/mind-map 原始仓库",
+          "url": "https://github.com/wanglin2/mind-map",
+          "note": "源码能力是实现参考，项目方案及收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/wanglin2/mind-map/blob/main/LICENSE",
+          "note": "MIT 适用于仓库开源代码；闭源客户端与插件不包含在该开源许可中。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-planet-replay-chapters",
+      "name": "星球直播回放章节与讲义库",
+      "category": "教育知识社群",
+      "description": "整理你自己或已获授权的星球直播，把录音转为带时间定位的章节索引、摘要和讲义，改善历史内容的重复交付。",
+      "monetization": "增强现有会员服务，或销售已获授权的主题回放资料包",
+      "deliverable": "回放章节目录、可检索文字稿与经校对的讲义",
+      "maintenance": "中：每次直播后的人工校对、更新与录音保存管理",
+      "firstSteps": [
+        "选一段自己有权使用的十五分钟直播录音",
+        "测试转写，并人工核对术语和时间位置",
+        "整理五个章节与一页讲义，邀请会员验证是否容易找到内容"
+      ],
+      "costNotes": "语音识别计算、录音存储与人工校对；不同模型的时间戳能力应先实测。",
+      "region": "中国大陆",
+      "categoryLabel": "教育知识社群",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "modelscope/FunASR",
+      "url": "https://github.com/modelscope/FunASR",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31",
+      "existingBusinessFit": "直接服务你正在运营的教育知识付费社群",
+      "requirements": "代码 MIT；预训练模型单独授权，按实际选用模型卡核对。 直接服务你正在运营的教育知识付费社群 方案由工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "modelscope/FunASR 原始仓库",
+          "url": "https://github.com/modelscope/FunASR",
+          "note": "源码能力是实现参考，项目方案及收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/modelscope/FunASR/blob/main/LICENSE",
+          "note": "代码 MIT；预训练模型单独授权，按实际选用模型卡核对。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-course-audio-study-notes",
+      "name": "授权课程音频转学习资料服务",
+      "category": "写作与资料工具",
+      "description": "面向有课程版权的老师，将其音频整理为文字稿、复习提纲和术语表。先做标准交付，再评估是否工具化。",
+      "monetization": "按授权音频时长或固定交付套餐收费；初期属于持续服务",
+      "deliverable": "校对后的文字稿、提纲、术语表及修改记录",
+      "maintenance": "高：每单都需人工核对，不能直接当作无人维护收入",
+      "firstSteps": [
+        "获得一位课程作者的明确授权和十分钟样本",
+        "约定文字稿、术语表及修改次数等交付边界",
+        "记录实际转写、校对时间与成本，再试做一笔真实订单"
+      ],
+      "costNotes": "语音识别计算和人工校对是主要成本；不可只按模型调用费用定价。",
+      "region": "中国大陆",
+      "categoryLabel": "写作与资料工具",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "modelscope/FunASR",
+      "url": "https://github.com/modelscope/FunASR",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31",
+      "existingBusinessFit": "可在教师社群验证需求，再决定是否成为独立项目",
+      "requirements": "代码 MIT；预训练模型单独授权，按实际选用模型卡核对。 可在教师社群验证需求，再决定是否成为独立项目 方案由工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "modelscope/FunASR 原始仓库",
+          "url": "https://github.com/modelscope/FunASR",
+          "note": "源码能力是实现参考，项目方案及收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/modelscope/FunASR/blob/main/LICENSE",
+          "note": "代码 MIT；预训练模型单独授权，按实际选用模型卡核对。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-mini-error-note-print",
+      "name": "截图错题整理与打印小程序",
+      "category": "小程序工具",
+      "description": "为用户整理自己上传的题目截图，提供识别、人工修正、标签归档和打印排版；先做整理工具，不承诺自动批改。",
+      "monetization": "高级导出或容量功能；广告收入须另核对流量主条件",
+      "deliverable": "可编辑错题记录、标签检索与打印页面原型",
+      "maintenance": "中至高：识别纠错、公式兼容、上传存储和小程序维护",
+      "firstSteps": [
+        "用二十张获授权的题目截图测试文字及公式识别",
+        "制作用户可手动修正的单页原型，先不接支付或广告",
+        "请五位用户试整理并打印，观察重复使用和纠错时间"
+      ],
+      "costNotes": "OCR 计算、存储和开发维护；应只保留提供服务所需的资料。",
+      "region": "中国大陆",
+      "categoryLabel": "小程序工具",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "PaddlePaddle/PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31",
+      "existingBusinessFit": "与你的微信小程序流量主方向衔接，可先验证留存",
+      "requirements": "Apache-2.0；具体模型、组件及输入资料的条件分别核对。 与你的微信小程序流量主方向衔接，可先验证留存 方案由工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "PaddlePaddle/PaddleOCR 原始仓库",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR",
+          "note": "源码能力是实现参考，项目方案及收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR/blob/main/LICENSE",
+          "note": "Apache-2.0；具体模型、组件及输入资料的条件分别核对。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-small-business-form-ocr",
+      "name": "小微机构纸质表格转电子表工具",
+      "category": "人工智能产品",
+      "description": "针对一种固定格式的库存表或活动签到表，提取为可人工校正的电子表格，避免一开始支持所有表单。",
+      "monetization": "本地工具授权、次数包或固定格式服务",
+      "deliverable": "原图对照、字段校正界面和 CSV 导出文件",
+      "maintenance": "中：维护版式样例、错误处理和格式兼容",
+      "firstSteps": [
+        "找一家真实使用机构，取得脱敏且获授权的样表",
+        "限定一种版式，人工制作十份标准结果对比识别输出",
+        "完成原图对照与导出原型，测试重复使用价值"
+      ],
+      "costNotes": "识别计算、开发和样例整理；关键字段必须提供人工确认。",
+      "region": "中国大陆",
+      "categoryLabel": "人工智能产品",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "PaddlePaddle/PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31",
+      "existingBusinessFit": "适合独立小工具，也可作为公众号 AI 实操案例",
+      "requirements": "Apache-2.0；具体模型、组件及输入资料的条件分别核对。 适合独立小工具，也可作为公众号 AI 实操案例 方案由工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "PaddlePaddle/PaddleOCR 原始仓库",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR",
+          "note": "源码能力是实现参考，项目方案及收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR/blob/main/LICENSE",
+          "note": "Apache-2.0；具体模型、组件及输入资料的条件分别核对。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-authorized-pdf-conversion",
+      "name": "授权 PDF 资料数字化与导出工具",
+      "category": "写作与资料工具",
+      "description": "处理用户自有或已授权的扫描讲义、操作手册，整理为可搜索的 Markdown 和结构化文件，保留页码来源方便核查。",
+      "monetization": "单批次处理服务或本地工具授权；模板稳定后再考虑自动交付",
+      "deliverable": "转换文件、源页对应说明和人工检查报告",
+      "maintenance": "中至高：复杂版面、公式表格和失败文件需人工处理",
+      "firstSteps": [
+        "收集三种获授权的文档样例并约定输出格式",
+        "测试十页样稿，人工比对文字、公式和表格",
+        "计算单批转换与校对成本，试交付一个小规模样本"
+      ],
+      "costNotes": "算力、文档存储及人工校对；对外在线服务须遵守 MinerU 的标识等条件。",
+      "region": "中国大陆",
+      "categoryLabel": "写作与资料工具",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "opendatalab/MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31",
+      "existingBusinessFit": "可服务教师资料整理需求，先验证后再产品化",
+      "requirements": "基于 Apache-2.0 的附加许可：对外在线服务须显著标明使用 MinerU；达到协议规定规模须另获商业许可。 可服务教师资料整理需求，先验证后再产品化 方案由工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "opendatalab/MinerU 原始仓库",
+          "url": "https://github.com/opendatalab/MinerU",
+          "note": "源码能力是实现参考，项目方案及收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/opendatalab/MinerU/blob/master/LICENSE.md",
+          "note": "基于 Apache-2.0 的附加许可：对外在线服务须显著标明使用 MinerU；达到协议规定规模须另获商业许可。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-planet-import-cleaning",
+      "name": "星球资料入库检查与清洗工具",
+      "category": "教育工具",
+      "description": "为已有 AI 教育资料库做文档转换、目录整理和来源页码记录，让后续检索有可核对的输入；先解决自己的入库流程。",
+      "monetization": "先减少自有社群维护时间，再验证工具授权或机构实施需求",
+      "deliverable": "规范化文件、来源清单和问题文档列表",
+      "maintenance": "中：维护解析版本、清洗规则及资料更新记录",
+      "firstSteps": [
+        "选十份自己拥有使用权的星球资料，定义统一文件结构",
+        "制作转换、页码记录及人工抽检流程，输出问题列表",
+        "对比整理前后检索体验，确认值得持续使用后再考虑售卖"
+      ],
+      "costNotes": "解析计算和人工整理时间；不把尚未实现的知识库问答功能作为现成功能销售。",
+      "region": "中国大陆",
+      "categoryLabel": "教育工具",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "opendatalab/MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31",
+      "existingBusinessFit": "直接衔接教育知识付费社群的资料沉淀",
+      "requirements": "基于 Apache-2.0 的附加许可：对外在线服务须显著标明使用 MinerU；达到协议规定规模须另获商业许可。 直接衔接教育知识付费社群的资料沉淀 方案由工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "opendatalab/MinerU 原始仓库",
+          "url": "https://github.com/opendatalab/MinerU",
+          "note": "源码能力是实现参考，项目方案及收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/opendatalab/MinerU/blob/master/LICENSE.md",
+          "note": "基于 Apache-2.0 的附加许可：对外在线服务须显著标明使用 MinerU；达到协议规定规模须另获商业许可。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-education-ai-release-radar",
+      "name": "教育 AI 工具更新简报",
+      "category": "公众号内容产品",
+      "description": "订阅允许访问的工具发布信息和官方更新，人工实测后整理对教师有用的变化、用法和原始链接，形成固定栏目。",
+      "monetization": "公众号内容收入、会员实测简报或明确标注的商业合作",
+      "deliverable": "每期原创简报、测试记录与可追溯来源",
+      "maintenance": "高：需持续筛选、实测和编辑，订阅只辅助发现信息",
+      "firstSteps": [
+        "选择五个有稳定公开更新源的教育或 AI 工具",
+        "用 RSS 订阅或官方发布页收集更新，不绕过登录和付费内容",
+        "连续两周发布原创实测简报，观察读者反馈与星球转化"
+      ],
+      "costNotes": "订阅部署、模型辅助整理和人工实测时间；不整篇搬运第三方内容。",
+      "region": "中国大陆",
+      "categoryLabel": "公众号内容产品",
+      "type": "GitHub 启发的国内项目方案",
+      "sourceRepository": "DIYgod/RSSHub",
+      "url": "https://github.com/DIYgod/RSSHub",
+      "checkedAt": "2026-10-31",
+      "addedAt": "2026-10-31",
+      "existingBusinessFit": "可同时支持公众号选题和星球的会员更新栏目",
+      "requirements": "AGPL-3.0；信息源内容与访问条件另行核对，订阅能力不等于转载授权。 可同时支持公众号选题和星球的会员更新栏目 方案由工作台推导，尚未验证实际收入。",
+      "sources": [
+        {
+          "name": "DIYgod/RSSHub 原始仓库",
+          "url": "https://github.com/DIYgod/RSSHub",
+          "note": "源码能力是实现参考，项目方案及收入方式由工作台推导。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/DIYgod/RSSHub/blob/master/LICENSE",
+          "note": "AGPL-3.0；信息源内容与访问条件另行核对，订阅能力不等于转载授权。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-wechat-education-column",
+      "name": "AI 教育案例公众号栏目",
+      "region": "中国大陆",
+      "category": "公众号内容产品",
+      "categoryLabel": "公众号内容产品",
+      "type": "GitHub启发的项目方案",
+      "description": "围绕一个教师群体发布原创 AI 教学案例和使用评测，建立稳定栏目。",
+      "monetization": "公众号流量主收入与自有资料产品；资格和收益以后台为准",
+      "deliverable": "一组经实测的原创案例与统一排版",
+      "maintenance": "持续选题、实测、校对和维护读者反馈",
+      "firstSteps": [
+        "选择一个具体目标用户，收集三个真实问题",
+        "用所列源码做小范围原型或原创样例",
+        "验证真实使用与付费意愿，再决定投入"
+      ],
+      "requirements": "灵感由工作台根据仓库能力推导，非原作者收益承诺；按源码、素材和平台条件实施。",
+      "costNotes": "核算开发、维护、模型调用和内容生产时间。",
+      "url": "https://github.com/doocs/md",
+      "checkedAt": "2026-10-31",
+      "sourceRepository": "doocs/md",
+      "sources": [
+        {
+          "name": "doocs/md 原始仓库",
+          "url": "https://github.com/doocs/md",
+          "note": "本方向由工作台推导；资源本身不代表已实现收入。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-wechat-layout-pack",
+      "name": "公众号原创排版与版式包",
+      "region": "中国大陆",
+      "category": "公众号内容产品",
+      "categoryLabel": "公众号内容产品",
+      "type": "GitHub启发的项目方案",
+      "description": "基于排版工具制作面向教育作者的原创版式、样例和使用教程。",
+      "monetization": "原创版式包或教程销售",
+      "deliverable": "原创样式、预览和使用文档",
+      "maintenance": "跟随编辑器更新并处理兼容性",
+      "firstSteps": [
+        "选择一个具体目标用户，收集三个真实问题",
+        "用所列源码做小范围原型或原创样例",
+        "验证真实使用与付费意愿，再决定投入"
+      ],
+      "requirements": "灵感由工作台根据仓库能力推导，非原作者收益承诺；按源码、素材和平台条件实施。",
+      "costNotes": "核算开发、维护、模型调用和内容生产时间。",
+      "url": "https://github.com/doocs/md",
+      "checkedAt": "2026-10-31",
+      "sourceRepository": "doocs/md",
+      "sources": [
+        {
+          "name": "doocs/md 原始仓库",
+          "url": "https://github.com/doocs/md",
+          "note": "本方向由工作台推导；资源本身不代表已实现收入。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-wechat-content-process",
+      "name": "教育公众号内容流程工具",
+      "region": "中国大陆",
+      "category": "公众号内容产品",
+      "categoryLabel": "公众号内容产品",
+      "type": "GitHub启发的项目方案",
+      "description": "把选题、稿件审核、排版和复盘串成个人使用流程，再验证是否有标准化工具需求。",
+      "monetization": "自用提效；可尝试标准模板或工具授权",
+      "deliverable": "授权范围内的后台工具和流程文档",
+      "maintenance": "接口兼容、内容审核和真实使用反馈",
+      "firstSteps": [
+        "选择一个具体目标用户，收集三个真实问题",
+        "用所列源码做小范围原型或原创样例",
+        "验证真实使用与付费意愿，再决定投入"
+      ],
+      "requirements": "灵感由工作台根据仓库能力推导，非原作者收益承诺；按源码、素材和平台条件实施。",
+      "costNotes": "核算开发、维护、模型调用和内容生产时间。",
+      "url": "https://github.com/binarywang/WxJava",
+      "checkedAt": "2026-10-31",
+      "sourceRepository": "binarywang/WxJava",
+      "sources": [
+        {
+          "name": "binarywang/WxJava 原始仓库",
+          "url": "https://github.com/binarywang/WxJava",
+          "note": "本方向由工作台推导；资源本身不代表已实现收入。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-mini-class-timer",
+      "name": "课堂计时与活动安排小程序",
+      "region": "中国大陆",
+      "category": "小程序工具",
+      "categoryLabel": "小程序工具",
+      "type": "GitHub启发的项目方案",
+      "description": "面向老师制作简洁的课堂计时、分组与活动安排功能。",
+      "monetization": "流量主广告需符合平台条件，先验证使用与留存",
+      "deliverable": "可使用的小程序原型和功能说明",
+      "maintenance": "兼容、审核和用户反馈",
+      "firstSteps": [
+        "选择一个具体目标用户，收集三个真实问题",
+        "用所列源码做小范围原型或原创样例",
+        "验证真实使用与付费意愿，再决定投入"
+      ],
+      "requirements": "灵感由工作台根据仓库能力推导，非原作者收益承诺；按源码、素材和平台条件实施。",
+      "costNotes": "核算开发、维护、模型调用和内容生产时间。",
+      "url": "https://github.com/wechat-miniprogram/miniprogram-demo",
+      "checkedAt": "2026-10-31",
+      "sourceRepository": "wechat-miniprogram/miniprogram-demo",
+      "sources": [
+        {
+          "name": "wechat-miniprogram/miniprogram-demo 原始仓库",
+          "url": "https://github.com/wechat-miniprogram/miniprogram-demo",
+          "note": "本方向由工作台推导；资源本身不代表已实现收入。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-mini-grouping",
+      "name": "课堂随机分组小程序",
+      "region": "中国大陆",
+      "category": "小程序工具",
+      "categoryLabel": "小程序工具",
+      "type": "GitHub启发的项目方案",
+      "description": "围绕分组、抽签和座位安排提供单一场景工具，不必一开始做完整教学平台。",
+      "monetization": "符合平台条件后的广告或付费功能",
+      "deliverable": "分组原型、测试样例与说明",
+      "maintenance": "界面兼容、异常处理和真实使用",
+      "firstSteps": [
+        "选择一个具体目标用户，收集三个真实问题",
+        "用所列源码做小范围原型或原创样例",
+        "验证真实使用与付费意愿，再决定投入"
+      ],
+      "requirements": "灵感由工作台根据仓库能力推导，非原作者收益承诺；按源码、素材和平台条件实施。",
+      "costNotes": "核算开发、维护、模型调用和内容生产时间。",
+      "url": "https://github.com/Tencent/tdesign-miniprogram",
+      "checkedAt": "2026-10-31",
+      "sourceRepository": "Tencent/tdesign-miniprogram",
+      "sources": [
+        {
+          "name": "Tencent/tdesign-miniprogram 原始仓库",
+          "url": "https://github.com/Tencent/tdesign-miniprogram",
+          "note": "本方向由工作台推导；资源本身不代表已实现收入。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-mini-study-log",
+      "name": "读书与学习记录小程序",
+      "region": "中国大陆",
+      "category": "小程序工具",
+      "categoryLabel": "小程序工具",
+      "type": "GitHub启发的项目方案",
+      "description": "为一类学习者提供轻量记录、复习提醒和统计工具。",
+      "monetization": "验证留存后再考虑符合条件的广告或增值功能",
+      "deliverable": "记录与统计原型",
+      "maintenance": "发布审核、版本兼容和用户支持",
+      "firstSteps": [
+        "选择一个具体目标用户，收集三个真实问题",
+        "用所列源码做小范围原型或原创样例",
+        "验证真实使用与付费意愿，再决定投入"
+      ],
+      "requirements": "灵感由工作台根据仓库能力推导，非原作者收益承诺；按源码、素材和平台条件实施。",
+      "costNotes": "核算开发、维护、模型调用和内容生产时间。",
+      "url": "https://github.com/NervJS/taro",
+      "checkedAt": "2026-10-31",
+      "sourceRepository": "NervJS/taro",
+      "sources": [
+        {
+          "name": "NervJS/taro 原始仓库",
+          "url": "https://github.com/NervJS/taro",
+          "note": "本方向由工作台推导；资源本身不代表已实现收入。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-mini-college-filter",
+      "name": "专科院校信息筛选小程序",
+      "region": "中国大陆",
+      "category": "小程序工具",
+      "categoryLabel": "小程序工具",
+      "type": "GitHub启发的项目方案",
+      "description": "与你已有选校网站衔接，先制作单省份的官方院校信息查询与筛选。",
+      "monetization": "原创资料包或符合平台条件的广告，需验证需求",
+      "deliverable": "带官方来源和更新时间的查询原型",
+      "maintenance": "招生季资料核查与持续更新",
+      "firstSteps": [
+        "选择一个具体目标用户，收集三个真实问题",
+        "用所列源码做小范围原型或原创样例",
+        "验证真实使用与付费意愿，再决定投入"
+      ],
+      "requirements": "灵感由工作台根据仓库能力推导，非原作者收益承诺；按源码、素材和平台条件实施。",
+      "costNotes": "核算开发、维护、模型调用和内容生产时间。",
+      "url": "https://github.com/wechat-miniprogram/miniprogram-demo",
+      "checkedAt": "2026-10-31",
+      "sourceRepository": "wechat-miniprogram/miniprogram-demo",
+      "sources": [
+        {
+          "name": "wechat-miniprogram/miniprogram-demo 原始仓库",
+          "url": "https://github.com/wechat-miniprogram/miniprogram-demo",
+          "note": "本方向由工作台推导；资源本身不代表已实现收入。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-planet-ai-exercises",
+      "name": "AI 教育实践 实操练习资源库",
+      "region": "中国大陆",
+      "category": "教育知识社群",
+      "categoryLabel": "教育知识社群",
+      "type": "GitHub启发的项目方案",
+      "description": "在现有星球中沉淀原创练习、示例和教学改进记录，而非直接转售上游教程。",
+      "monetization": "知识星球会员与原创专题资料",
+      "deliverable": "原创练习、操作示例和更新目录",
+      "maintenance": "持续更新与会员反馈",
+      "firstSteps": [
+        "选择一个具体目标用户，收集三个真实问题",
+        "用所列源码做小范围原型或原创样例",
+        "验证真实使用与付费意愿，再决定投入"
+      ],
+      "requirements": "灵感由工作台根据仓库能力推导，非原作者收益承诺；按源码、素材和平台条件实施。",
+      "costNotes": "核算开发、维护、模型调用和内容生产时间。",
+      "url": "https://github.com/datawhalechina/llm-universe",
+      "checkedAt": "2026-10-31",
+      "sourceRepository": "datawhalechina/llm-universe",
+      "sources": [
+        {
+          "name": "datawhalechina/llm-universe 原始仓库",
+          "url": "https://github.com/datawhalechina/llm-universe",
+          "note": "本方向由工作台推导；资源本身不代表已实现收入。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-planet-prompt-cases",
+      "name": "教师提示词与评测案例库",
+      "region": "中国大陆",
+      "category": "教育知识社群",
+      "categoryLabel": "教育知识社群",
+      "type": "GitHub启发的项目方案",
+      "description": "围绕具体教学任务，记录提示词、输出对照与人工评测，形成可检索资料。",
+      "monetization": "知识星球会员或原创案例专题",
+      "deliverable": "原创任务卡和评测记录",
+      "maintenance": "模型变化后的复测与纠错",
+      "firstSteps": [
+        "选择一个具体目标用户，收集三个真实问题",
+        "用所列源码做小范围原型或原创样例",
+        "验证真实使用与付费意愿，再决定投入"
+      ],
+      "requirements": "灵感由工作台根据仓库能力推导，非原作者收益承诺；按源码、素材和平台条件实施。",
+      "costNotes": "核算开发、维护、模型调用和内容生产时间。",
+      "url": "https://github.com/datawhalechina/llm-cookbook",
+      "checkedAt": "2026-10-31",
+      "sourceRepository": "datawhalechina/llm-cookbook",
+      "sources": [
+        {
+          "name": "datawhalechina/llm-cookbook 原始仓库",
+          "url": "https://github.com/datawhalechina/llm-cookbook",
+          "note": "本方向由工作台推导；资源本身不代表已实现收入。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-planet-qa-index",
+      "name": "教育社群问答与资料索引",
+      "region": "中国大陆",
+      "category": "教育知识社群",
+      "categoryLabel": "教育知识社群",
+      "type": "GitHub启发的项目方案",
+      "description": "将已获授权的社群常见问题与资料整理成分层索引，先改善自己星球的交付体验。",
+      "monetization": "提升已有会员服务；进一步工具化需另验证",
+      "deliverable": "可检索的资料索引和更新流程",
+      "maintenance": "授权、资料更新与答疑整理",
+      "firstSteps": [
+        "选择一个具体目标用户，收集三个真实问题",
+        "用所列源码做小范围原型或原创样例",
+        "验证真实使用与付费意愿，再决定投入"
+      ],
+      "requirements": "灵感由工作台根据仓库能力推导，非原作者收益承诺；按源码、素材和平台条件实施。",
+      "costNotes": "核算开发、维护、模型调用和内容生产时间。",
+      "url": "https://github.com/halo-dev/halo",
+      "checkedAt": "2026-10-31",
+      "sourceRepository": "halo-dev/halo",
+      "sources": [
+        {
+          "name": "halo-dev/halo 原始仓库",
+          "url": "https://github.com/halo-dev/halo",
+          "note": "本方向由工作台推导；资源本身不代表已实现收入。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-education-whiteboard",
+      "name": "课堂电子白板与练习模板",
+      "region": "中国大陆",
+      "category": "教育工具",
+      "categoryLabel": "教育工具",
+      "type": "GitHub启发的项目方案",
+      "description": "参考开源画板能力制作自己的教学白板原型和原创课堂练习模板。",
+      "monetization": "原创模板包或工具授权",
+      "deliverable": "白板原型与原创模板",
+      "maintenance": "设备兼容、素材许可和用户反馈",
+      "firstSteps": [
+        "选择一个具体目标用户，收集三个真实问题",
+        "用所列源码做小范围原型或原创样例",
+        "验证真实使用与付费意愿，再决定投入"
+      ],
+      "requirements": "灵感由工作台根据仓库能力推导，非原作者收益承诺；按源码、素材和平台条件实施。",
+      "costNotes": "核算开发、维护、模型调用和内容生产时间。",
+      "url": "https://github.com/LHRUN/paint-board",
+      "checkedAt": "2026-10-31",
+      "sourceRepository": "LHRUN/paint-board",
+      "sources": [
+        {
+          "name": "LHRUN/paint-board 原始仓库",
+          "url": "https://github.com/LHRUN/paint-board",
+          "note": "本方向由工作台推导；资源本身不代表已实现收入。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-paper-reading-helper",
+      "name": "文献阅读与格式检查助手",
+      "region": "中国大陆",
+      "category": "写作与资料工具",
+      "categoryLabel": "写作与资料工具",
+      "type": "GitHub启发的项目方案",
+      "description": "围绕用户有权使用的资料提供摘要、格式检查和阅读辅助，结果需人工查证。",
+      "monetization": "标准工具使用服务或人工审核服务，需验证需求",
+      "deliverable": "带来源的资料摘要与检查报告",
+      "maintenance": "人工核对、隐私授权和模型费用",
+      "firstSteps": [
+        "选择一个具体目标用户，收集三个真实问题",
+        "用所列源码做小范围原型或原创样例",
+        "验证真实使用与付费意愿，再决定投入"
+      ],
+      "requirements": "灵感由工作台根据仓库能力推导，非原作者收益承诺；按源码、素材和平台条件实施。",
+      "costNotes": "核算开发、维护、模型调用和内容生产时间。",
+      "url": "https://github.com/binary-husky/gpt_academic",
+      "checkedAt": "2026-10-31",
+      "sourceRepository": "binary-husky/gpt_academic",
+      "sources": [
+        {
+          "name": "binary-husky/gpt_academic 原始仓库",
+          "url": "https://github.com/binary-husky/gpt_academic",
+          "note": "本方向由工作台推导；资源本身不代表已实现收入。"
+        }
+      ]
+    }
+  ]
+}

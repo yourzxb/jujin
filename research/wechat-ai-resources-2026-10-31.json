@@ -1,0 +1,123 @@
+{
+  "checkedAt": "2026-10-31T14:35:26.186Z",
+  "results": [
+    {
+      "repo": "doocs/md",
+      "url": "https://github.com/doocs/md",
+      "description": "✍ WeChat Markdown Editor | 一款高度简洁的微信 Markdown 编辑器：支持 Markdown 语法、自定义主题样式、内容管理、多图床、AI 助手等特性",
+      "archived": false,
+      "license": "WTFPL",
+      "defaultBranch": "main",
+      "latestCommitAt": "2026-10-30T07:54:35Z",
+      "latestCommit": "516efead5c5a8a2a49991629533b9a8877924a43"
+    },
+    {
+      "repo": "w7corp/easywechat",
+      "url": "https://github.com/w7corp/easywechat",
+      "description": "📦 一个 PHP 微信 SDK",
+      "archived": false,
+      "license": "MIT",
+      "defaultBranch": "6.x",
+      "latestCommitAt": "2026-08-21T06:53:16Z",
+      "latestCommit": "ba8022698a613e37b10ed1e4db604c5a96af0a63"
+    },
+    {
+      "repo": "binarywang/WxJava",
+      "url": "https://github.com/binarywang/WxJava",
+      "description": "微信开发 Java SDK ，支持包括微信支付，开放平台，小程序，企业微信，视频号，公众号等的后端开发",
+      "archived": false,
+      "license": "Apache-2.0",
+      "defaultBranch": "develop",
+      "latestCommitAt": "2026-10-24T09:57:16Z",
+      "latestCommit": "1b22c250810f79da2e33a51ab06d740c768ae4cf"
+    },
+    {
+      "repo": "wechat-miniprogram/miniprogram-demo",
+      "url": "https://github.com/wechat-miniprogram/miniprogram-demo",
+      "description": "微信小程序组件 / API / 云开发示例",
+      "archived": false,
+      "license": "MIT",
+      "defaultBranch": "master",
+      "latestCommitAt": "2026-09-03T05:27:05Z",
+      "latestCommit": "0fe5c7df8e90582dd0b89e283df7fe32e04413f9"
+    },
+    {
+      "repo": "wechat-miniprogram/weui-miniprogram",
+      "url": "https://github.com/wechat-miniprogram/weui-miniprogram",
+      "description": "小程序WeUI组件库",
+      "archived": false,
+      "license": "MIT",
+      "defaultBranch": "master",
+      "latestCommitAt": "2026-04-28T03:50:52Z",
+      "latestCommit": "5d04cad87bf9305d709aa1b623b8f34f2c659a2d"
+    },
+    {
+      "repo": "Tencent/tdesign-miniprogram",
+      "url": "https://github.com/Tencent/tdesign-miniprogram",
+      "description": "Wechat MiniProgram and Uniapp UI components lib for TDesign",
+      "archived": false,
+      "license": "MIT",
+      "defaultBranch": "develop",
+      "latestCommitAt": "2026-10-30T07:55:26Z",
+      "latestCommit": "ae3dcdadf33abfec2b7abb6ac2cfc6d82c92299c"
+    },
+    {
+      "repo": "NervJS/taro",
+      "url": "https://github.com/NervJS/taro",
+      "description": "开放式跨端跨框架解决方案，支持使用 React/Vue 等框架来开发微信/京东/百度/支付宝/字节跳动/ QQ 小程序/H5/React Native 等应用。",
+      "archived": false,
+      "license": "NOASSERTION",
+      "defaultBranch": "main",
+      "latestCommitAt": "2026-10-30T10:51:03Z",
+      "latestCommit": "0493b5251dab0681ae7358ea43db9d7df380479f"
+    },
+    {
+      "repo": "binary-husky/gpt_academic",
+      "url": "https://github.com/binary-husky/gpt_academic",
+      "description": "为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&函数插件，支持Python和C++等项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claude2, moss等。",
+      "archived": false,
+      "license": "GPL-3.0",
+      "defaultBranch": "master",
+      "latestCommitAt": "2026-01-25T12:32:44Z",
+      "latestCommit": "d6bde0fa54373309bd05823a49bda8da019d2c77"
+    },
+    {
+      "repo": "datawhalechina/llm-universe",
+      "url": "https://github.com/datawhalechina/llm-universe",
+      "description": "本项目是一个面向小白开发者的大模型应用开发教程，在线阅读地址：https://datawhalechina.github.io/llm-universe/",
+      "archived": false,
+      "license": "未标明",
+      "defaultBranch": "main",
+      "latestCommitAt": "2026-08-27T03:08:26Z",
+      "latestCommit": "77beb748047e8a0d8ff708716606a8e0b132dc45"
+    },
+    {
+      "repo": "datawhalechina/prompt-engineering-for-developers",
+      "url": "https://github.com/datawhalechina/llm-cookbook",
+      "description": "面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版",
+      "archived": false,
+      "license": "未标明",
+      "defaultBranch": "main",
+      "latestCommitAt": "2025-06-12T14:47:44Z",
+      "latestCommit": "92440ede735a6c450228cb924a5ee488a6ae6415"
+    },
+    {
+      "repo": "LHRUN/paint-board",
+      "url": "https://github.com/LHRUN/paint-board",
+      "description": "🎨  A powerful multi-end drawing board that brings together a lot of creative brushes to experience a whole new range of drawing effects!",
+      "archived": false,
+      "license": "MIT",
+      "defaultBranch": "main",
+      "latestCommitAt": "2026-10-23T08:33:56Z",
+      "latestCommit": "97b53345ed0234c8d34eefa51941831c65606553"
+    },
+    {
+      "repo": "wanglin2/mind-map",
+      "error": "HTTP 403"
+    },
+    {
+      "repo": "rockbenben/ChatGPT-Shortcut",
+      "error": "HTTP 403"
+    }
+  ]
+}

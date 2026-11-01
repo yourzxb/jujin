@@ -1,0 +1,1897 @@
+{
+  "revision": "e7895f94-f26c-4ddb-84b1-e8915b897807",
+  "reviewedAt": "2026-11-01",
+  "resources": [
+    {
+      "id": "cn-repo-gongfuxiang-shopxo",
+      "name": "ShopXO · 国内数字商品商城",
+      "region": "中国大陆",
+      "category": "内容建站与交付",
+      "categoryLabel": "内容建站与交付",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "可部署的商城系统",
+      "repository": "gongfuxiang/shopxo",
+      "url": "https://github.com/gongfuxiang/shopxo",
+      "description": "国内开源商城系统，提供商品管理、订单管理、多端展示和虚拟商品模式。",
+      "monetization": "原创数字产品重复销售；扩展插件与支付交付需配置",
+      "deliverable": "自己的数字商品店铺与订单交付流程",
+      "maintenance": "中：维护系统、交付和售后；获客需另做",
+      "firstSteps": [
+        "先用一个原创商品验证需求",
+        "核对虚拟交付和所需插件的版本及费用",
+        "用测试订单验证支付、交付与退款流程"
+      ],
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-09-30T08:36:21Z",
+      "upstreamCommitDate": "2026-09-30",
+      "upstreamCommit": "26d1789ccea71c7b8b3c0ffcca8080ae207a070b",
+      "licenseNote": "MIT；插件和第三方组件另查许可",
+      "requirements": "MIT；插件和第三方组件另查许可。面向国内用户经营时，还需自行核实所选平台的准入、内容权利和收款条件。",
+      "costNotes": "核算服务器、存储、模型调用、付费组件、维护与获客成本。此次只核验仓库资料，未安装或验证付费闭环。",
+      "sources": [
+        {
+          "name": "gongfuxiang/shopxo 原始仓库",
+          "url": "https://github.com/gongfuxiang/shopxo",
+          "note": "用途和版本信息以当前仓库为准；收入方式为本工作台的可行性建议，并非作者的收益承诺。"
+        },
+        {
+          "name": "许可证与商业使用条件",
+          "url": "https://github.com/gongfuxiang/shopxo/blob/master/LICENSE.txt",
+          "note": "MIT；插件和第三方组件另查许可"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/gongfuxiang/shopxo/commit/26d1789ccea71c7b8b3c0ffcca8080ae207a070b",
+          "note": "北京时间：2026-09-30。提交活跃不等于已经验证部署质量或收益。"
+        }
+      ],
+      "resourceDescription": "国内开源商城系统，提供商品管理、订单管理、多端展示和虚拟商品模式。",
+      "documentationUrl": "https://github.com/gongfuxiang/shopxo/blob/master/README.md",
+      "resourceKind": "repository"
+    },
+    {
+      "id": "cn-repo-qsnh-meedu",
+      "name": "MeEdu · 录播课程与知识付费",
+      "region": "中国大陆",
+      "category": "知识付费与社群",
+      "categoryLabel": "知识付费与社群",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "可部署的网校系统",
+      "repository": "Qsnh/meedu",
+      "url": "https://github.com/Qsnh/meedu",
+      "description": "在线网校系统，开源版支持课程点播、课程购买、学习统计及学员管理。",
+      "monetization": "原创录播课程销售；不是免授权的现成网校生意",
+      "deliverable": "课程站点、视频与练习材料",
+      "maintenance": "中：视频成本、课程更新和答疑",
+      "firstSteps": [
+        "制作一节原创样课验证需求",
+        "阅读商业附加条款并确认授权",
+        "按开源版范围规划点播和课程交付"
+      ],
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-09-14T06:09:11Z",
+      "upstreamCommitDate": "2026-09-14",
+      "upstreamCommit": "96f2a5441f7543507b24f71a1aaccf923d78f470",
+      "licenseNote": "Apache-2.0 加商业附加条款；商业使用前申请作者许可",
+      "requirements": "Apache-2.0 加商业附加条款；商业使用前申请作者许可。面向国内用户经营时，还需自行核实所选平台的准入、内容权利和收款条件。",
+      "costNotes": "核算服务器、存储、模型调用、付费组件、维护与获客成本。此次只核验仓库资料，未安装或验证付费闭环。",
+      "sources": [
+        {
+          "name": "Qsnh/meedu 原始仓库",
+          "url": "https://github.com/Qsnh/meedu",
+          "note": "用途和版本信息以当前仓库为准；收入方式为本工作台的可行性建议，并非作者的收益承诺。"
+        },
+        {
+          "name": "许可证与商业使用条件",
+          "url": "https://github.com/Qsnh/meedu/blob/main/ADDITIONAL_TERMS.md",
+          "note": "Apache-2.0 加商业附加条款；商业使用前申请作者许可"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/Qsnh/meedu/commit/96f2a5441f7543507b24f71a1aaccf923d78f470",
+          "note": "北京时间：2026-09-14。提交活跃不等于已经验证部署质量或收益。"
+        }
+      ],
+      "resourceDescription": "在线网校系统，开源版支持课程点播、课程购买、学习统计及学员管理。",
+      "documentationUrl": "https://github.com/Qsnh/meedu/blob/main/README.md",
+      "resourceKind": "repository"
+    },
+    {
+      "id": "cn-repo-halo-dev-halo",
+      "name": "Halo · 中文内容网站与主题插件",
+      "region": "中国大陆",
+      "category": "内容建站与交付",
+      "categoryLabel": "内容建站与交付",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "可部署的建站系统",
+      "repository": "halo-dev/halo",
+      "url": "https://github.com/halo-dev/halo",
+      "description": "中文内容管理与建站系统，提供社区版源码及主题、插件扩展生态。",
+      "monetization": "原创资料产品、主题插件授权；具体付费功能另核对",
+      "deliverable": "中文资料站、原创主题或插件",
+      "maintenance": "中：内容更新、站点维护与版本兼容",
+      "firstSteps": [
+        "整理一个省份的官方院校资料样本",
+        "用社区版验证信息展示与检索体验",
+        "有真实需求后再选择付费交付方案"
+      ],
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-31T01:31:42Z",
+      "upstreamCommitDate": "2026-10-31",
+      "upstreamCommit": "03aa37c5a16bb59cc3284f833bf372047ce6949b",
+      "licenseNote": "社区版 GPL-3.0；专业版、商城版与付费插件另计",
+      "requirements": "社区版 GPL-3.0；专业版、商城版与付费插件另计。面向国内用户经营时，还需自行核实所选平台的准入、内容权利和收款条件。",
+      "costNotes": "核算服务器、存储、模型调用、付费组件、维护与获客成本。此次只核验仓库资料，未安装或验证付费闭环。",
+      "sources": [
+        {
+          "name": "halo-dev/halo 原始仓库",
+          "url": "https://github.com/halo-dev/halo",
+          "note": "用途和版本信息以当前仓库为准；收入方式为本工作台的可行性建议，并非作者的收益承诺。"
+        },
+        {
+          "name": "许可证与商业使用条件",
+          "url": "https://github.com/halo-dev/halo/blob/main/LICENSE",
+          "note": "社区版 GPL-3.0；专业版、商城版与付费插件另计"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/halo-dev/halo/commit/03aa37c5a16bb59cc3284f833bf372047ce6949b",
+          "note": "北京时间：2026-10-31。提交活跃不等于已经验证部署质量或收益。"
+        }
+      ],
+      "resourceDescription": "中文内容管理与建站系统，提供社区版源码及主题、插件扩展生态。",
+      "documentationUrl": "https://github.com/halo-dev/halo/blob/main/README.md",
+      "resourceKind": "repository"
+    },
+    {
+      "id": "cn-repo-labring-fastgpt",
+      "name": "FastGPT · 知识库与人工智能工作流",
+      "region": "中国大陆",
+      "category": "人工智能应用",
+      "categoryLabel": "人工智能应用",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "可部署的人工智能平台",
+      "repository": "labring/FastGPT",
+      "url": "https://github.com/labring/FastGPT",
+      "description": "人工智能应用构建平台，提供资料处理、知识检索及可视化工作流编排。",
+      "monetization": "经授权的垂直应用或企业交付；类似平台的多租户服务先获书面许可",
+      "deliverable": "有资料出处和评估样例的问答应用",
+      "maintenance": "高：知识更新、回答评估和模型调用成本，属于持续服务型",
+      "firstSteps": [
+        "限定一个有授权资料的垂直场景",
+        "核对拟开展业务与许可证的边界",
+        "先评估二十个真实问题，再考虑提供服务"
+      ],
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-30T09:52:55Z",
+      "upstreamCommitDate": "2026-10-30",
+      "upstreamCommit": "d8a0f057f169792aea415b62eebae907de29e945",
+      "licenseNote": "FastGPT 自定义许可；类似平台的多租户 SaaS 需书面授权，保留标识",
+      "requirements": "FastGPT 自定义许可；类似平台的多租户 SaaS 需书面授权，保留标识。面向国内用户经营时，还需自行核实所选平台的准入、内容权利和收款条件。",
+      "costNotes": "核算服务器、存储、模型调用、付费组件、维护与获客成本。此次只核验仓库资料，未安装或验证付费闭环。",
+      "sources": [
+        {
+          "name": "labring/FastGPT 原始仓库",
+          "url": "https://github.com/labring/FastGPT",
+          "note": "用途和版本信息以当前仓库为准；收入方式为本工作台的可行性建议，并非作者的收益承诺。"
+        },
+        {
+          "name": "许可证与商业使用条件",
+          "url": "https://github.com/labring/FastGPT/blob/main/LICENSE",
+          "note": "FastGPT 自定义许可；类似平台的多租户 SaaS 需书面授权，保留标识"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/labring/FastGPT/commit/d8a0f057f169792aea415b62eebae907de29e945",
+          "note": "北京时间：2026-10-30。提交活跃不等于已经验证部署质量或收益。"
+        }
+      ],
+      "resourceDescription": "人工智能应用构建平台，提供资料处理、知识检索及可视化工作流编排。",
+      "documentationUrl": "https://github.com/labring/FastGPT/blob/main/README.md",
+      "resourceKind": "repository"
+    },
+    {
+      "id": "cn-repo-1panel-dev-maxkb",
+      "name": "MaxKB · 国内模型知识库助手",
+      "region": "中国大陆",
+      "category": "人工智能应用",
+      "categoryLabel": "人工智能应用",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "可部署的人工智能平台",
+      "repository": "1Panel-dev/MaxKB",
+      "url": "https://github.com/1Panel-dev/MaxKB",
+      "description": "知识库问答与智能体平台，支持工作流和多种国内外模型接入。",
+      "monetization": "可尝试垂直助手使用服务；需自行补充收费系统与验证需求",
+      "deliverable": "知识库应用、答案评估和更新流程",
+      "maintenance": "高：持续运维、知识校对与模型费用，属于持续服务型",
+      "firstSteps": [
+        "确认资料授权和用户的具体问题",
+        "先用演示资料验证问答准确性",
+        "核算单次调用成本及持续维护工作"
+      ],
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-30T03:25:41Z",
+      "upstreamCommitDate": "2026-10-30",
+      "upstreamCommit": "d8dd35f6cafa7b8ddeda92d60923087724d29d4c",
+      "licenseNote": "GPL-3.0；按实际修改和分发方式核对义务，商业版功能另查",
+      "requirements": "GPL-3.0；按实际修改和分发方式核对义务，商业版功能另查。面向国内用户经营时，还需自行核实所选平台的准入、内容权利和收款条件。",
+      "costNotes": "核算服务器、存储、模型调用、付费组件、维护与获客成本。此次只核验仓库资料，未安装或验证付费闭环。",
+      "sources": [
+        {
+          "name": "1Panel-dev/MaxKB 原始仓库",
+          "url": "https://github.com/1Panel-dev/MaxKB",
+          "note": "用途和版本信息以当前仓库为准；收入方式为本工作台的可行性建议，并非作者的收益承诺。"
+        },
+        {
+          "name": "许可证与商业使用条件",
+          "url": "https://github.com/1Panel-dev/MaxKB/blob/v2/LICENSE",
+          "note": "GPL-3.0；按实际修改和分发方式核对义务，商业版功能另查"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/1Panel-dev/MaxKB/commit/d8dd35f6cafa7b8ddeda92d60923087724d29d4c",
+          "note": "北京时间：2026-10-30。提交活跃不等于已经验证部署质量或收益。"
+        }
+      ],
+      "resourceDescription": "知识库问答与智能体平台，支持工作流和多种国内外模型接入。",
+      "documentationUrl": "https://github.com/1Panel-dev/MaxKB/blob/v2/README_CN.md",
+      "resourceKind": "repository"
+    },
+    {
+      "id": "cn-repo-langbot-app-langbot",
+      "name": "LangBot · 国内聊天平台机器人",
+      "region": "中国大陆",
+      "category": "公众号与微信开发",
+      "categoryLabel": "公众号与微信开发",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "机器人开发平台",
+      "repository": "langbot-app/LangBot",
+      "url": "https://github.com/langbot-app/LangBot",
+      "description": "聊天机器人开发平台，支持企业微信、公众号、飞书、钉钉等入口及插件扩展。",
+      "monetization": "可尝试标准插件授权或助手服务；定制实施属于主动服务收入",
+      "deliverable": "面向一个具体业务场景的助手或原创插件",
+      "maintenance": "高：平台接入、对话质量与接口兼容维护",
+      "firstSteps": [
+        "先选择一个正式支持的国内入口",
+        "用无敏感数据的测试资料验证场景",
+        "把可标准化插件与逐客定制工作分开报价"
+      ],
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-31T13:53:46Z",
+      "upstreamCommitDate": "2026-10-31",
+      "upstreamCommit": "5aa1b0f5aee3d8f78863df9918f1e863f890bb20",
+      "licenseNote": "Apache-2.0；插件、模型和接入平台条件分别核对",
+      "requirements": "Apache-2.0；插件、模型和接入平台条件分别核对。面向国内用户经营时，还需自行核实所选平台的准入、内容权利和收款条件。",
+      "costNotes": "核算服务器、存储、模型调用、付费组件、维护与获客成本。此次只核验仓库资料，未安装或验证付费闭环。",
+      "sources": [
+        {
+          "name": "langbot-app/LangBot 原始仓库",
+          "url": "https://github.com/langbot-app/LangBot",
+          "note": "用途和版本信息以当前仓库为准；收入方式为本工作台的可行性建议，并非作者的收益承诺。"
+        },
+        {
+          "name": "许可证与商业使用条件",
+          "url": "https://github.com/langbot-app/LangBot/blob/master/LICENSE",
+          "note": "Apache-2.0；插件、模型和接入平台条件分别核对"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/langbot-app/LangBot/commit/5aa1b0f5aee3d8f78863df9918f1e863f890bb20",
+          "note": "北京时间：2026-10-31。提交活跃不等于已经验证部署质量或收益。"
+        }
+      ],
+      "resourceDescription": "聊天机器人开发平台，支持企业微信、公众号、飞书、钉钉等入口及插件扩展。",
+      "documentationUrl": "https://github.com/langbot-app/LangBot/blob/master/README_CN.md",
+      "resourceKind": "repository"
+    },
+    {
+      "id": "cn-repo-jianchang512-pyvideotrans",
+      "name": "pyVideoTrans · 原创视频字幕与配音",
+      "region": "中国大陆",
+      "category": "内容制作与写作",
+      "categoryLabel": "内容制作与写作",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "内容制作工具",
+      "repository": "jianchang512/pyvideotrans",
+      "url": "https://github.com/jianchang512/pyvideotrans",
+      "description": "视频处理工具，支持语音识别、字幕翻译、配音及音视频合成。",
+      "monetization": "辅助制作并重复销售原创课程或授权内容；工具本身不自动产生收入",
+      "deliverable": "校对后的字幕、配音与原创视频成品",
+      "maintenance": "中：素材权利、人工校对和生成费用",
+      "firstSteps": [
+        "准备自己拥有权利的视频样片",
+        "选择可用的国内模型或本地处理方案",
+        "人工校对成品，再验证课程或内容需求"
+      ],
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-31T14:03:40Z",
+      "upstreamCommitDate": "2026-10-31",
+      "upstreamCommit": "c26af536bfb0bdffa7322a3a8faa51064732b1cd",
+      "licenseNote": "GPL-3.0；素材、声音与所接模型的使用条件另行核对",
+      "requirements": "GPL-3.0；素材、声音与所接模型的使用条件另行核对。面向国内用户经营时，还需自行核实所选平台的准入、内容权利和收款条件。",
+      "costNotes": "核算服务器、存储、模型调用、付费组件、维护与获客成本。此次只核验仓库资料，未安装或验证付费闭环。",
+      "sources": [
+        {
+          "name": "jianchang512/pyvideotrans 原始仓库",
+          "url": "https://github.com/jianchang512/pyvideotrans",
+          "note": "用途和版本信息以当前仓库为准；收入方式为本工作台的可行性建议，并非作者的收益承诺。"
+        },
+        {
+          "name": "许可证与商业使用条件",
+          "url": "https://github.com/jianchang512/pyvideotrans/blob/main/LICENSE",
+          "note": "GPL-3.0；素材、声音与所接模型的使用条件另行核对"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/jianchang512/pyvideotrans/commit/c26af536bfb0bdffa7322a3a8faa51064732b1cd",
+          "note": "北京时间：2026-10-31。提交活跃不等于已经验证部署质量或收益。"
+        }
+      ],
+      "resourceDescription": "视频处理工具，支持语音识别、字幕翻译、配音及音视频合成。",
+      "documentationUrl": "https://github.com/jianchang512/pyvideotrans/blob/main/docs/README_CN.md",
+      "resourceKind": "repository"
+    },
+    {
+      "id": "cn-repo-dcloudio-uni-app",
+      "name": "uni-app · 国内小程序产品开发",
+      "region": "中国大陆",
+      "category": "小程序开发",
+      "categoryLabel": "小程序开发",
+      "subcategory": "",
+      "subcategoryLabel": "",
+      "type": "开发框架",
+      "repository": "dcloudio/uni-app",
+      "url": "https://github.com/dcloudio/uni-app",
+      "description": "跨端应用开发框架，可面向微信、支付宝等小程序及应用端开发。",
+      "monetization": "可尝试付费工具或软件授权；按所选平台准入条件实施",
+      "deliverable": "面向国内用户的可用小程序或应用",
+      "maintenance": "中：开发、平台审核、持续兼容和用户支持",
+      "firstSteps": [
+        "确定一个明确且有需求的小功能",
+        "用免费原型验证用户是否持续使用",
+        "核对发布类目与付费能力再做商业版本"
+      ],
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-30T12:02:15Z",
+      "upstreamCommitDate": "2026-10-30",
+      "upstreamCommit": "150a29da2ba78f24d1c0d942c89d84fdd0f4b1fe",
+      "licenseNote": "仓库 Apache-2.0；开发工具、云服务及插件的条款另查",
+      "requirements": "仓库 Apache-2.0；开发工具、云服务及插件的条款另查。面向国内用户经营时，还需自行核实所选平台的准入、内容权利和收款条件。",
+      "costNotes": "核算服务器、存储、模型调用、付费组件、维护与获客成本。此次只核验仓库资料，未安装或验证付费闭环。",
+      "sources": [
+        {
+          "name": "dcloudio/uni-app 原始仓库",
+          "url": "https://github.com/dcloudio/uni-app",
+          "note": "用途和版本信息以当前仓库为准；收入方式为本工作台的可行性建议，并非作者的收益承诺。"
+        },
+        {
+          "name": "许可证与商业使用条件",
+          "url": "https://github.com/dcloudio/uni-app/blob/uni-app-x/LICENSE",
+          "note": "仓库 Apache-2.0；开发工具、云服务及插件的条款另查"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/dcloudio/uni-app/commit/150a29da2ba78f24d1c0d942c89d84fdd0f4b1fe",
+          "note": "北京时间：2026-10-30。提交活跃不等于已经验证部署质量或收益。"
+        }
+      ],
+      "resourceDescription": "跨端应用开发框架，可面向微信、支付宝等小程序及应用端开发。",
+      "documentationUrl": "https://github.com/dcloudio/uni-app/blob/uni-app-x/README.md",
+      "resourceKind": "repository"
+    },
+    {
+      "id": "cn-dir-doocs-md",
+      "name": "公众号 Markdown 排版工具",
+      "repository": "doocs/md",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "公众号与微信开发",
+      "categoryLabel": "公众号与微信开发",
+      "type": "开源仓库",
+      "url": "https://github.com/doocs/md",
+      "documentationUrl": "https://github.com/doocs/md/blob/main/README.md",
+      "description": "将 Markdown 内容排版为适合微信公众号的样式，支持主题及内容编辑。",
+      "resourceDescription": "将 Markdown 内容排版为适合微信公众号的样式，支持主题及内容编辑。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-30T07:54:35Z",
+      "upstreamCommitDate": "2026-10-30",
+      "upstreamCommit": "516efead5c5a8a2a49991629533b9a8877924a43",
+      "licenseNote": "WTFPL；组件、素材及第三方服务条件另查",
+      "sources": [
+        {
+          "name": "原始仓库",
+          "url": "https://github.com/doocs/md",
+          "note": "已核对仓库资料及最近提交；没有安装或进行收入测试。"
+        },
+        {
+          "name": "最近提交",
+          "url": "https://github.com/doocs/md/commit/516efead5c5a8a2a49991629533b9a8877924a43",
+          "note": "核验时的提交日期：2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "cn-dir-w7corp-easywechat",
+      "name": "EasyWeChat 微信开发工具包",
+      "repository": "w7corp/easywechat",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "公众号与微信开发",
+      "categoryLabel": "公众号与微信开发",
+      "type": "开源仓库",
+      "url": "https://github.com/w7corp/easywechat",
+      "documentationUrl": "https://github.com/w7corp/easywechat/blob/6.x/README.md",
+      "description": "PHP 微信开发工具包，可用于实现微信生态相关业务接口。",
+      "resourceDescription": "PHP 微信开发工具包，可用于实现微信生态相关业务接口。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-08-21T06:53:16Z",
+      "upstreamCommitDate": "2026-08-21",
+      "upstreamCommit": "ba8022698a613e37b10ed1e4db604c5a96af0a63",
+      "licenseNote": "MIT；组件、素材及第三方服务条件另查",
+      "sources": [
+        {
+          "name": "原始仓库",
+          "url": "https://github.com/w7corp/easywechat",
+          "note": "已核对仓库资料及最近提交；没有安装或进行收入测试。"
+        },
+        {
+          "name": "最近提交",
+          "url": "https://github.com/w7corp/easywechat/commit/ba8022698a613e37b10ed1e4db604c5a96af0a63",
+          "note": "核验时的提交日期：2026-08-21"
+        }
+      ]
+    },
+    {
+      "id": "cn-dir-binarywang-wxjava",
+      "name": "WxJava 微信开发工具包",
+      "repository": "binarywang/WxJava",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "公众号与微信开发",
+      "categoryLabel": "公众号与微信开发",
+      "type": "开源仓库",
+      "url": "https://github.com/binarywang/WxJava",
+      "documentationUrl": "https://github.com/binarywang/WxJava/blob/develop/README.md",
+      "description": "Java 微信开发工具包，覆盖公众号、小程序、企业微信等接口。",
+      "resourceDescription": "Java 微信开发工具包，覆盖公众号、小程序、企业微信等接口。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-24T09:57:16Z",
+      "upstreamCommitDate": "2026-10-24",
+      "upstreamCommit": "1b22c250810f79da2e33a51ab06d740c768ae4cf",
+      "licenseNote": "Apache-2.0；组件、素材及第三方服务条件另查",
+      "sources": [
+        {
+          "name": "原始仓库",
+          "url": "https://github.com/binarywang/WxJava",
+          "note": "已核对仓库资料及最近提交；没有安装或进行收入测试。"
+        },
+        {
+          "name": "最近提交",
+          "url": "https://github.com/binarywang/WxJava/commit/1b22c250810f79da2e33a51ab06d740c768ae4cf",
+          "note": "核验时的提交日期：2026-10-24"
+        }
+      ]
+    },
+    {
+      "id": "cn-dir-wechat-miniprogram-miniprogram-demo",
+      "name": "微信小程序官方示例",
+      "repository": "wechat-miniprogram/miniprogram-demo",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "小程序开发",
+      "categoryLabel": "小程序开发",
+      "type": "开源仓库",
+      "url": "https://github.com/wechat-miniprogram/miniprogram-demo",
+      "documentationUrl": "https://github.com/wechat-miniprogram/miniprogram-demo/blob/master/README.md",
+      "description": "微信官方的小程序组件、接口和云开发示例，适合查阅和制作功能原型。",
+      "resourceDescription": "微信官方的小程序组件、接口和云开发示例，适合查阅和制作功能原型。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-09-03T05:27:05Z",
+      "upstreamCommitDate": "2026-09-03",
+      "upstreamCommit": "0fe5c7df8e90582dd0b89e283df7fe32e04413f9",
+      "licenseNote": "MIT；组件、素材及第三方服务条件另查",
+      "sources": [
+        {
+          "name": "原始仓库",
+          "url": "https://github.com/wechat-miniprogram/miniprogram-demo",
+          "note": "已核对仓库资料及最近提交；没有安装或进行收入测试。"
+        },
+        {
+          "name": "最近提交",
+          "url": "https://github.com/wechat-miniprogram/miniprogram-demo/commit/0fe5c7df8e90582dd0b89e283df7fe32e04413f9",
+          "note": "核验时的提交日期：2026-09-03"
+        }
+      ]
+    },
+    {
+      "id": "cn-dir-wechat-miniprogram-weui-miniprogram",
+      "name": "小程序 WeUI 组件库",
+      "repository": "wechat-miniprogram/weui-miniprogram",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "小程序开发",
+      "categoryLabel": "小程序开发",
+      "type": "开源仓库",
+      "url": "https://github.com/wechat-miniprogram/weui-miniprogram",
+      "documentationUrl": "https://github.com/wechat-miniprogram/weui-miniprogram/blob/master/README.md",
+      "description": "微信小程序界面组件库，用于搭建符合微信视觉习惯的界面。",
+      "resourceDescription": "微信小程序界面组件库，用于搭建符合微信视觉习惯的界面。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-04-28T03:50:52Z",
+      "upstreamCommitDate": "2026-04-28",
+      "upstreamCommit": "5d04cad87bf9305d709aa1b623b8f34f2c659a2d",
+      "licenseNote": "MIT；组件、素材及第三方服务条件另查",
+      "sources": [
+        {
+          "name": "原始仓库",
+          "url": "https://github.com/wechat-miniprogram/weui-miniprogram",
+          "note": "已核对仓库资料及最近提交；没有安装或进行收入测试。"
+        },
+        {
+          "name": "最近提交",
+          "url": "https://github.com/wechat-miniprogram/weui-miniprogram/commit/5d04cad87bf9305d709aa1b623b8f34f2c659a2d",
+          "note": "核验时的提交日期：2026-04-28"
+        }
+      ]
+    },
+    {
+      "id": "cn-dir-tencent-tdesign-miniprogram",
+      "name": "腾讯 TDesign 小程序组件库",
+      "repository": "Tencent/tdesign-miniprogram",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "小程序开发",
+      "categoryLabel": "小程序开发",
+      "type": "开源仓库",
+      "url": "https://github.com/Tencent/tdesign-miniprogram",
+      "documentationUrl": "https://github.com/Tencent/tdesign-miniprogram/blob/develop/README.md",
+      "description": "腾讯开源的小程序界面组件库，可用于表单、列表和交互界面。",
+      "resourceDescription": "腾讯开源的小程序界面组件库，可用于表单、列表和交互界面。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-30T07:55:26Z",
+      "upstreamCommitDate": "2026-10-30",
+      "upstreamCommit": "ae3dcdadf33abfec2b7abb6ac2cfc6d82c92299c",
+      "licenseNote": "MIT；组件、素材及第三方服务条件另查",
+      "sources": [
+        {
+          "name": "原始仓库",
+          "url": "https://github.com/Tencent/tdesign-miniprogram",
+          "note": "已核对仓库资料及最近提交；没有安装或进行收入测试。"
+        },
+        {
+          "name": "最近提交",
+          "url": "https://github.com/Tencent/tdesign-miniprogram/commit/ae3dcdadf33abfec2b7abb6ac2cfc6d82c92299c",
+          "note": "核验时的提交日期：2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "cn-dir-nervjs-taro",
+      "name": "Taro 跨端开发框架",
+      "repository": "NervJS/taro",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "小程序开发",
+      "categoryLabel": "小程序开发",
+      "type": "开源仓库",
+      "url": "https://github.com/NervJS/taro",
+      "documentationUrl": "https://github.com/NervJS/taro/blob/main/README.md",
+      "description": "使用 React、Vue 等开发多端应用的框架，支持微信等小程序。",
+      "resourceDescription": "使用 React、Vue 等开发多端应用的框架，支持微信等小程序。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-30T10:51:03Z",
+      "upstreamCommitDate": "2026-10-30",
+      "upstreamCommit": "0493b5251dab0681ae7358ea43db9d7df380479f",
+      "licenseNote": "未识别到标准许可，请在原仓库核对具体许可与商用条件",
+      "sources": [
+        {
+          "name": "原始仓库",
+          "url": "https://github.com/NervJS/taro",
+          "note": "已核对仓库资料及最近提交；没有安装或进行收入测试。"
+        },
+        {
+          "name": "最近提交",
+          "url": "https://github.com/NervJS/taro/commit/0493b5251dab0681ae7358ea43db9d7df380479f",
+          "note": "核验时的提交日期：2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "cn-dir-binary-husky-gpt_academic",
+      "name": "GPT Academic 文献与写作工具",
+      "repository": "binary-husky/gpt_academic",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "内容制作与写作",
+      "categoryLabel": "内容制作与写作",
+      "type": "开源仓库",
+      "url": "https://github.com/binary-husky/gpt_academic",
+      "documentationUrl": "https://github.com/binary-husky/gpt_academic/blob/master/README.md",
+      "description": "提供文献阅读、总结、润色等交互工具，支持多种模型与插件。",
+      "resourceDescription": "提供文献阅读、总结、润色等交互工具，支持多种模型与插件。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-01-25T12:32:44Z",
+      "upstreamCommitDate": "2026-01-25",
+      "upstreamCommit": "d6bde0fa54373309bd05823a49bda8da019d2c77",
+      "licenseNote": "GPL-3.0；组件、素材及第三方服务条件另查",
+      "sources": [
+        {
+          "name": "原始仓库",
+          "url": "https://github.com/binary-husky/gpt_academic",
+          "note": "已核对仓库资料及最近提交；没有安装或进行收入测试。"
+        },
+        {
+          "name": "最近提交",
+          "url": "https://github.com/binary-husky/gpt_academic/commit/d6bde0fa54373309bd05823a49bda8da019d2c77",
+          "note": "核验时的提交日期：2026-01-25"
+        }
+      ]
+    },
+    {
+      "id": "cn-dir-datawhalechina-llm-universe",
+      "name": "大模型应用开发教程",
+      "repository": "datawhalechina/llm-universe",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "人工智能学习",
+      "categoryLabel": "人工智能学习",
+      "type": "开源仓库",
+      "url": "https://github.com/datawhalechina/llm-universe",
+      "documentationUrl": "https://github.com/datawhalechina/llm-universe/blob/main/README.md",
+      "description": "中文大模型应用开发教程，适合学习知识库和应用开发基础。",
+      "resourceDescription": "中文大模型应用开发教程，适合学习知识库和应用开发基础。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-08-27T03:08:26Z",
+      "upstreamCommitDate": "2026-08-27",
+      "upstreamCommit": "77beb748047e8a0d8ff708716606a8e0b132dc45",
+      "licenseNote": "未识别到标准许可，请在原仓库核对具体许可与商用条件",
+      "sources": [
+        {
+          "name": "原始仓库",
+          "url": "https://github.com/datawhalechina/llm-universe",
+          "note": "已核对仓库资料及最近提交；没有安装或进行收入测试。"
+        },
+        {
+          "name": "最近提交",
+          "url": "https://github.com/datawhalechina/llm-universe/commit/77beb748047e8a0d8ff708716606a8e0b132dc45",
+          "note": "核验时的提交日期：2026-08-27"
+        }
+      ]
+    },
+    {
+      "id": "cn-dir-datawhalechina-llm-cookbook",
+      "name": "大模型课程中文教程",
+      "repository": "datawhalechina/llm-cookbook",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "人工智能学习",
+      "categoryLabel": "人工智能学习",
+      "type": "开源仓库",
+      "url": "https://github.com/datawhalechina/llm-cookbook",
+      "documentationUrl": "https://github.com/datawhalechina/llm-cookbook/blob/main/README.md",
+      "description": "Datawhale 大模型入门课程资料；仓库现已迁移至 llm-cookbook。",
+      "resourceDescription": "Datawhale 大模型入门课程资料；仓库现已迁移至 llm-cookbook。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2025-06-12T14:47:44Z",
+      "upstreamCommitDate": "2025-06-12",
+      "upstreamCommit": "92440ede735a6c450228cb924a5ee488a6ae6415",
+      "licenseNote": "未识别到标准许可，请在原仓库核对具体许可与商用条件",
+      "sources": [
+        {
+          "name": "原始仓库",
+          "url": "https://github.com/datawhalechina/llm-cookbook",
+          "note": "已核对仓库资料及最近提交；没有安装或进行收入测试。"
+        },
+        {
+          "name": "最近提交",
+          "url": "https://github.com/datawhalechina/llm-cookbook/commit/92440ede735a6c450228cb924a5ee488a6ae6415",
+          "note": "核验时的提交日期：2025-06-12"
+        }
+      ]
+    },
+    {
+      "id": "cn-dir-lhrun-paint-board",
+      "name": "开源电子画板",
+      "repository": "LHRUN/paint-board",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "教育工具",
+      "categoryLabel": "教育工具",
+      "type": "开源仓库",
+      "url": "https://github.com/LHRUN/paint-board",
+      "documentationUrl": "https://github.com/LHRUN/paint-board/blob/main/README.md",
+      "description": "提供多种画笔效果的网页画板，可用于研究教学白板和绘画交互。",
+      "resourceDescription": "提供多种画笔效果的网页画板，可用于研究教学白板和绘画交互。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-23T08:33:56Z",
+      "upstreamCommitDate": "2026-10-23",
+      "upstreamCommit": "97b53345ed0234c8d34eefa51941831c65606553",
+      "licenseNote": "MIT；组件、素材及第三方服务条件另查",
+      "sources": [
+        {
+          "name": "原始仓库",
+          "url": "https://github.com/LHRUN/paint-board",
+          "note": "已核对仓库资料及最近提交；没有安装或进行收入测试。"
+        },
+        {
+          "name": "最近提交",
+          "url": "https://github.com/LHRUN/paint-board/commit/97b53345ed0234c8d34eefa51941831c65606553",
+          "note": "核验时的提交日期：2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "cn-platform-wechat-official",
+      "name": "微信公众号后台",
+      "category": "公众号与微信开发",
+      "categoryLabel": "公众号与微信开发",
+      "region": "中国大陆",
+      "resourceKind": "platform",
+      "type": "官方平台",
+      "url": "https://mp.weixin.qq.com/",
+      "documentationUrl": "https://mp.weixin.qq.com/",
+      "description": "管理公众号内容、账号与相关运营功能；流量主条件和结算以自己的后台为准。",
+      "resourceDescription": "管理公众号内容、账号与相关运营功能；流量主条件和结算以自己的后台为准。",
+      "checkedAt": "2026-10-31",
+      "licenseNote": "按官方平台服务协议、使用规则及具体业务条件使用",
+      "sources": [
+        {
+          "name": "官方入口",
+          "url": "https://mp.weixin.qq.com/",
+          "note": "官方后台，通常需要登录，未读取你的账号数据。"
+        }
+      ]
+    },
+    {
+      "id": "cn-platform-miniapp-docs",
+      "name": "微信小程序官方开发文档",
+      "category": "小程序开发",
+      "categoryLabel": "小程序开发",
+      "region": "中国大陆",
+      "resourceKind": "documentation",
+      "type": "官方文档",
+      "url": "https://developers.weixin.qq.com/miniprogram/dev/framework/",
+      "documentationUrl": "https://developers.weixin.qq.com/miniprogram/dev/framework/",
+      "description": "查阅小程序开发框架、组件和接口，具体功能及广告接入以官方文档为准。",
+      "resourceDescription": "查阅小程序开发框架、组件和接口，具体功能及广告接入以官方文档为准。",
+      "checkedAt": "2026-10-31",
+      "licenseNote": "按官方平台服务协议、使用规则及具体业务条件使用",
+      "sources": [
+        {
+          "name": "官方入口",
+          "url": "https://developers.weixin.qq.com/miniprogram/dev/framework/",
+          "note": "官方文档入口；自动读取受限时可在浏览器打开。"
+        }
+      ]
+    },
+    {
+      "id": "cn-platform-tencent-ads",
+      "name": "腾讯广告官网",
+      "category": "公众号与微信开发",
+      "categoryLabel": "公众号与微信开发",
+      "region": "中国大陆",
+      "resourceKind": "platform",
+      "type": "官方平台",
+      "url": "https://e.qq.com/",
+      "documentationUrl": "https://e.qq.com/",
+      "description": "腾讯广告官方信息入口，用于核对广告产品资料；不代表账号已取得流量主资格。",
+      "resourceDescription": "腾讯广告官方信息入口，用于核对广告产品资料；不代表账号已取得流量主资格。",
+      "checkedAt": "2026-10-31",
+      "licenseNote": "按官方平台服务协议、使用规则及具体业务条件使用",
+      "sources": [
+        {
+          "name": "官方入口",
+          "url": "https://e.qq.com/",
+          "note": "官网入口，业务资格和收益请以官方后台为准。"
+        }
+      ]
+    },
+    {
+      "id": "cn-platform-zsxq",
+      "name": "知识星球官网",
+      "category": "知识付费与社群",
+      "categoryLabel": "知识付费与社群",
+      "region": "中国大陆",
+      "resourceKind": "platform",
+      "type": "官方平台",
+      "url": "https://www.zsxq.com/",
+      "documentationUrl": "https://www.zsxq.com/",
+      "description": "知识内容与付费社群工具，提供创作者、内容沉淀及社群运营入口。",
+      "resourceDescription": "知识内容与付费社群工具，提供创作者、内容沉淀及社群运营入口。",
+      "checkedAt": "2026-10-31",
+      "licenseNote": "按官方平台服务协议、使用规则及具体业务条件使用",
+      "sources": [
+        {
+          "name": "官方入口",
+          "url": "https://www.zsxq.com/",
+          "note": "已读取官方网站介绍；未访问你的星球或账户。"
+        }
+      ]
+    },
+    {
+      "id": "cn-platform-zsxq-help",
+      "name": "知识星球官方知识库",
+      "category": "知识付费与社群",
+      "categoryLabel": "知识付费与社群",
+      "region": "中国大陆",
+      "resourceKind": "documentation",
+      "type": "官方文档",
+      "url": "https://help-docs.zsxq.com/",
+      "documentationUrl": "https://help-docs.zsxq.com/",
+      "description": "知识星球官方使用说明，包含内容组织、社群和用户常见问题。",
+      "resourceDescription": "知识星球官方使用说明，包含内容组织、社群和用户常见问题。",
+      "checkedAt": "2026-10-31",
+      "licenseNote": "按官方平台服务协议、使用规则及具体业务条件使用",
+      "sources": [
+        {
+          "name": "官方入口",
+          "url": "https://help-docs.zsxq.com/",
+          "note": "官方使用文档，不将宣传或个别案例当作收益保证。"
+        }
+      ]
+    },
+    {
+      "id": "cn-platform-deepseek",
+      "name": "DeepSeek 接口文档",
+      "category": "人工智能应用",
+      "categoryLabel": "人工智能应用",
+      "region": "中国大陆",
+      "resourceKind": "documentation",
+      "type": "官方文档",
+      "url": "https://api-docs.deepseek.com/zh-cn/",
+      "documentationUrl": "https://api-docs.deepseek.com/zh-cn/",
+      "description": "国内模型服务的官方接口说明，包含模型调用及使用方式。",
+      "resourceDescription": "国内模型服务的官方接口说明，包含模型调用及使用方式。",
+      "checkedAt": "2026-10-31",
+      "licenseNote": "按官方平台服务协议、使用规则及具体业务条件使用",
+      "sources": [
+        {
+          "name": "官方入口",
+          "url": "https://api-docs.deepseek.com/zh-cn/",
+          "note": "调用需要自己的账户和密钥；模型标识与费用按当前文档核对。"
+        }
+      ]
+    },
+    {
+      "id": "cn-platform-bailian",
+      "name": "阿里云百炼文档",
+      "category": "人工智能应用",
+      "categoryLabel": "人工智能应用",
+      "region": "中国大陆",
+      "resourceKind": "documentation",
+      "type": "官方文档",
+      "url": "https://help.aliyun.com/zh/model-studio/what-is-model-studio",
+      "documentationUrl": "https://help.aliyun.com/zh/model-studio/what-is-model-studio",
+      "description": "大模型服务与应用构建官方说明，覆盖模型调用、智能体和知识库等能力。",
+      "resourceDescription": "大模型服务与应用构建官方说明，覆盖模型调用、智能体和知识库等能力。",
+      "checkedAt": "2026-10-31",
+      "licenseNote": "按官方平台服务协议、使用规则及具体业务条件使用",
+      "sources": [
+        {
+          "name": "官方入口",
+          "url": "https://help.aliyun.com/zh/model-studio/what-is-model-studio",
+          "note": "不同地域的地址与服务条件可能不同，按自己的控制台配置。"
+        }
+      ]
+    },
+    {
+      "id": "cn-platform-yuanqi",
+      "name": "腾讯元器",
+      "category": "人工智能应用",
+      "categoryLabel": "人工智能应用",
+      "region": "中国大陆",
+      "resourceKind": "platform",
+      "type": "官方平台",
+      "url": "https://yuanqi.tencent.com/",
+      "documentationUrl": "https://yuanqi.tencent.com/",
+      "description": "腾讯智能体创建与分发平台，可用于了解公众号助手等应用场景。",
+      "resourceDescription": "腾讯智能体创建与分发平台，可用于了解公众号助手等应用场景。",
+      "checkedAt": "2026-10-31",
+      "licenseNote": "按官方平台服务协议、使用规则及具体业务条件使用",
+      "sources": [
+        {
+          "name": "官方入口",
+          "url": "https://yuanqi.tencent.com/",
+          "note": "已读取官网场景介绍，实际功能与权限按平台账号确认。"
+        }
+      ]
+    },
+    {
+      "id": "cn-platform-yuanbao",
+      "name": "腾讯元宝",
+      "category": "内容制作与写作",
+      "categoryLabel": "内容制作与写作",
+      "region": "中国大陆",
+      "resourceKind": "platform",
+      "type": "官方平台",
+      "url": "https://yuanbao.tencent.com/",
+      "documentationUrl": "https://yuanbao.tencent.com/",
+      "description": "腾讯人工智能助手，可用于选题、资料整理与副业灵感讨论。",
+      "resourceDescription": "腾讯人工智能助手，可用于选题、资料整理与副业灵感讨论。",
+      "checkedAt": "2026-10-31",
+      "licenseNote": "按官方平台服务协议、使用规则及具体业务条件使用",
+      "sources": [
+        {
+          "name": "官方入口",
+          "url": "https://yuanbao.tencent.com/",
+          "note": "当前网页要求用户扫码登录；尚未取得本次元宝搜索结果。"
+        }
+      ]
+    },
+    {
+      "id": "cn-edu-repo-pipipi-pikachu-pptist",
+      "name": "PPTist 在线幻灯片编辑器",
+      "repository": "pipipi-pikachu/PPTist",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "教育工具",
+      "categoryLabel": "教育工具",
+      "type": "开源工具",
+      "url": "https://github.com/pipipi-pikachu/PPTist",
+      "documentationUrl": "https://github.com/pipipi-pikachu/PPTist/blob/master/README_zh.md",
+      "description": "提供浏览器中的幻灯片编辑、演示及基础 AI 生成参考，需要开发者自行完成产品化。",
+      "resourceDescription": "提供浏览器中的幻灯片编辑、演示及基础 AI 生成参考，需要开发者自行完成产品化。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-31T14:02:51Z",
+      "upstreamCommitDate": "2026-10-31",
+      "upstreamCommit": "ec89d1c4d4a7743e2c8645dd935dd4aa70229a92",
+      "licenseNote": "AGPL-3.0；作者另提供独立商业授权，部署和分发前核对当前条款。",
+      "sources": [
+        {
+          "name": "pipipi-pikachu/PPTist 原始仓库",
+          "url": "https://github.com/pipipi-pikachu/PPTist",
+          "note": "核验用途、仓库状态和提交记录；没有部署或验证收益。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/pipipi-pikachu/PPTist/blob/master/LICENSE",
+          "note": "AGPL-3.0；作者另提供独立商业授权，部署和分发前核对当前条款。"
+        },
+        {
+          "name": "核验时最近提交",
+          "url": "https://github.com/pipipi-pikachu/PPTist/commit/ec89d1c4d4a7743e2c8645dd935dd4aa70229a92",
+          "note": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "cn-edu-repo-lrriver-aippt",
+      "name": "AIPPT 可编辑课件生成工作台",
+      "repository": "LRriver/AIPPT",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "教育工具",
+      "categoryLabel": "教育工具",
+      "type": "开源工具",
+      "url": "https://github.com/LRriver/AIPPT",
+      "documentationUrl": "https://github.com/LRriver/AIPPT/blob/main/README_zh.md",
+      "description": "将文档资料整理为演示文稿，支持逐页调整以及 PDF、PPTX 等导出。",
+      "resourceDescription": "将文档资料整理为演示文稿，支持逐页调整以及 PDF、PPTX 等导出。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-07-08T13:56:38Z",
+      "upstreamCommitDate": "2026-07-08",
+      "upstreamCommit": "e70fbfcde611cc619939d83a19c3226a8a674171",
+      "licenseNote": "Apache-2.0；生成所用模型、图片和素材按各自条件使用。",
+      "sources": [
+        {
+          "name": "LRriver/AIPPT 原始仓库",
+          "url": "https://github.com/LRriver/AIPPT",
+          "note": "核验用途、仓库状态和提交记录；没有部署或验证收益。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/LRriver/AIPPT/blob/main/LICENSE",
+          "note": "Apache-2.0；生成所用模型、图片和素材按各自条件使用。"
+        },
+        {
+          "name": "核验时最近提交",
+          "url": "https://github.com/LRriver/AIPPT/commit/e70fbfcde611cc619939d83a19c3226a8a674171",
+          "note": "2026-07-08"
+        }
+      ]
+    },
+    {
+      "id": "cn-edu-repo-wanglin2-mind-map",
+      "name": "思绪 Web 思维导图库",
+      "repository": "wanglin2/mind-map",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "教育工具",
+      "categoryLabel": "教育工具",
+      "type": "开源工具",
+      "url": "https://github.com/wanglin2/mind-map",
+      "documentationUrl": "https://github.com/wanglin2/mind-map/blob/main/README.md",
+      "description": "JavaScript 思维导图库及 Web 编辑器；仓库的开源 Web 部分已进入低维护状态，客户端和插件另行区分。",
+      "resourceDescription": "JavaScript 思维导图库及 Web 编辑器；仓库的开源 Web 部分已进入低维护状态，客户端和插件另行区分。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-07-07T03:09:47Z",
+      "upstreamCommitDate": "2026-07-07",
+      "upstreamCommit": "e8e5ef9c41bc13ca7b13084e078123adff002242",
+      "licenseNote": "MIT 适用于仓库开源代码；闭源客户端与插件不包含在该开源许可中。",
+      "sources": [
+        {
+          "name": "wanglin2/mind-map 原始仓库",
+          "url": "https://github.com/wanglin2/mind-map",
+          "note": "核验用途、仓库状态和提交记录；没有部署或验证收益。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/wanglin2/mind-map/blob/main/LICENSE",
+          "note": "MIT 适用于仓库开源代码；闭源客户端与插件不包含在该开源许可中。"
+        },
+        {
+          "name": "核验时最近提交",
+          "url": "https://github.com/wanglin2/mind-map/commit/e8e5ef9c41bc13ca7b13084e078123adff002242",
+          "note": "2026-07-07"
+        }
+      ]
+    },
+    {
+      "id": "cn-edu-repo-modelscope-funasr",
+      "name": "FunASR 中文语音识别工具包",
+      "repository": "modelscope/FunASR",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "内容制作与写作",
+      "categoryLabel": "内容制作与写作",
+      "type": "开源工具",
+      "url": "https://github.com/modelscope/FunASR",
+      "documentationUrl": "https://github.com/modelscope/FunASR/blob/main/README_zh.md",
+      "description": "提供语音转写、标点及相关语音处理管线，可用于授权录音的文字整理。",
+      "resourceDescription": "提供语音转写、标点及相关语音处理管线，可用于授权录音的文字整理。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-31T14:23:51Z",
+      "upstreamCommitDate": "2026-10-31",
+      "upstreamCommit": "e49cdd9f6651185286fbedd2aba14b04cfb3bf92",
+      "licenseNote": "代码 MIT；预训练模型单独授权，按实际选用模型卡核对。",
+      "sources": [
+        {
+          "name": "modelscope/FunASR 原始仓库",
+          "url": "https://github.com/modelscope/FunASR",
+          "note": "核验用途、仓库状态和提交记录；没有部署或验证收益。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/modelscope/FunASR/blob/main/LICENSE",
+          "note": "代码 MIT；预训练模型单独授权，按实际选用模型卡核对。"
+        },
+        {
+          "name": "核验时最近提交",
+          "url": "https://github.com/modelscope/FunASR/commit/e49cdd9f6651185286fbedd2aba14b04cfb3bf92",
+          "note": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "cn-edu-repo-paddlepaddle-paddleocr",
+      "name": "PaddleOCR 图片与文档识别工具",
+      "repository": "PaddlePaddle/PaddleOCR",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "人工智能应用",
+      "categoryLabel": "人工智能应用",
+      "type": "开源工具",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "documentationUrl": "https://github.com/PaddlePaddle/PaddleOCR/blob/main/README.md",
+      "description": "将图片、扫描文档中的文字及版面信息整理为可处理的数据。",
+      "resourceDescription": "将图片、扫描文档中的文字及版面信息整理为可处理的数据。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-09-16T03:30:53Z",
+      "upstreamCommitDate": "2026-09-16",
+      "upstreamCommit": "dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf",
+      "licenseNote": "Apache-2.0；具体模型、组件及输入资料的条件分别核对。",
+      "sources": [
+        {
+          "name": "PaddlePaddle/PaddleOCR 原始仓库",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR",
+          "note": "核验用途、仓库状态和提交记录；没有部署或验证收益。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR/blob/main/LICENSE",
+          "note": "Apache-2.0；具体模型、组件及输入资料的条件分别核对。"
+        },
+        {
+          "name": "核验时最近提交",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR/commit/dab3fe35379033fdcb2d0e9572fac0b36c9a9ebf",
+          "note": "2026-09-16"
+        }
+      ]
+    },
+    {
+      "id": "cn-edu-repo-opendatalab-mineru",
+      "name": "MinerU 文档解析工具",
+      "repository": "opendatalab/MinerU",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "人工智能应用",
+      "categoryLabel": "人工智能应用",
+      "type": "开源工具",
+      "url": "https://github.com/opendatalab/MinerU",
+      "documentationUrl": "https://github.com/opendatalab/MinerU/blob/master/README_zh-CN.md",
+      "description": "将 PDF、Office 等文档转换为 Markdown、JSON 等结构化资料，供资料整理或知识库处理。",
+      "resourceDescription": "将 PDF、Office 等文档转换为 Markdown、JSON 等结构化资料，供资料整理或知识库处理。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-30T10:44:06Z",
+      "upstreamCommitDate": "2026-10-30",
+      "upstreamCommit": "0ef2c20c4a56e68f81a66647f819d924ef2d89ce",
+      "licenseNote": "基于 Apache-2.0 的附加许可：对外在线服务须显著标明使用 MinerU；达到协议规定规模须另获商业许可。",
+      "sources": [
+        {
+          "name": "opendatalab/MinerU 原始仓库",
+          "url": "https://github.com/opendatalab/MinerU",
+          "note": "核验用途、仓库状态和提交记录；没有部署或验证收益。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/opendatalab/MinerU/blob/master/LICENSE.md",
+          "note": "基于 Apache-2.0 的附加许可：对外在线服务须显著标明使用 MinerU；达到协议规定规模须另获商业许可。"
+        },
+        {
+          "name": "核验时最近提交",
+          "url": "https://github.com/opendatalab/MinerU/commit/0ef2c20c4a56e68f81a66647f819d924ef2d89ce",
+          "note": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "cn-edu-repo-diygod-rsshub",
+      "name": "RSSHub 订阅源聚合工具",
+      "repository": "DIYgod/RSSHub",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "category": "内容制作与写作",
+      "categoryLabel": "内容制作与写作",
+      "type": "开源工具",
+      "url": "https://github.com/DIYgod/RSSHub",
+      "documentationUrl": "https://github.com/DIYgod/RSSHub/blob/master/README.md",
+      "description": "将支持的信息源整理为 RSS 订阅，供更新追踪和人工选题使用。",
+      "resourceDescription": "将支持的信息源整理为 RSS 订阅，供更新追踪和人工选题使用。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-31T15:04:41Z",
+      "upstreamCommitDate": "2026-10-31",
+      "upstreamCommit": "21601e45ee22de8cd1bf353aba00968da91975ee",
+      "licenseNote": "AGPL-3.0；信息源内容与访问条件另行核对，订阅能力不等于转载授权。",
+      "sources": [
+        {
+          "name": "DIYgod/RSSHub 原始仓库",
+          "url": "https://github.com/DIYgod/RSSHub",
+          "note": "核验用途、仓库状态和提交记录；没有部署或验证收益。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/DIYgod/RSSHub/blob/master/LICENSE",
+          "note": "AGPL-3.0；信息源内容与访问条件另行核对，订阅能力不等于转载授权。"
+        },
+        {
+          "name": "核验时最近提交",
+          "url": "https://github.com/DIYgod/RSSHub/commit/21601e45ee22de8cd1bf353aba00968da91975ee",
+          "note": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "cn-workflow-repo-javahuang-surveyking",
+      "repository": "javahuang/SurveyKing",
+      "name": "SurveyKing 问卷与练习系统",
+      "category": "问卷与运营工具",
+      "categoryLabel": "问卷与运营工具",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "开源或源码可用工具",
+      "url": "https://github.com/javahuang/SurveyKing",
+      "documentationUrl": "https://github.com/javahuang/SurveyKing/blob/main/README.zh-CN.md",
+      "description": "提供问卷、题库练习和考试等功能，可用于自主报名反馈与原创练习场景。",
+      "resourceDescription": "提供问卷、题库练习和考试等功能，可用于自主报名反馈与原创练习场景。",
+      "licenseNote": "MIT；社区版与商业版本的功能、部署条件分别核对。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-08-25T23:59:07Z",
+      "upstreamCommitDate": "2026-08-26",
+      "upstreamCommit": "5de0d05b682ee34244c0b6c07be24eb6358cd8a5",
+      "sources": [
+        {
+          "name": "javahuang/SurveyKing 原始仓库",
+          "url": "https://github.com/javahuang/SurveyKing",
+          "note": "已核对用途、仓库状态和最近提交；未部署或验证收入。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/javahuang/SurveyKing/blob/main/LICENSE",
+          "note": "MIT；社区版与商业版本的功能、部署条件分别核对。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/javahuang/SurveyKing/commit/5de0d05b682ee34244c0b6c07be24eb6358cd8a5",
+          "note": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "id": "cn-workflow-repo-realkai42-qwerty-learner",
+      "repository": "RealKai42/qwerty-learner",
+      "name": "Qwerty Learner 单词打字练习",
+      "category": "教育工具",
+      "categoryLabel": "教育工具",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "开源或源码可用工具",
+      "url": "https://github.com/RealKai42/qwerty-learner",
+      "documentationUrl": "https://github.com/RealKai42/qwerty-learner/blob/master/README.md",
+      "description": "通过键盘输入开展单词记忆与英语拼写练习，可参考其词库和交互结构。",
+      "resourceDescription": "通过键盘输入开展单词记忆与英语拼写练习，可参考其词库和交互结构。",
+      "licenseNote": "GPL-3.0；分发衍生软件及使用词库、发音资料时分别核对许可。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-09-08T06:39:56Z",
+      "upstreamCommitDate": "2026-09-08",
+      "upstreamCommit": "1182426f2bd0a28c95302c33f9e19136b1262a70",
+      "sources": [
+        {
+          "name": "RealKai42/qwerty-learner 原始仓库",
+          "url": "https://github.com/RealKai42/qwerty-learner",
+          "note": "已核对用途、仓库状态和最近提交；未部署或验证收入。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/RealKai42/qwerty-learner/blob/master/LICENSE",
+          "note": "GPL-3.0；分发衍生软件及使用词库、发音资料时分别核对许可。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/RealKai42/qwerty-learner/commit/1182426f2bd0a28c95302c33f9e19136b1262a70",
+          "note": "2026-09-08"
+        }
+      ]
+    },
+    {
+      "id": "cn-workflow-repo-kanaries-graphic-walker",
+      "repository": "Kanaries/graphic-walker",
+      "name": "Graphic Walker 可视化分析组件",
+      "category": "办公与数据工具",
+      "categoryLabel": "办公与数据工具",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "开源或源码可用工具",
+      "url": "https://github.com/Kanaries/graphic-walker",
+      "documentationUrl": "https://github.com/Kanaries/graphic-walker/blob/main/README.md",
+      "description": "支持 CSV、JSON 数据的可视化探索及嵌入式图表分析，可作为业务看板原型基础。",
+      "resourceDescription": "支持 CSV、JSON 数据的可视化探索及嵌入式图表分析，可作为业务看板原型基础。",
+      "licenseNote": "Apache-2.0；自有数据接口、部署和外部服务另行配置。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-13T16:15:22Z",
+      "upstreamCommitDate": "2026-10-14",
+      "upstreamCommit": "87e8e51d2d8e2e32d6c763d32a3357fe29f379a0",
+      "sources": [
+        {
+          "name": "Kanaries/graphic-walker 原始仓库",
+          "url": "https://github.com/Kanaries/graphic-walker",
+          "note": "已核对用途、仓库状态和最近提交；未部署或验证收入。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/Kanaries/graphic-walker/blob/main/LICENSE",
+          "note": "Apache-2.0；自有数据接口、部署和外部服务另行配置。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/Kanaries/graphic-walker/commit/87e8e51d2d8e2e32d6c763d32a3357fe29f379a0",
+          "note": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "cn-workflow-repo-dream-num-univer",
+      "repository": "dream-num/univer",
+      "name": "Univer 在线表格开发框架",
+      "category": "办公与数据工具",
+      "categoryLabel": "办公与数据工具",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "开源或源码可用工具",
+      "url": "https://github.com/dream-num/univer",
+      "documentationUrl": "https://github.com/dream-num/univer/blob/dev/README.md",
+      "description": "提供可嵌入的表格编辑、公式和插件能力，适合开发固定场景的业务表格工具。",
+      "resourceDescription": "提供可嵌入的表格编辑、公式和插件能力，适合开发固定场景的业务表格工具。",
+      "licenseNote": "开源核心 Apache-2.0；协作、导入导出、打印等 Pro 功能单独授权，不作为免费核心能力承诺。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-30T12:03:46Z",
+      "upstreamCommitDate": "2026-10-30",
+      "upstreamCommit": "4e6a56e45c8647d9741139af7ebf2f725945d7f3",
+      "sources": [
+        {
+          "name": "dream-num/univer 原始仓库",
+          "url": "https://github.com/dream-num/univer",
+          "note": "已核对用途、仓库状态和最近提交；未部署或验证收入。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/dream-num/univer/blob/dev/LICENSE",
+          "note": "开源核心 Apache-2.0；协作、导入导出、打印等 Pro 功能单独授权，不作为免费核心能力承诺。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/dream-num/univer/commit/4e6a56e45c8647d9741139af7ebf2f725945d7f3",
+          "note": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "cn-workflow-repo-mrxujiang-h5-dooring",
+      "repository": "MrXujiang/h5-Dooring",
+      "name": "H5-Dooring 可视化页面编辑器",
+      "category": "内容建站与交付",
+      "categoryLabel": "内容建站与交付",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "开源或源码可用工具",
+      "url": "https://github.com/MrXujiang/h5-Dooring",
+      "documentationUrl": "https://github.com/MrXujiang/h5-Dooring/blob/master/zh.md",
+      "description": "提供 H5 页面的可视化配置与编辑方案，适合研究活动页和产品展示页模板。",
+      "resourceDescription": "提供 H5 页面的可视化配置与编辑方案，适合研究活动页和产品展示页模板。",
+      "licenseNote": "GPL-3.0；二次分发及商用版本、组件和素材条件分别核对。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-07-20T15:40:48Z",
+      "upstreamCommitDate": "2026-07-20",
+      "upstreamCommit": "4fa558402807af1dce18bd5235446d3c477884d6",
+      "sources": [
+        {
+          "name": "MrXujiang/h5-Dooring 原始仓库",
+          "url": "https://github.com/MrXujiang/h5-Dooring",
+          "note": "已核对用途、仓库状态和最近提交；未部署或验证收入。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/MrXujiang/h5-Dooring/blob/master/LICENSE",
+          "note": "GPL-3.0；二次分发及商用版本、组件和素材条件分别核对。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/MrXujiang/h5-Dooring/commit/4fa558402807af1dce18bd5235446d3c477884d6",
+          "note": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "id": "cn-workflow-repo-nocobase-nocobase",
+      "repository": "nocobase/nocobase",
+      "name": "NocoBase 业务流程搭建平台",
+      "category": "问卷与运营工具",
+      "categoryLabel": "问卷与运营工具",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "开源或源码可用工具",
+      "url": "https://github.com/nocobase/nocobase",
+      "documentationUrl": "https://github.com/nocobase/nocobase/blob/main/README.zh-CN.md",
+      "description": "通过数据模型、页面和工作流搭建业务系统；具体预约和订单场景需自行设计验证。",
+      "resourceDescription": "通过数据模型、页面和工作流搭建业务系统；具体预约和订单场景需自行设计验证。",
+      "licenseNote": "自定义协议引用 Apache-2.0 并附条件：保留规定品牌信息，不得公开提供基于它的低代码/AI 平台 SaaS；对外销售上层应用须核对商业版本权限。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-31T03:53:26Z",
+      "upstreamCommitDate": "2026-10-31",
+      "upstreamCommit": "af4889f67b619d0dd1a039e45bbc5dd871d225f8",
+      "sources": [
+        {
+          "name": "nocobase/nocobase 原始仓库",
+          "url": "https://github.com/nocobase/nocobase",
+          "note": "已核对用途、仓库状态和最近提交；未部署或验证收入。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/nocobase/nocobase/blob/main/LICENSE.txt",
+          "note": "自定义协议引用 Apache-2.0 并附条件：保留规定品牌信息，不得公开提供基于它的低代码/AI 平台 SaaS；对外销售上层应用须核对商业版本权限。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/nocobase/nocobase/commit/af4889f67b619d0dd1a039e45bbc5dd871d225f8",
+          "note": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "cn-workflow-repo-mengxi-ream-read-frog",
+      "repository": "mengxi-ream/read-frog",
+      "name": "陪读蛙 AI 双语阅读与闪卡",
+      "category": "教育工具",
+      "categoryLabel": "教育工具",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "开源或源码可用工具",
+      "url": "https://github.com/mengxi-ream/read-frog",
+      "documentationUrl": "https://github.com/mengxi-ream/read-frog/blob/main/README.md",
+      "description": "提供网页双语阅读、划词解释和闪卡复习等功能，支持多种模型服务。",
+      "resourceDescription": "提供网页双语阅读、划词解释和闪卡复习等功能，支持多种模型服务。",
+      "licenseNote": "GPLv3 与商业许可双授权；第三方特定商业授权不适用于你，模型调用与阅读素材另查条件。",
+      "checkedAt": "2026-10-31",
+      "upstreamCommitAt": "2026-10-31T08:58:48Z",
+      "upstreamCommitDate": "2026-10-31",
+      "upstreamCommit": "ab15beef7fc6b57498b3047c6a4d394ddd2743eb",
+      "sources": [
+        {
+          "name": "mengxi-ream/read-frog 原始仓库",
+          "url": "https://github.com/mengxi-ream/read-frog",
+          "note": "已核对用途、仓库状态和最近提交；未部署或验证收入。"
+        },
+        {
+          "name": "许可与使用条件",
+          "url": "https://github.com/mengxi-ream/read-frog/blob/main/LICENSE",
+          "note": "GPLv3 与商业许可双授权；第三方特定商业授权不适用于你，模型调用与阅读素材另查条件。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/mengxi-ream/read-frog/commit/ab15beef7fc6b57498b3047c6a4d394ddd2743eb",
+          "note": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-astrbotdevs-astrbot",
+      "name": "AstrBot 多平台 AI 社群助手",
+      "repository": "AstrBotDevs/AstrBot",
+      "category": "知识付费与社群",
+      "categoryLabel": "知识付费与社群",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "documentationUrl": "https://github.com/AstrBotDevs/AstrBot/blob/master/README.md",
+      "description": "支持企业微信、公众号等平台的 AI 对话与插件扩展，可用于教师社群的资料答疑。",
+      "resourceDescription": "支持企业微信、公众号等平台的 AI 对话与插件扩展，可用于教师社群的资料答疑。",
+      "licenseNote": "AGPL-3.0；另有 EULA 使用条件，商用部署与修改分发须一并核对；插件、模型和平台权限另查。",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "upstreamCommit": "831abae85da8b6e58dc44d4544d163f8f9459ba1",
+      "upstreamCommitAt": "2026-10-31T16:02:46Z",
+      "upstreamCommitDate": "2026-11-01",
+      "stars": 45332,
+      "starsObservedAt": "2026-11-01T01:02:19.085Z",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "公众号流量主"
+      ],
+      "existingBusinessFit": "先服务现有星球的课程与资料答疑，通过获授权的公众号或企业微信入口使用。",
+      "growthNote": "北京时间 2026-11-01 09:02 的 GitHub 周榜显示本周新增 2137 星；本地从 2026/11/1 00:22:16 至 2026/11/1 09:02:19 的 8.67 小时快照净增 62 星，不能当作完整一天的增量。",
+      "starGrowth": {
+        "count": 2137,
+        "period": "weekly",
+        "observedAt": "2026-11-01T01:02:19.085Z",
+        "sourceUrl": "https://github.com/trending?since=weekly",
+        "basis": "GitHub Trending 页面快照"
+      },
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/README.md",
+          "note": "支持企业微信、公众号等平台的 AI 对话与插件扩展，可用于教师社群的资料答疑。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/LICENSE",
+          "note": "AGPL-3.0；另有 EULA 使用条件，商用部署与修改分发须一并核对；插件、模型和平台权限另查。"
+        },
+        {
+          "name": "EULA 使用条件",
+          "url": "https://github.com/AstrBotDevs/AstrBot/blob/master/EULA.md",
+          "note": "与源码 LICENSE 一并核对。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/AstrBotDevs/AstrBot/commit/831abae85da8b6e58dc44d4544d163f8f9459ba1",
+          "note": "2026-10-31T16:02:46Z"
+        },
+        {
+          "name": "GitHub 趋势榜快照",
+          "url": "https://github.com/trending?since=weekly",
+          "note": "北京时间 2026-11-01 09:02 的 GitHub 周榜显示本周新增 2137 星；本地从 2026/11/1 00:22:16 至 2026/11/1 09:02:19 的 8.67 小时快照净增 62 星，不能当作完整一天的增量。"
+        }
+      ],
+      "starDeltaObservation": {
+        "repository": "AstrBotDevs/AstrBot",
+        "from": "2026-10-31T16:22:16.750Z",
+        "to": "2026-11-01T01:02:19.085Z",
+        "previousStars": 45270,
+        "currentStars": 45332,
+        "netChange": 62,
+        "elapsedHours": 8.67
+      }
+    },
+    {
+      "id": "cn-daily-hkuds-deeptutor",
+      "name": "DeepTutor AI 学习与资料辅导",
+      "repository": "HKUDS/DeepTutor",
+      "category": "教育工具",
+      "categoryLabel": "教育工具",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "documentationUrl": "https://github.com/HKUDS/DeepTutor/blob/main/README.md",
+      "description": "基于学习资料提供引导式学习、练习与问答，带中文资料和可配置模型服务。",
+      "resourceDescription": "基于学习资料提供引导式学习、练习与问答，带中文资料和可配置模型服务。",
+      "licenseNote": "Apache-2.0；教材、模型、解析服务及生成内容分别核对使用条件。",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "upstreamCommit": "f7aed0744c36c5afef16a4261c31ebee1208cac2",
+      "upstreamCommitAt": "2026-10-31T16:50:27Z",
+      "upstreamCommitDate": "2026-11-01",
+      "stars": 52820,
+      "starsObservedAt": "2026-11-01T01:02:19.085Z",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "AI 写作辅助"
+      ],
+      "existingBusinessFit": "用于星球教师实操课程与文献阅读辅导，先核查输出引用与答案。",
+      "growthNote": "北京时间 2026-11-01 09:02 的 GitHub 日榜显示今日新增 1034 星；本地从 2026/11/1 00:20:58 至 2026/11/1 09:02:19 的 8.69 小时快照净增 323 星，不能当作完整一天的增量。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/HKUDS/DeepTutor/blob/main/README.md",
+          "note": "基于学习资料提供引导式学习、练习与问答，带中文资料和可配置模型服务。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/HKUDS/DeepTutor/blob/main/LICENSE",
+          "note": "Apache-2.0；教材、模型、解析服务及生成内容分别核对使用条件。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/HKUDS/DeepTutor/commit/f7aed0744c36c5afef16a4261c31ebee1208cac2",
+          "note": "2026-10-31T16:50:27Z"
+        },
+        {
+          "name": "GitHub 趋势榜快照",
+          "url": "https://github.com/trending?since=daily",
+          "note": "北京时间 2026-11-01 09:02 的 GitHub 日榜显示今日新增 1034 星；本地从 2026/11/1 00:20:58 至 2026/11/1 09:02:19 的 8.69 小时快照净增 323 星，不能当作完整一天的增量。"
+        }
+      ],
+      "starDeltaObservation": {
+        "repository": "HKUDS/DeepTutor",
+        "from": "2026-10-31T16:20:58.849Z",
+        "to": "2026-11-01T01:02:19.085Z",
+        "previousStars": 52497,
+        "currentStars": 52820,
+        "netChange": 323,
+        "elapsedHours": 8.69
+      },
+      "starGrowth": {
+        "count": 1034,
+        "period": "daily",
+        "observedAt": "2026-11-01T01:02:19.085Z",
+        "sourceUrl": "https://github.com/trending?since=daily",
+        "basis": "GitHub Trending 页面快照"
+      }
+    },
+    {
+      "id": "cn-daily-aiworkskills-wechat-article-skills",
+      "name": "微信公众号 AI 内容工作流",
+      "repository": "aiworkskills/wechat-article-skills",
+      "category": "公众号与微信开发",
+      "categoryLabel": "公众号与微信开发",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/aiworkskills/wechat-article-skills",
+      "documentationUrl": "https://github.com/aiworkskills/wechat-article-skills/blob/main/README.md",
+      "description": "把选题、写作、审稿、排版、配图和草稿箱交付组织成可分步确认的技能流程。",
+      "resourceDescription": "把选题、写作、审稿、排版、配图和草稿箱交付组织成可分步确认的技能流程。",
+      "licenseNote": "Apache-2.0；图片、模型和微信接口另需授权或账号权限。",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "upstreamCommit": "ca036f75f4bac4fcefe6eaedd8d22d97bf8c92ca",
+      "upstreamCommitAt": "2026-09-23T01:36:05Z",
+      "upstreamCommitDate": "2026-09-23",
+      "stars": 719,
+      "starsObservedAt": "2026-10-31T16:20:58.849Z",
+      "relatedBusinesses": [
+        "公众号流量主",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "将教育公众号的原创内容沉淀成星球练习与专题资料，减少重复排版整理。",
+      "growthNote": "首次保存星数快照，尚无本地跨日增量，未标为近期快速涨星。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/aiworkskills/wechat-article-skills/blob/main/README.md",
+          "note": "把选题、写作、审稿、排版、配图和草稿箱交付组织成可分步确认的技能流程。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/aiworkskills/wechat-article-skills/blob/main/LICENSE",
+          "note": "Apache-2.0；图片、模型和微信接口另需授权或账号权限。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/aiworkskills/wechat-article-skills/commit/ca036f75f4bac4fcefe6eaedd8d22d97bf8c92ca",
+          "note": "2026-09-23T01:36:05Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-cherryhq-cherry-studio",
+      "name": "Cherry Studio 多模型工作台",
+      "repository": "CherryHQ/cherry-studio",
+      "category": "人工智能应用",
+      "categoryLabel": "人工智能应用",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "documentationUrl": "https://github.com/CherryHQ/cherry-studio/blob/main/README.md",
+      "description": "统一配置模型、助手和资料工作流，可连接自定义兼容接口，适合对比教师常用 AI 任务。",
+      "resourceDescription": "统一配置模型、助手和资料工作流，可连接自定义兼容接口，适合对比教师常用 AI 任务。",
+      "licenseNote": "社区版 AGPL-3.0；豁免 AGPL 的商业许可需单独取得，模型服务计费另算。",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "upstreamCommit": "5cfdf14170ee802d3a7cdf82e23a0a15dc55e9b8",
+      "upstreamCommitAt": "2026-10-31T12:16:56Z",
+      "upstreamCommitDate": "2026-10-31",
+      "stars": 53128,
+      "starsObservedAt": "2026-10-31T16:20:58.849Z",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "AI 写作辅助"
+      ],
+      "existingBusinessFit": "复用现有第三方 OpenAI 兼容接口的经验，制作可复测的教学与写作任务对比。",
+      "growthNote": "首次保存星数快照，尚无本地跨日增量，未标为近期快速涨星。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/CherryHQ/cherry-studio/blob/main/README.md",
+          "note": "统一配置模型、助手和资料工作流，可连接自定义兼容接口，适合对比教师常用 AI 任务。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/CherryHQ/cherry-studio/blob/main/LICENSE",
+          "note": "社区版 AGPL-3.0；豁免 AGPL 的商业许可需单独取得，模型服务计费另算。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/CherryHQ/cherry-studio/commit/5cfdf14170ee802d3a7cdf82e23a0a15dc55e9b8",
+          "note": "2026-10-31T12:16:56Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-bytedance-deer-flow",
+      "name": "DeerFlow 资料调研与创作工作流",
+      "repository": "bytedance/deer-flow",
+      "category": "内容制作与写作",
+      "categoryLabel": "内容制作与写作",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/bytedance/deer-flow",
+      "documentationUrl": "https://github.com/bytedance/deer-flow/blob/main/README.md",
+      "description": "通过搜索、工具和多步骤任务组织调研与创作流程，可配置国内模型及搜索服务。",
+      "resourceDescription": "通过搜索、工具和多步骤任务组织调研与创作流程，可配置国内模型及搜索服务。",
+      "licenseNote": "MIT；模型、搜索、沙箱与资料来源的使用条件分别核对。",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "upstreamCommit": "a9bd03ef572a4898ea1ba977e906408dc2f28d7d",
+      "upstreamCommitAt": "2026-10-31T15:00:39Z",
+      "upstreamCommitDate": "2026-10-31",
+      "stars": 84762,
+      "starsObservedAt": "2026-10-31T16:20:58.849Z",
+      "relatedBusinesses": [
+        "AI 写作辅助",
+        "公众号流量主",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "用于教育专题资料搜集、来源核查和证据整理，交付前保留人工复核。",
+      "growthNote": "首次保存星数快照，尚无本地跨日增量，未标为近期快速涨星。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/bytedance/deer-flow/blob/main/README.md",
+          "note": "通过搜索、工具和多步骤任务组织调研与创作流程，可配置国内模型及搜索服务。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/bytedance/deer-flow/blob/main/LICENSE",
+          "note": "MIT；模型、搜索、沙箱与资料来源的使用条件分别核对。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/bytedance/deer-flow/commit/a9bd03ef572a4898ea1ba977e906408dc2f28d7d",
+          "note": "2026-10-31T15:00:39Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-feige996-unibest",
+      "name": "unibest 小程序启动模板",
+      "repository": "feige996/unibest",
+      "category": "小程序开发",
+      "categoryLabel": "小程序开发",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/feige996/unibest",
+      "documentationUrl": "https://github.com/feige996/unibest/blob/base/README.md",
+      "description": "基于 uni-app、Vue 3 和 TypeScript 的跨端启动模板，包含常用界面与开发配置。",
+      "resourceDescription": "基于 uni-app、Vue 3 和 TypeScript 的跨端启动模板，包含常用界面与开发配置。",
+      "licenseNote": "MIT；第三方组件、微信广告接入和内容素材条件另查。",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T00:20:58+08:00",
+      "upstreamCommit": "dc3af8ddb99b78fa806078c80434b664a4b1ce93",
+      "upstreamCommitAt": "2026-09-15T02:44:22Z",
+      "upstreamCommitDate": "2026-09-15",
+      "stars": 2317,
+      "starsObservedAt": "2026-10-31T16:22:16.750Z",
+      "relatedBusinesses": [
+        "微信小程序流量主"
+      ],
+      "existingBusinessFit": "为现有小程序业务制作低模型成本的教师计算与课堂工具原型。",
+      "growthNote": "首次保存星数快照，尚无本地跨日增量，未标为近期快速涨星。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/feige996/unibest/blob/base/README.md",
+          "note": "基于 uni-app、Vue 3 和 TypeScript 的跨端启动模板，包含常用界面与开发配置。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/feige996/unibest/blob/base/LICENSE",
+          "note": "MIT；第三方组件、微信广告接入和内容素材条件另查。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/feige996/unibest/commit/dc3af8ddb99b78fa806078c80434b664a4b1ce93",
+          "note": "2026-09-15T02:44:22Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-thu-maic-openmaic",
+      "repository": "THU-MAIC/OpenMAIC",
+      "name": "OpenMAIC 多智能体互动课堂",
+      "category": "教育工具",
+      "categoryLabel": "教育工具",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "documentationUrl": "https://github.com/THU-MAIC/OpenMAIC/blob/main/README.md",
+      "description": "将主题或授权文档组织为课件、测验和互动课堂，支持 AI 教师、同伴讨论及白板；可配置 DeepSeek、通义千问等国内模型或兼容接口。",
+      "resourceDescription": "将主题或授权文档组织为课件、测验和互动课堂，支持 AI 教师、同伴讨论及白板；可配置 DeepSeek、通义千问等国内模型或兼容接口。",
+      "licenseNote": "MIT；模型、语音、图像及素材服务的费用和授权单独核对。",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T01:02:44.945Z",
+      "upstreamCommit": "fe2cf7dade345f4eaaf9afb1771e6734e17edaab",
+      "upstreamCommitAt": "2026-10-30T09:30:33Z",
+      "upstreamCommitDate": "2026-10-30",
+      "stars": 42189,
+      "starsObservedAt": "2026-11-01T01:02:44.945Z",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "公众号流量主"
+      ],
+      "existingBusinessFit": "可为星球教师制作课堂提问与追问演练案例，并将经过人工复核的使用体验整理成公众号原创内容。",
+      "growthNote": "GitHub 日榜于北京时间 2026-11-01 09:02 显示今日新增 116 星；这是榜单快照，并非本地连续 24 小时测量。",
+      "starGrowth": {
+        "count": 116,
+        "period": "daily",
+        "observedAt": "2026-11-01T01:02:44.945Z",
+        "sourceUrl": "https://github.com/trending?since=daily",
+        "basis": "GitHub Trending 页面快照"
+      },
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/THU-MAIC/OpenMAIC/blob/main/README.md",
+          "note": "将主题或授权文档组织为课件、测验和互动课堂，支持 AI 教师、同伴讨论及白板；可配置 DeepSeek、通义千问等国内模型或兼容接口。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/THU-MAIC/OpenMAIC/blob/main/LICENSE",
+          "note": "MIT；模型、语音、图像及素材服务的费用和授权单独核对。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/THU-MAIC/OpenMAIC/commit/fe2cf7dade345f4eaaf9afb1771e6734e17edaab",
+          "note": "2026-10-30T09:30:33Z"
+        },
+        {
+          "name": "GitHub 当日趋势榜",
+          "url": "https://github.com/trending?since=daily",
+          "note": "GitHub 日榜于北京时间 2026-11-01 09:02 显示今日新增 116 星；这是榜单快照，并非本地连续 24 小时测量。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-tencentcloudbase-awesome-miniprogram-skills",
+      "repository": "TencentCloudBase/awesome-miniprogram-skills",
+      "name": "腾讯云开发小程序 AI 能力示例集",
+      "category": "小程序开发",
+      "categoryLabel": "小程序开发",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/TencentCloudBase/awesome-miniprogram-skills",
+      "documentationUrl": "https://github.com/TencentCloudBase/awesome-miniprogram-skills/blob/main/README.md",
+      "description": "提供待办、活动安排、文本生成等小程序能力示例，区分本地模拟预览与云函数正式运行，可参考接口和组件的组织方式。",
+      "resourceDescription": "提供待办、活动安排、文本生成等小程序能力示例，区分本地模拟预览与云函数正式运行，可参考接口和组件的组织方式。",
+      "licenseNote": "MIT；正式云资源、模型调用和微信接口权限需自行配置；示例不表示已通过审核或具备流量主资格。",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T01:02:44.945Z",
+      "upstreamCommit": "72523cad942a7d80de53646c3f1b7c367f0bc80b",
+      "upstreamCommitAt": "2026-06-18T14:58:26Z",
+      "upstreamCommitDate": "2026-06-18",
+      "stars": 48,
+      "starsObservedAt": "2026-11-01T01:02:19.085Z",
+      "relatedBusinesses": [
+        "微信小程序流量主",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "用于研究现有小程序的 AI 能力接入与确认流程，先用模拟模式验证交互，再核算云服务成本。",
+      "growthNote": "本次首次保存星数快照，没有可比跨日记录；未标为近期快速涨星。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/TencentCloudBase/awesome-miniprogram-skills/blob/main/README.md",
+          "note": "提供待办、活动安排、文本生成等小程序能力示例，区分本地模拟预览与云函数正式运行，可参考接口和组件的组织方式。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/TencentCloudBase/awesome-miniprogram-skills/blob/main/LICENSE",
+          "note": "MIT；正式云资源、模型调用和微信接口权限需自行配置；示例不表示已通过审核或具备流量主资格。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/TencentCloudBase/awesome-miniprogram-skills/commit/72523cad942a7d80de53646c3f1b7c367f0bc80b",
+          "note": "2026-06-18T14:58:26Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-modelscope-awesome-vibe-research",
+      "repository": "modelscope/Awesome-Vibe-Research",
+      "name": "魔搭 AI 辅助科研资源目录",
+      "category": "人工智能学习",
+      "categoryLabel": "人工智能学习",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "开源资源目录",
+      "url": "https://github.com/modelscope/Awesome-Vibe-Research",
+      "documentationUrl": "https://github.com/modelscope/Awesome-Vibe-Research/blob/main/README.md",
+      "description": "中文分类目录，按文献检索、数据整理、科学绘图、写作和复现等阶段链接工具与实践，适合查找后再逐项核验。",
+      "resourceDescription": "中文分类目录，按文献检索、数据整理、科学绘图、写作和复现等阶段链接工具与实践，适合查找后再逐项核验。",
+      "licenseNote": "目录采用 Apache-2.0；所链接工具、模型和素材分别遵守自己的许可，收录不等于统一商用授权。",
+      "checkedAt": "2026-11-01",
+      "addedAt": "2026-11-01T01:02:44.945Z",
+      "upstreamCommit": "e379fce2b50ae954fd75b3f4962a0955e281f57b",
+      "upstreamCommitAt": "2026-10-31T07:47:43Z",
+      "upstreamCommitDate": "2026-10-31",
+      "stars": 467,
+      "starsObservedAt": "2026-11-01T01:02:19.085Z",
+      "relatedBusinesses": [
+        "AI 写作辅助",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "帮助为文献阅读、引用核查和科研可视化服务寻找工具；只将进一步核验后的项目用于具体交付。",
+      "growthNote": "本次首次保存星数快照，没有可比跨日记录；未标为近期快速涨星。",
+      "sources": [
+        {
+          "name": "原始仓库与用途",
+          "url": "https://github.com/modelscope/Awesome-Vibe-Research/blob/main/README.md",
+          "note": "中文分类目录，按文献检索、数据整理、科学绘图、写作和复现等阶段链接工具与实践，适合查找后再逐项核验。"
+        },
+        {
+          "name": "源码许可",
+          "url": "https://github.com/modelscope/Awesome-Vibe-Research/blob/main/LICENSE",
+          "note": "目录采用 Apache-2.0；所链接工具、模型和素材分别遵守自己的许可，收录不等于统一商用授权。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/modelscope/Awesome-Vibe-Research/commit/e379fce2b50ae954fd75b3f4962a0955e281f57b",
+          "note": "2026-10-31T07:47:43Z"
+        }
+      ]
+    }
+  ]
+}
