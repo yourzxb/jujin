@@ -1,6 +1,6 @@
 {
-  "revision": "e7895f94-f26c-4ddb-84b1-e8915b897807",
-  "reviewedAt": "2026-11-01",
+  "revision": "77d38909-6574-45fd-8e75-1313e5e97101",
+  "reviewedAt": "2026-11-15",
   "resources": [
     {
       "id": "cn-idea-planet-course-qa",
@@ -381,6 +381,681 @@
           "name": "GitHub 当日趋势榜",
           "url": "https://github.com/trending?since=daily",
           "note": "GitHub 日榜于北京时间 2026-11-01 09:02 显示今日新增 116 星；这是榜单快照，并非本地连续 24 小时测量。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-reproducible-research-figure-kit",
+      "name": "论文图表可编辑交付与复核包",
+      "category": "内容制作与写作",
+      "categoryLabel": "内容制作与写作",
+      "description": "面向已有论文和教研写作客户，提供由真实数据生成的可编辑图表、对应代码与人工复核清单；把可复用的原创样式整理为星球练习材料。",
+      "monetization": "尝试按套交付图表格式整理与复核服务，或销售自创样式模板和使用讲解；先验证客户付费意愿，不承诺收入。",
+      "deliverable": "一套包含 3 张 SVG 图、对应 Python 脚本、获授权的输入数据说明、字段与单位映射、数值核对记录及使用说明的交付包。",
+      "maintenance": "每次交付人工核对数据、单位、图例和统计标注；定期检查依赖、字体与模板兼容，处理修改请求。模板可复用，服务仍需要持续人工审核。",
+      "firstSteps": [
+        "用公开许可或客户授权的脱敏 CSV 制作折线、分组柱状与散点三种样例，明确输入字段和交付边界。",
+        "独立重算样例汇总值并核对图中数值、单位、图例与代码；仅保留已计算验证的统计标注，确认 SVG 和脚本可重新生成同一图。",
+        "邀请 3 位现有写作客户或星球教师试用，记录复现成功率、修改次数、实际工时和付费意愿，再决定是否提供付费交付。"
+      ],
+      "sourceRepository": "jaychouchannel/PlotCraft",
+      "url": "https://github.com/jaychouchannel/PlotCraft",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-02",
+      "addedAt": "2026-11-02T01:04:29.663Z",
+      "batch": "daily-2026-11-02",
+      "relatedBusinesses": [
+        "AI 写作辅助",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "衔接现有 AI 论文与教育写作辅助，把获授权的真实数据转为可编辑图表，并为知识星球制作原创科研绘图教学案例。",
+      "costNotes": "试样预计 4–8 小时（规划估算），每单记录绘图与人工复核工时；国产模型按实际 token 用量计费，本地重渲染无需再次调用模型。按单记录修订成本后再定价。",
+      "requirements": "MIT；数据与字体须有授权，交付真实数据的可视化与原始代码，不生成或篡改研究数据、显著性与结论。模型生成代码需先审阅并在隔离环境验证。方案为聚金推导，未验证收益。",
+      "sources": [
+        {
+          "name": "原始 README 与国内模型适配",
+          "url": "https://github.com/jaychouchannel/PlotCraft/blob/main/README.md",
+          "note": "支持 OpenAI 兼容接口，列出 DeepSeek、Qwen、Moonshot、智谱；目前导出 SVG 和 Python，PDF/EPS 仍在路线图。能力来自 README，未安装或执行。"
+        },
+        {
+          "name": "MIT 许可证原文",
+          "url": "https://github.com/jaychouchannel/PlotCraft/blob/main/LICENSE",
+          "note": "MIT，复用源码需保留版权与许可声明；字体、数据和模型服务另核对。仓库提供生成代码的本地执行功能，隔离能力未实测，不直接作为公共服务部署。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/jaychouchannel/PlotCraft/commit/91d8bc888181862b5e2d0bca291a90c5d3800754",
+          "note": "最近提交 2026-08-17 08:33:36（北京时间）；核验时未归档。"
+        },
+        {
+          "name": "GitHub 仓库元数据",
+          "url": "https://api.github.com/repos/jaychouchannel/PlotCraft",
+          "note": "北京时间 2026-11-02 09:04:29 核验；完整证据已保存于 research/catalog-github-snapshots-2026-11-15.json#2026-11-02T01:04:29.663Z。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-editable-teaching-animation-kit",
+      "name": "教学概念可编辑动画素材包",
+      "category": "教育知识社群",
+      "categoryLabel": "教育知识社群",
+      "description": "围绕星球教师实际授课中的一个抽象概念，制作可修改文字、配色和图形的分步演示动画，供公众号预览和课堂重复使用。",
+      "monetization": "先用免费样片验证需求，再尝试原创动画模板包、按学科定制或作为现有星球会员权益；工具本身不产生收入。",
+      "deliverable": "同一知识点的横屏与竖屏 MP4、可编辑 HTML/CSS 工程、本地字体与素材授权清单、中文讲解稿和修改说明。",
+      "maintenance": "持续核对概念准确性、中文字体和字幕可读性；适配渲染器版本，修复导出差异并处理少量模板修改。",
+      "firstSteps": [
+        "从现有星球教师收集 3 个难讲清的概念，选 1 个制作 30–60 秒原创样片，使用自绘图形和有授权的字体素材。",
+        "请 2 位相关学科教师核对演示顺序与概念，在手机和投影画面检查中文、字幕与图形，修改一处参数后重新渲染验证可编辑性。",
+        "将样片给 5 位会员试用，记录实际使用、修改耗时与付费意愿；明确交付范围与修改次数后再试售一套模板。"
+      ],
+      "sourceRepository": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-03",
+      "addedAt": "2026-11-03T01:07:56.583Z",
+      "batch": "daily-2026-11-03",
+      "relatedBusinesses": [
+        "公众号流量主",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "把星球现有教师需求转为可编辑教学动画资产，公众号展示样片，星球提供源工程和使用讲解；与已有静态课件、引导式备课练习分开交付。",
+      "costNotes": "首个样片按 4–8 小时制作与审核规划估算，后续记录每次修改和渲染工时；本地渲染需要 Node.js 22+、Chrome 与 FFmpeg。自绘素材与本地渲染不需要付费模型，可选模型、配音、字体授权按实际计费。",
+      "requirements": "Apache-2.0；只分发有权使用的自制内容、字体和素材，避免照搬他人视频。中文及本地渲染效果须试样验证，未经教学专家核对不作为准确教学结论。此方案为聚金依据工具能力推导，收入尚未验证。",
+      "sources": [
+        {
+          "name": "原始 README 与业务适配",
+          "url": "https://github.com/heygen-com/hyperframes/blob/main/README.md",
+          "note": "为现有教育公众号和星球制作原创概念演示动画。README 明确本地 CLI、Chrome 与 FFmpeg 渲染路径；国内用途基于本地 HTML、中文字体及自有素材，不依赖海外广告平台。未实测环境或核验原生国产模型适配，可手工编写 HTML。 能力来自原仓库说明，本次未安装或执行。"
+        },
+        {
+          "name": "源码许可证",
+          "url": "https://github.com/heygen-com/hyperframes/blob/main/LICENSE",
+          "note": "Apache-2.0；分发或修改源码时保留许可、版权和适用的 NOTICE。字体、音乐、图片、第三方组件与可选云服务需单独核对。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/heygen-com/hyperframes/commit/eb3562966fcbac74da75566b660cbb41aa940739",
+          "note": "北京时间 2026-11-03 08:23:50；核验时未归档、不是 fork。"
+        },
+        {
+          "name": "仓库元数据快照",
+          "url": "https://api.github.com/repos/heygen-com/hyperframes",
+          "note": "北京时间 2026-11-03 09:07:56 核验；research/catalog-github-snapshots-2026-11-15.json#2026-11-03T01:07:56.583Z。"
+        },
+        {
+          "name": "GitHub 周榜核验快照",
+          "url": "https://github.com/trending?since=weekly",
+          "note": "北京时间 2026-11-03 09:07:56 显示本周新增 4924 星；证据 research/daily/2026-11-03/2026-11-03T01-07-56.583Z/trending-weekly.html。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-miniapp-regression-template-kit",
+      "name": "小程序发布前回归检查模板包",
+      "category": "小程序开发",
+      "categoryLabel": "小程序开发",
+      "description": "先为正在运营的小程序整理可重复运行的页面检查与截图流程，再把通用部分做成供同类工具小程序使用的检查模板。",
+      "monetization": "先减少自有小程序维护工时；验证复用效果后尝试销售原创检查模板、提供一次性适配服务，或作为星球小程序专题的实操材料。",
+      "deliverable": "10 条核心流程检查模板、预期结果表、一次运行的截图与问题清单、运行环境记录和适配说明；交付不含生产凭据或用户数据。",
+      "maintenance": "小程序页面、组件或开发者工具更新后维护定位与断言，复核误报；支付、授权与真机能力单独人工验收，不能完全无人维护。",
+      "firstSteps": [
+        "从自己的一个工具小程序选出首页、导航、输入校验和结果展示等 10 条核心流程，使用测试数据定义预期结果。",
+        "在测试版本记录开发者工具和基础库版本，跑通检查与截图，再人为加入一个显示或校验错误，验证模板能够发现并报告。",
+        "连续用于两次自有版本更新，记录漏报与节省工时，再请两名开发者试配，确认适配成本和付费意愿后决定是否出售。"
+      ],
+      "sourceRepository": "WaterTian/wechat-devtools-mcp",
+      "url": "https://github.com/WaterTian/wechat-devtools-mcp",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-03",
+      "addedAt": "2026-11-03T04:08:14.667Z",
+      "batch": "manual-2026-11-03-1208",
+      "relatedBusinesses": [
+        "微信小程序流量主",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "直接衔接正在运营的微信小程序流量主项目，把发布前重复检查沉淀为可复用资产，并可用于星球中的 AI 开发实操。",
+      "costNotes": "首版预计整理与调试 4–8 小时（规划估算），每次更新需记录检查和修复时间；AI 编辑器或模型按实际用量计费，截图与本地运行成本主要为电脑资源。",
+      "requirements": "MIT；只对自有或获授权的小程序测试，使用测试数据；不生成广告点击、刷量或虚假用户行为。模型和客户端权限单独配置，未经验证不声称覆盖全部真机场景。方案为聚金推导，未验证收入。",
+      "sources": [
+        {
+          "name": "原始 README 与适配说明",
+          "url": "https://github.com/WaterTian/wechat-devtools-mcp/blob/main/README.md",
+          "note": "直接服务现有微信小程序的页面回归与发布前检查。原始中文文档列出 Windows/macOS、微信开发者工具及 Trae 配置；实际兼容性须在本机开发者工具版本上验证。 本次只核验资料，未安装或执行。"
+        },
+        {
+          "name": "源码许可证",
+          "url": "https://github.com/WaterTian/wechat-devtools-mcp/blob/main/LICENSE",
+          "note": "MIT；复用源码保留许可和版权声明。微信开发者工具、MCP 客户端、模型及依赖分别核对；仓库要求 MCP 与配套 Skill 版本匹配。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/WaterTian/wechat-devtools-mcp/commit/2d1a2146e10459ec7eced79f9df05c7cb6000bbe",
+          "note": "北京时间 2026-10-26 18:05:34；核验时未归档。"
+        },
+        {
+          "name": "仓库核验快照",
+          "url": "https://api.github.com/repos/WaterTian/wechat-devtools-mcp",
+          "note": "北京时间 2026-11-03 12:08:14 核验；证据 research/catalog-github-snapshots-2026-11-15.json#2026-11-03T04:08:14.667Z。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-planet-link-health-revision-kit",
+      "name": "星球资料链接巡检与修订包",
+      "category": "教育知识社群",
+      "categoryLabel": "教育知识社群",
+      "description": "为已经交付的星球资料和公众号配套页面建立定期链接检查，人工复核失效或迁移入口，再交付带日期的修订清单。重点是交付后的持续维护。",
+      "monetization": "先改善现有星球会员的资料使用体验；验证维护成本后，可尝试销售原创巡检配置与说明模板，或向其他内容创作者提供按期资料维护服务。需要真实使用和付费验证。",
+      "deliverable": "一份获授权的公开链接清单、检查配置、带检查时间的状态报告、人工复核记录、替换链接与修订日志，以及 403、429、超时的处理说明。",
+      "maintenance": "定期重查并控制请求频率，人工判断跳转后的内容是否仍匹配；处理网站改版、登录限制和误报，持续维护替换入口。此服务需要人工维护，不能无人值守保证资料始终有效。",
+      "firstSteps": [
+        "从自编星球资料或公众号配套目录中选出 30 个公开链接，记录对应资料位置和预期内容；排除带登录令牌、个人信息、内网地址和无权访问的入口。",
+        "用小样本生成巡检报告，人工复核全部异常和 5 个正常样本；加入已知失效及跳转测试链接，确认能区分失效、迁移、限流与暂时超时。",
+        "间隔一周再做一轮复查，交付修订清单并记录维护用时；请两名创作者试用，确认修订价值与可接受费用后决定是否做成模板或服务。"
+      ],
+      "sourceRepository": "lycheeverse/lychee",
+      "url": "https://github.com/lycheeverse/lychee",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-03",
+      "addedAt": "2026-11-03T15:00:13.842Z",
+      "batch": "manual-2026-11-03-2300",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "公众号流量主"
+      ],
+      "existingBusinessFit": "直接维护已运营星球和公众号中的资料入口，与现有入库清洗、资料索引方案衔接；新增交付是周期巡检报告和人工修订日志，无需另建业务项目。",
+      "costNotes": "首版整理与配置预计 2–4 小时，30 个链接每轮人工复核暂估 0.5–1 小时，均为规划估算，应以两轮实测调整。无需模型调用；主要成本是电脑联网、人工查证与持续维护。",
+      "requirements": "本方向由聚金根据仓库能力推导，尚未验证收入。按 Apache-2.0 使用源码，只检查自有或获授权的公开链接；不抓取会员私密内容，不自动删除或替换资料。遇到登录、限流和超时保留待复核状态。",
+      "sources": [
+        {
+          "name": "原始 README 与适配说明",
+          "url": "https://github.com/lycheeverse/lychee/blob/master/README.md",
+          "note": "用于检查自编星球资料目录和公众号配套公开导航页，形成有日期的链接修订记录。支持 Windows 本地运行，无需模型 API；国内可用性取决于目标网站访问情况，不依赖海外付费平台。它是通用开源工具，并非国内平台专用接口；403、429 或超时需人工复核，不能直接视为链接失效。 本次只核验资料，未安装或执行。"
+        },
+        {
+          "name": "源码许可证",
+          "url": "https://github.com/lycheeverse/lychee/blob/master/LICENSE-APACHE",
+          "note": "Apache-2.0（本次核对 LICENSE-APACHE）；README 另列 MIT 可选许可。按选择的许可保留声明，第三方依赖条件另查。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/lycheeverse/lychee/commit/d119b686aba77707bb4fc2037bdce3eea0ccaee6",
+          "note": "北京时间 2026-11-02 20:51:41；核验时未归档。"
+        },
+        {
+          "name": "仓库核验快照",
+          "url": "https://api.github.com/repos/lycheeverse/lychee",
+          "note": "北京时间 2026-11-03 23:00:13；证据 research/catalog-github-snapshots-2026-11-15.json#2026-11-03T15:00:13.842Z。尚无可比快照。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-teacher-student-print-editions",
+      "name": "教师答案版与学生练习版同源排版模板",
+      "category": "教育知识社群",
+      "categoryLabel": "教育知识社群",
+      "description": "把同一套原创课堂练习维护在一个源文件中，按版本参数生成留空作答的学生版和带答案、讲评提示的教师版。",
+      "deliverable": "可编辑 Typst 模板、一套 10 道原创样题、配对的 A4 学生版和教师版 PDF、版本说明及答题区和答案泄漏检查表。",
+      "firstSteps": [
+        "用星球里的一项现有教学主题写 10 道原创练习，给每题固定编号并独立维护答案和讲评提示。",
+        "从同一源文件编译两个版本，抽查中文字体、分页和题号。核对学生版可见内容、可搜索文本与 PDF 附件，确认未包含教师答案。",
+        "邀请两位教师各用一份打印件试教。修改一道题并重新生成两版，记录用时、需要手工调整的地方和付费意向。"
+      ],
+      "monetization": "可先作为星球成员实操资料，验证重复出卷需求后，尝试出售原创通用模板或按学科收取一次性适配费。",
+      "maintenance": "维护字体与编译版本说明，新增题型或调整纸张后复核分页、题号和双版本输出。发布学生版前重复检查答案是否混入。",
+      "sourceRepository": "typst/typst",
+      "url": "https://github.com/typst/typst",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-06",
+      "addedAt": "2026-11-06T01:08:17.938Z",
+      "batch": "daily-2026-11-06",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "公众号流量主"
+      ],
+      "existingBusinessFit": "先用于星球里的教师实操和打印练习。公众号可展示一页原创学生样张，引导有复用需求的读者了解模板。",
+      "costNotes": "首版预计 3–6 小时，主要用于原创样题、模板排版和双版本打印检查。无需模型调用，另计样张打印与后续字体兼容维护。",
+      "requirements": "使用自编或获授权题目与字体。编译时按版本分支构建答案页，交付学生版仅提供校验后的 PDF。收入与复用效果待验证。",
+      "sources": [
+        {
+          "name": "原仓库 README",
+          "url": "https://github.com/typst/typst/blob/main/README.md",
+          "note": "用于星球中文讲义、练习打印与原创教研稿件排版。README 提供 Windows 本地编译及字体路径配置。排版可使用本机授权中文字体，无需模型 API。"
+        },
+        {
+          "name": "许可证原文",
+          "url": "https://github.com/typst/typst/blob/main/LICENSE",
+          "note": "Apache-2.0。分发源码时保留许可、版权声明及适用的 NOTICE。模板、依赖和中文字体的授权按各自来源核对。"
+        },
+        {
+          "name": "官方编译参数文档",
+          "url": "https://typst.app/docs/reference/foundations/sys/",
+          "note": "支持通过命令行传入版本参数，供同源文档导出不同成品。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-class-quiz-error-summary-miniapp",
+      "name": "班级测验错因分布看板小程序",
+      "category": "小程序开发",
+      "categoryLabel": "小程序开发",
+      "description": "让教师只录入班级汇总数，按题目查看错误率，再用柱状图比较已归类的错因人数，帮助确定讲评顺序。",
+      "deliverable": "可交互的微信小程序原型、汇总录入页、每题错误率与错因柱状图、匿名模拟样表和一页讲评说明。",
+      "firstSteps": [
+        "用两次模拟测验设计题号、有效作答人数、答错人数与主要错因计数。每名答错者只计一个主要错因，并保留未归类人数。",
+        "在开发者工具做录入和柱状图原型，用手算样例核对错误率、零人作答与错因加总，分别在安卓和 iOS 真机检查显示。",
+        "请两位星球教师用模拟汇总做一次讲评复盘，记录录入与复核用时，询问是否愿意为同类学科模板或配置服务付费。"
+      ],
+      "monetization": "先供星球成员试用，确认讲评场景反复使用后，可尝试出售原创统计模板或收取一次性学科配置费用。",
+      "maintenance": "随微信基础库与图表依赖变化复核真机显示，维护错因分类和录入口径。每次修改统计逻辑后用固定样例复算。",
+      "sourceRepository": "antvis/F2",
+      "url": "https://github.com/antvis/F2",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-07",
+      "addedAt": "2026-11-07T01:07:25.886Z",
+      "batch": "daily-2026-11-07",
+      "relatedBusinesses": [
+        "微信小程序流量主",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "为正在运营的小程序方向提供可独立验证的教师复盘功能，并可在「AI 教育实践」星球用模拟数据演示一次讲评过程。",
+      "costNotes": "首版预计投入 6–10 小时，主要为录入校验、图表与真机调试。模型调用费为零。发布和后续维护时间另计。",
+      "requirements": "仅用模拟数据和班级级别汇总验证，原型在端内计算，不收集姓名、学号、单人答题或个人分数。按 MIT 要求保留依赖声明。收入和使用效果待验证。",
+      "sources": [
+        {
+          "name": "原仓库 README",
+          "url": "https://github.com/antvis/F2/blob/master/README.md",
+          "note": "可把小程序里教师主动录入的班级测验汇总绘成可交互的柱状图，并在星球提供教研复盘示例。官方中文文档给出 @antv/f-wx 的微信接入示例，无需模型 API。旧版 @antv/wx-f2 有不同的依赖版本，按目标依赖和微信基础库做真机验证。"
+        },
+        {
+          "name": "许可证原文",
+          "url": "https://github.com/antvis/F2/blob/master/LICENSE",
+          "note": "F2 与 FEngine 仓库均为 MIT。分发源码或主要部分时保留版权及许可声明。其他依赖按各自许可核对。"
+        },
+        {
+          "name": "AntV 官方微信小程序接入示例",
+          "url": "https://f2.antv.antgroup.com/tutorial/framework/miniprogram",
+          "note": "微信章节展示 @antv/f-wx 与 F2 Interval 柱状图的接入。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-single-variable-physics-inquiry-kit",
+      "name": "单变量物理探究任务包",
+      "category": "教育知识社群",
+      "categoryLabel": "教育知识社群",
+      "description": "围绕一个物理关系，为交互实验配套原创预测题、参数对照表和复盘任务，让教师能组织一次有记录的探究课。",
+      "deliverable": "一份原创探究教案、三组参数配置与预期关系、学生观察记录单、教师讲评说明和结果复核表。",
+      "firstSteps": [
+        "选定一个可由基本公式复算的关系，例如固定高度和重力加速度，比较不同水平初速度下的平抛落地时间与水平位移。写明理想化条件和学生预测问题。",
+        "在实验场景设置三组参数并记录读数，对照手算结果逐项复核。记录时间步长和读数误差，发现不符时先修正任务或场景。",
+        "邀请两位星球教师用任务单试讲，检查学生能否独立完成预测、观察和解释，记录准备工时及付费意向后决定是否扩展学科专题。"
+      ],
+      "sourceRepository": "122-syf-wcy/PhysicsOS",
+      "url": "https://github.com/122-syf-wcy/PhysicsOS",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-08",
+      "addedAt": "2026-11-08T01:00:12.787Z",
+      "batch": "daily-2026-11-08",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "公众号流量主"
+      ],
+      "existingBusinessFit": "衔接星球教师的 AI 教学实操，公众号可展示一组原创参数对照，星球交付完整任务单、复核表和讲评案例。",
+      "monetization": "先作为星球专题活动验证，之后可尝试出售自编探究任务包或提供按教学单元的一次性教研适配服务。",
+      "maintenance": "复核平台与模型更新后的参数含义、读数及入口，保留一组可重复计算的基准例题，收集教师反馈并修订任务。",
+      "costNotes": "首个专题规划 4–8 小时，用于原创任务、参数复算和试讲。完整平台部署与数据库维护另计，模型按自有接口实际用量计费。",
+      "requirements": "使用自编或获授权题目与图示，注明仿真条件并由教师核验结论。平台依赖按各自许可和服务规则配置。方案为聚金推导，课堂效果和收入待验证。",
+      "sources": [
+        {
+          "name": "原仓库 README 与国内适配",
+          "url": "https://github.com/122-syf-wcy/PhysicsOS/blob/main/README.md",
+          "note": "可为星球教师设计参数对照和观察记录任务，公众号展示原创探究案例。原仓库有中文界面和 DeepSeek Harness 接入说明，完整平台依赖相应客户端、数据库和模型通道，当前为公测阶段。仿真读数与教学结论需要教师复核。"
+        },
+        {
+          "name": "许可证原文",
+          "url": "https://github.com/122-syf-wcy/PhysicsOS/blob/main/LICENSE",
+          "note": "Apache-2.0。分发源码保留许可、版权与适用的 NOTICE。DeepSeek Harness、第三方依赖和素材条件单独核对。"
+        },
+        {
+          "name": "核验时最近提交",
+          "url": "https://github.com/122-syf-wcy/PhysicsOS/commit/7aafeee0e3029ecb5199014e2444f820a0c6bd28",
+          "note": "北京时间 2026-11-08 07:46:10，未归档。"
+        },
+        {
+          "name": "仓库 API 核验快照",
+          "url": "https://api.github.com/repos/122-syf-wcy/PhysicsOS",
+          "note": "北京时间 2026-11-08 09:00:12，累计 265 星。尚无可比的仓库 API 快照。 research/catalog-github-snapshots-2026-11-15.json#2026-11-08T01:00:12.787Z。"
+        }
+      ]
+    },
+    {
+      "id": "cn-idea-context-pinyin-proofreading-cards",
+      "name": "语境多音字注音校对练习包",
+      "category": "教育知识社群",
+      "categoryLabel": "教育知识社群",
+      "description": "把同一汉字放进两个不同语境，让教师检查自动注音初稿，保留人工确认的读音，再把语境对照做成阅读练习。",
+      "deliverable": "20 条原创对照短句、可编辑注音网页样例、一套 A4 练习卡与答案说明、可复用的词组读音例外表及校对记录。",
+      "firstSteps": [
+        "选 10 个多音字，每个字写两条体现不同读音的原创短句，请教师预先标注标准答案和判断依据。",
+        "生成注音初稿并对照标准答案，记录词组判断、声调与标点错误。手工修订读音，核对网页和打印样张中的拼音是否一致。",
+        "邀请两位星球教师用样张试做，记录校对和备课时间，收集易错语境、复用需求及是否愿意购买更多原创练习。"
+      ],
+      "sourceRepository": "zh-lx/pinyin-pro",
+      "url": "https://github.com/zh-lx/pinyin-pro",
+      "region": "中国大陆",
+      "type": "GitHub 启发的国内项目方案",
+      "checkedAt": "2026-11-11",
+      "addedAt": "2026-11-11T01:01:33.337Z",
+      "batch": "daily-2026-11-11",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "公众号流量主"
+      ],
+      "existingBusinessFit": "在「AI 教育实践」星球用原创语文案例展示自动标注与人工审核流程，公众号可展示一组语境对照样张。",
+      "monetization": "先作为星球会员实操材料验证，确认教师有持续备课需求后，可尝试销售自编练习卡或提供按学段定制的材料制作服务。",
+      "maintenance": "维护教师核对过的词组例外表，词典或库版本变化后重复跑标准短句，检查打印换行与声调字形。",
+      "costNotes": "首版预计 3–6 小时，主要用于编写原创短句、人工校对和打印检查。浏览器本地注音无需模型费，试印费用另计。",
+      "requirements": "使用原创短句与获授权字体。自动注音作为校对初稿，出版前由教师审核。复用代码保留 MIT 声明，样张和付费材料的使用效果待验证。",
+      "sources": [
+        {
+          "name": "原仓库 README 与中文用途",
+          "url": "https://github.com/zh-lx/pinyin-pro/blob/main/README.md",
+          "note": "用于星球教师的中文阅读材料实操，以及公众号原创语文案例。原仓库提供中文文档，支持浏览器环境和自定义读音，本地使用已打包的库无需模型 API。自动注音需结合句意人工核对。"
+        },
+        {
+          "name": "许可证原文",
+          "url": "https://github.com/zh-lx/pinyin-pro/blob/main/LICENSE",
+          "note": "MIT。分发源码或主要部分时保留版权和许可声明，扩展词典、字体和教材素材分别核对授权。"
+        },
+        {
+          "name": "最近提交与归档状态",
+          "url": "https://github.com/zh-lx/pinyin-pro/commit/0785234b4dc0fa3ea9f244e3d77703b2df6a9db4",
+          "note": "北京时间 2026-10-10 08:13:40，核验时未归档。"
+        },
+        {
+          "name": "GitHub 仓库快照",
+          "url": "https://api.github.com/repos/zh-lx/pinyin-pro",
+          "note": "北京时间 2026-11-11 09:01:33 核验累计 4762 星，尚无可比仓库 API 快照。 research/catalog-github-snapshots-2026-11-15.json#2026-11-11T01:01:33.337Z。"
+        },
+        {
+          "name": "注音 HTML 官方用法",
+          "url": "https://pinyin-pro.cn/use/html.html",
+          "note": "原 README 链接的注音页面接口说明。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-idea-wechat-tutorial-source-revisions",
+      "name": "微信教程引用修订台账",
+      "category": "公众号内容产品",
+      "description": "比对已发布教程引用的同一官方页面在不同时点的正文，找出官方文档改动导致的过时步骤并人工修订。",
+      "deliverable": "先为三篇既有教程交付一份台账，逐行记录教程段落、官方链接、观察时间、正文差异、影响判断和经核对的勘误文字。",
+      "firstSteps": [
+        "挑三篇自己发布的公众号或小程序教程，各标出一段依赖官方公开说明的步骤，保存初始段落和核验日期。",
+        "为允许检查的文档配置指定段落，先用自有测试页改动一行验证差异与记录，随后对公开源低频试跑七天。",
+        "让两位目标读者按旧教程和修订稿复现同一步骤，记录卡点和修订是否减少重试，再询问是否需要持续维护。"
+      ],
+      "costNotes": "开源文本比对可在现有电脑小规模运行。预算包括配置、人工复核、存储与持续运行资源，按实际耗时核算。",
+      "maintenance": "每周复核差异与误报，改版时修正选择器。若源站限制访问则改为人工核对，公告摘录只保留说明改动所需的片段。",
+      "monetization": "先用作公众号勘误和星球会员更新服务，再用三篇样稿验证教育作者是否愿意付费委托维护既有教程。",
+      "requirements": "使用自有稿件和允许核查的公开说明。官方原文和账号后台由作者逐条确认，勘误由作者审阅发布。",
+      "existingBusinessFit": "接到现有公众号、小程序操作教程和星球资料的发布后维护。核心交付是同一官方地址变化后受影响的旧教程勘误。",
+      "categoryLabel": "公众号内容产品",
+      "region": "中国大陆",
+      "type": "GitHub启发的项目方案",
+      "sourceRepository": "dgtlmoon/changedetection.io",
+      "url": "https://github.com/dgtlmoon/changedetection.io",
+      "checkedAt": "2026-11-13",
+      "addedAt": "2026-11-13T00:59:06.212Z",
+      "batch": "2026-11-13",
+      "relatedBusinesses": [
+        "公众号流量主",
+        "微信小程序流量主",
+        "教育知识付费社群"
+      ],
+      "sources": [
+        {
+          "name": "原仓库 README",
+          "url": "https://github.com/dgtlmoon/changedetection.io/blob/master/README.md",
+          "note": "README 说明了抓取方式、定时检查、正文过滤、PDF 监测和差异查看。"
+        },
+        {
+          "name": "源码许可证",
+          "url": "https://github.com/dgtlmoon/changedetection.io/blob/master/LICENSE",
+          "note": "Apache-2.0。分发时遵循许可证和通知要求，源站内容的使用条件单独核对。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/dgtlmoon/changedetection.io/commit/a624cc54bbf90a8d604b7d90b7e78c553f3fc37e",
+          "note": "2026-11-12 17:23:42（北京时间）。GitHub API 显示仓库未归档。"
+        },
+        {
+          "name": "GitHub 仓库元数据",
+          "url": "https://api.github.com/repos/dgtlmoon/changedetection.io",
+          "note": "2026-11-13 08:59:06（北京时间）观测累计星数 35777。快照 research/catalog-github-snapshots-2026-11-15.json#2026-11-13T00:59:06.212Z。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-idea-education-web-step-replay",
+      "name": "教师网页操作分步回放包",
+      "category": "教育知识社群",
+      "description": "用可定位到具体步骤的网页回放讲解一个自有教学工具的使用流程，例如在示例页设定课堂计时和分组。",
+      "deliverable": "一套包含自有中文 H5、两段虚构数据操作回放、步骤索引、离线素材和一页教师练习的演示包。",
+      "firstSteps": [
+        "选星球成员常问的一项操作，做一张自有练习页，填入虚构姓名和课程，录制两段典型操作。",
+        "给回放加三个步骤入口，实测手机浏览器的暂停和定位，检查导出的事件与资源只有示例数据。",
+        "邀请三位教师从指定步骤开始跟做，记录能否独立完成，再以一个原创配套练习包测试付费意愿。"
+      ],
+      "costNotes": "先用现有电脑生成本地样例，评估开发、录制、设备兼容测试时间及发布后的静态托管和流量成本。",
+      "maintenance": "固定录制和播放版本，跟随演示网页的操作变化补录。每期测试手机回放、字体和图片是否正常加载。",
+      "monetization": "作为知识星球专题交付，也可测试原创演示和练习的组合售卖。公众号可发布其中一个样例。",
+      "requirements": "仅录制作者控制的网页和虚构数据。交付前检查回放事件、素材与授权，分享入口先验证微信内访问。",
+      "existingBusinessFit": "给“AI 教育实践”的已有实操课添加可直达步骤的操作复盘，公众号选取一个可复现的样例作为课程入口。",
+      "categoryLabel": "教育知识社群",
+      "region": "中国大陆",
+      "type": "GitHub启发的项目方案",
+      "sourceRepository": "rrweb-io/rrweb",
+      "url": "https://github.com/rrweb-io/rrweb",
+      "checkedAt": "2026-11-13",
+      "addedAt": "2026-11-13T00:59:06.212Z",
+      "batch": "2026-11-13",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "公众号流量主"
+      ],
+      "sources": [
+        {
+          "name": "原仓库 README",
+          "url": "https://github.com/rrweb-io/rrweb/blob/main/README.md",
+          "note": "README 链接录制、回放、播放器及中文文档。"
+        },
+        {
+          "name": "源码许可证",
+          "url": "https://github.com/rrweb-io/rrweb/blob/main/LICENSE",
+          "note": "MIT。分发源码或软件时保留版权及许可声明，演示素材另行核对授权。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/rrweb-io/rrweb/commit/3339038d31bc15491e9def76fd4f4818b2eae6aa",
+          "note": "2026-11-11 00:41:51（北京时间）。GitHub API 显示仓库未归档。"
+        },
+        {
+          "name": "GitHub 仓库元数据",
+          "url": "https://api.github.com/repos/rrweb-io/rrweb",
+          "note": "2026-11-13 08:59:06（北京时间）观测累计星数 20371。快照 research/catalog-github-snapshots-2026-11-15.json#2026-11-13T00:59:06.212Z。"
+        },
+        {
+          "name": "中文开发指南",
+          "url": "https://github.com/rrweb-io/rrweb/blob/main/guide.zh_CN.md",
+          "note": "说明事件录制、输入遮罩、回放定位和浏览器兼容性。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-idea-education-h5-accessibility-review",
+      "name": "教学 H5 无障碍复核与修复包",
+      "category": "教育工具",
+      "description": "从自己星球已有的一页练习开始，检查图文和答题表单是否容易看清、识别和操作，记录修复前后差异。",
+      "deliverable": "一页已修复的示例练习、带元素位置和复现步骤的中文问题表、修复前后检查报告，以及手机读屏与键盘复核记录。",
+      "firstSteps": [
+        "选一页自有练习 H5，用虚构资料标出进入练习、填写选项和提交三个环节。",
+        "在 Chromium 运行 axe-core，检查对比度、表单标签和图片替代文本，再用键盘和手机读屏复核标记的问题。",
+        "修复后重跑报告，邀请两位教师分别按键盘或手机读屏路径完成练习，记录能否独立完成及剩余卡点。"
+      ],
+      "costNotes": "开源引擎不需要付费模型。按测试设备、浏览器配置、人工读屏复核和修复工时核算。",
+      "maintenance": "每次调整主题、表单或教材图片后复测，保留浏览器版本和读屏版本，逐项记录需要人工判断的问题。",
+      "monetization": "先用示例改善星球练习和公众号配套页，验证后可试做按页收费的教育 H5 修复与复测服务。",
+      "requirements": "使用自有或获授权的 H5 页面与测试数据。结论限于实际测试页面、设备与场景，微信原生组件和合规认证另行核查。",
+      "existingBusinessFit": "直接服务星球练习页和公众号配套教学 H5，也可复用到小程序配套网页。交付包含具体无障碍修复及实际读屏复核。",
+      "categoryLabel": "教育工具",
+      "region": "中国大陆",
+      "type": "GitHub启发的项目方案",
+      "checkedAt": "2026-11-14",
+      "addedAt": "2026-11-14T01:05:09.040Z",
+      "batch": "2026-11-14",
+      "sourceRepository": "dequelabs/axe-core",
+      "url": "https://github.com/dequelabs/axe-core",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "公众号流量主",
+        "微信小程序流量主"
+      ],
+      "sources": [
+        {
+          "name": "原仓库 README",
+          "url": "https://github.com/dequelabs/axe-core/blob/develop/README.md",
+          "note": "在浏览器测试中检查文字对比度、表单标签和图片替代文本等问题，可输出待人工复核项，并提供简体中文规则提示。"
+        },
+        {
+          "name": "源码许可证",
+          "url": "https://github.com/dequelabs/axe-core/blob/develop/LICENSE",
+          "note": "MPL-2.0。对外分发时核对受许可覆盖的源码文件及其修改的披露义务，测试报告与网页素材另行管理。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/dequelabs/axe-core/commit/d991e05ac6eb42df88f9e61c1679692534bb92e2",
+          "note": "2026-11-13 20:37:39（北京时间）。GitHub API 显示未归档。"
+        },
+        {
+          "name": "GitHub API 仓库快照",
+          "url": "https://api.github.com/repos/dequelabs/axe-core",
+          "note": "2026-11-14 09:05:09（北京时间）核验，证据见 research/catalog-github-snapshots-2026-11-15.json#2026-11-14T01:05:09.040Z。"
+        },
+        {
+          "name": "官方规则说明",
+          "url": "https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md",
+          "note": "对比度、图像替代文本、表单标签等规则与人工复核条件。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-idea-wechat-final-draft-recovery",
+      "name": "公众号定稿存档与恢复包",
+      "category": "公众号内容产品",
+      "description": "为已经完成的教育长文整理可继续编辑、可阅读、可恢复的交付档案，解决更换设备或浏览器后稿件与配图分离的问题。",
+      "deliverable": "一份按文章编号整理的原创稿件与自有配图、可读的 PDF 或 Word 定稿、带版本与校验的 ZIP 备份和一次独立环境恢复验收单。",
+      "firstSteps": [
+        "选三篇自有教育长文，登记标题、发布或定稿日期、配图文件名和使用授权。",
+        "导出文章定稿和完整 ZIP，在另一浏览器配置中恢复测试，核对文章、历史、主题和配图数量并记录缺失项。",
+        "请一位协作者仅凭交付包找出指定版本和配图，记录耗时及遗漏，验证栏目作者是否愿为定期整理与恢复复核付费。"
+      ],
+      "costNotes": "使用现有设备与本地素材做首轮样本。按存储空间、整理工时、Word 或 PDF 样式核对及恢复演练时间估算费用。",
+      "maintenance": "按每期栏目增量归档，保存编辑器版本和恢复指引。升级或更换浏览器前抽检图文恢复，并对缺失外链图片记录来源。",
+      "monetization": "用于自有公众号与星球资料交接，验证后尝试按期为教育内容作者整理获授权的稿件并交付恢复演练。",
+      "requirements": "仅整理自有或获授权稿件和素材，备份在受控位置。只用独立浏览器环境试恢复，存档定稿与微信端实际显示分别验收。",
+      "existingBusinessFit": "补充已完成稿件的版本、图文和恢复验收，可供后续编辑和星球专题复用。",
+      "categoryLabel": "公众号内容产品",
+      "region": "中国大陆",
+      "type": "GitHub启发的项目方案",
+      "checkedAt": "2026-11-14",
+      "addedAt": "2026-11-14T01:05:09.040Z",
+      "batch": "2026-11-14",
+      "sourceRepository": "lxw112190/wechat-article-formatter",
+      "url": "https://github.com/lxw112190/wechat-article-formatter",
+      "relatedBusinesses": [
+        "公众号流量主",
+        "教育知识付费社群"
+      ],
+      "sources": [
+        {
+          "name": "原仓库 README",
+          "url": "https://github.com/lxw112190/wechat-article-formatter/blob/main/README.md",
+          "note": "中文浏览器编辑器，可检查稿件的图片和占位内容、导出 Word 或打印 PDF，并用带校验的 ZIP 备份恢复文章历史与本地配图。"
+        },
+        {
+          "name": "源码许可证",
+          "url": "https://github.com/lxw112190/wechat-article-formatter/blob/main/LICENSE",
+          "note": "MIT。分发代码时保留版权及许可声明，配图、字体和插件许可单独核对。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/lxw112190/wechat-article-formatter/commit/b1e78dba49b8bbfaee2742f4c7f1f814bb26d54c",
+          "note": "2026-09-17 13:46:43（北京时间）。GitHub API 显示未归档。"
+        },
+        {
+          "name": "GitHub API 仓库快照",
+          "url": "https://api.github.com/repos/lxw112190/wechat-article-formatter",
+          "note": "2026-11-14 09:05:09（北京时间）核验，证据见 research/catalog-github-snapshots-2026-11-15.json#2026-11-14T01:05:09.040Z。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-idea-miniapp-experiment-handout-reader",
+      "name": "小程序实验讲义阅读页",
+      "category": "小程序工具",
+      "categoryLabel": "小程序工具",
+      "region": "中国大陆",
+      "type": "GitHub启发的项目方案",
+      "description": "把星球一篇原创实验讲义做成带目录的小程序阅读页，学生可从目录进入对应步骤，并在狭窄屏幕横向查看数据表。",
+      "deliverable": "一页可从目录直达实验步骤、带横向数据表的微信小程序原型，附两份原创示例讲义、内容模板及 iOS 和 Android 阅读验收表。",
+      "firstSteps": [
+        "用两份自有讲义做样本，保留步骤编号、单位、注意事项和数据表，给各步骤加固定锚点。",
+        "在小程序测试环境核对目录跳转、表格滚动和图片加载，分别用 iOS 与 Android 微信打开，并检查断图与窄屏时的显示。",
+        "邀请三位教师完成定位步骤、找到指定数值和对照单位三项任务，记录耗时与误读，再询问是否需要一套按学科整理的讲义模板。"
+      ],
+      "costNotes": "基础渲染不需要模型。按讲义整理、两类手机的测试和小程序审核维护时间核算，有远程图文时另计存储与带宽。",
+      "maintenance": "讲义修订时保留原有章节链接，更新组件或微信基础库时复测目录、长表和图片降级，记录样本和真机版本。",
+      "monetization": "先作为星球原创讲义的配套阅读入口，再验证学科讲义模板的付费意愿。小程序广告需符合流量主条件，按试用反馈评估是否接入。",
+      "requirements": "首版使用原作者有权发布的固定图文和表格，不接收学生上传。需要公式插件时另行核对依赖许可证与字体。",
+      "existingBusinessFit": "复用星球已有讲义，给微信小程序增加易查找的实验阅读入口。验证重点是查找步骤与阅读数据表。",
+      "checkedAt": "2026-11-15",
+      "addedAt": "2026-11-15T00:56:19.491Z",
+      "batch": "2026-11-15",
+      "sourceRepository": "jin-yufeng/mp-html",
+      "url": "https://github.com/jin-yufeng/mp-html",
+      "relatedBusinesses": [
+        "微信小程序流量主",
+        "教育知识付费社群"
+      ],
+      "sources": [
+        {
+          "name": "原仓库 README",
+          "url": "https://github.com/jin-yufeng/mp-html/blob/master/README.md",
+          "note": "在微信小程序里展示 HTML 图文、表格和 SVG，可开启页内锚点跳转、表格横向滚动与长按复制，提供中文文档。"
+        },
+        {
+          "name": "源码许可证",
+          "url": "https://github.com/jin-yufeng/mp-html/blob/master/LICENSE",
+          "note": "组件源码采用 MIT，分发时保留版权和许可声明。扩展插件、字体与配图按各自许可核对。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/jin-yufeng/mp-html/commit/60483c4fa921b7fd28d3fd6d525d124a09126651",
+          "note": "2026-04-19 19:18:39（北京时间）。GitHub API 显示未归档。"
+        },
+        {
+          "name": "GitHub API 仓库快照",
+          "url": "https://api.github.com/repos/jin-yufeng/mp-html",
+          "note": "2026-11-15 08:56:19（北京时间）核验，证据见 research/catalog-github-snapshots-2026-11-15.json#2026-11-15T00:56:19.491Z。"
         }
       ]
     },

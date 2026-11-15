@@ -1,6 +1,6 @@
 {
-  "revision": "e7895f94-f26c-4ddb-84b1-e8915b897807",
-  "reviewedAt": "2026-11-01",
+  "revision": "77d38909-6574-45fd-8e75-1313e5e97101",
+  "reviewedAt": "2026-11-15",
   "resources": [
     {
       "id": "cn-repo-gongfuxiang-shopxo",
@@ -1443,26 +1443,20 @@
       "description": "支持企业微信、公众号等平台的 AI 对话与插件扩展，可用于教师社群的资料答疑。",
       "resourceDescription": "支持企业微信、公众号等平台的 AI 对话与插件扩展，可用于教师社群的资料答疑。",
       "licenseNote": "AGPL-3.0；另有 EULA 使用条件，商用部署与修改分发须一并核对；插件、模型和平台权限另查。",
-      "checkedAt": "2026-11-01",
+      "checkedAt": "2026-11-03",
       "addedAt": "2026-11-01T00:20:58+08:00",
-      "upstreamCommit": "831abae85da8b6e58dc44d4544d163f8f9459ba1",
-      "upstreamCommitAt": "2026-10-31T16:02:46Z",
-      "upstreamCommitDate": "2026-11-01",
-      "stars": 45332,
-      "starsObservedAt": "2026-11-01T01:02:19.085Z",
+      "upstreamCommit": "6c942855cb06b6d43854e8b841859d60a5c6043e",
+      "upstreamCommitAt": "2026-11-02T11:04:03Z",
+      "upstreamCommitDate": "2026-11-02",
+      "stars": 45673,
+      "starsObservedAt": "2026-11-03T01:07:30.695Z",
       "relatedBusinesses": [
         "教育知识付费社群",
         "公众号流量主"
       ],
       "existingBusinessFit": "先服务现有星球的课程与资料答疑，通过获授权的公众号或企业微信入口使用。",
-      "growthNote": "北京时间 2026-11-01 09:02 的 GitHub 周榜显示本周新增 2137 星；本地从 2026/11/1 00:22:16 至 2026/11/1 09:02:19 的 8.67 小时快照净增 62 星，不能当作完整一天的增量。",
-      "starGrowth": {
-        "count": 2137,
-        "period": "weekly",
-        "observedAt": "2026-11-01T01:02:19.085Z",
-        "sourceUrl": "https://github.com/trending?since=weekly",
-        "basis": "GitHub Trending 页面快照"
-      },
+      "growthNote": "北京时间 2026-11-02 09:03:58 至 2026-11-03 09:07:30（24.06 小时），星数 45517 → 45673，净增 156；为本地观察区间净变化，不是 GitHub 今日新增。本次取得的日榜与周榜未出现该仓库。",
+      "starGrowth": null,
       "sources": [
         {
           "name": "原始仓库与用途",
@@ -1480,24 +1474,26 @@
           "note": "与源码 LICENSE 一并核对。"
         },
         {
-          "name": "核验时的提交",
-          "url": "https://github.com/AstrBotDevs/AstrBot/commit/831abae85da8b6e58dc44d4544d163f8f9459ba1",
-          "note": "2026-10-31T16:02:46Z"
+          "name": "核验时的最近提交",
+          "url": "https://github.com/AstrBotDevs/AstrBot/commit/6c942855cb06b6d43854e8b841859d60a5c6043e",
+          "note": "北京时间 2026-11-02 19:04:03；本次核验未归档。"
         },
         {
-          "name": "GitHub 趋势榜快照",
-          "url": "https://github.com/trending?since=weekly",
-          "note": "北京时间 2026-11-01 09:02 的 GitHub 周榜显示本周新增 2137 星；本地从 2026/11/1 00:22:16 至 2026/11/1 09:02:19 的 8.67 小时快照净增 62 星，不能当作完整一天的增量。"
+          "name": "GitHub 星数双快照",
+          "url": "https://api.github.com/repos/AstrBotDevs/AstrBot",
+          "note": "research/catalog-github-snapshots-2026-11-15.json#2026-11-02T01:03:58.801Z 对比 research/catalog-github-snapshots-2026-11-15.json#2026-11-03T01:07:30.695Z；24.06 小时净增 156 星。"
         }
       ],
       "starDeltaObservation": {
         "repository": "AstrBotDevs/AstrBot",
-        "from": "2026-10-31T16:22:16.750Z",
-        "to": "2026-11-01T01:02:19.085Z",
-        "previousStars": 45270,
-        "currentStars": 45332,
-        "netChange": 62,
-        "elapsedHours": 8.67
+        "from": "2026-11-02T01:03:58.801Z",
+        "to": "2026-11-03T01:07:30.695Z",
+        "previousStars": 45517,
+        "currentStars": 45673,
+        "netChange": 156,
+        "elapsedHours": 24.06,
+        "previousEvidence": "research/catalog-github-snapshots-2026-11-15.json#2026-11-02T01:03:58.801Z",
+        "currentEvidence": "research/catalog-github-snapshots-2026-11-15.json#2026-11-03T01:07:30.695Z"
       }
     },
     {
@@ -1514,57 +1510,53 @@
       "description": "基于学习资料提供引导式学习、练习与问答，带中文资料和可配置模型服务。",
       "resourceDescription": "基于学习资料提供引导式学习、练习与问答，带中文资料和可配置模型服务。",
       "licenseNote": "Apache-2.0；教材、模型、解析服务及生成内容分别核对使用条件。",
-      "checkedAt": "2026-11-01",
+      "checkedAt": "2026-11-11",
       "addedAt": "2026-11-01T00:20:58+08:00",
-      "upstreamCommit": "f7aed0744c36c5afef16a4261c31ebee1208cac2",
-      "upstreamCommitAt": "2026-10-31T16:50:27Z",
-      "upstreamCommitDate": "2026-11-01",
-      "stars": 52820,
-      "starsObservedAt": "2026-11-01T01:02:19.085Z",
+      "upstreamCommit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "upstreamCommitAt": "2026-11-06T08:41:21Z",
+      "upstreamCommitDate": "2026-11-06",
+      "stars": 57998,
+      "starsObservedAt": "2026-11-11T01:01:33.337Z",
       "relatedBusinesses": [
         "教育知识付费社群",
         "AI 写作辅助"
       ],
-      "existingBusinessFit": "用于星球教师实操课程与文献阅读辅导，先核查输出引用与答案。",
-      "growthNote": "北京时间 2026-11-01 09:02 的 GitHub 日榜显示今日新增 1034 星；本地从 2026/11/1 00:20:58 至 2026/11/1 09:02:19 的 8.69 小时快照净增 323 星，不能当作完整一天的增量。",
+      "existingBusinessFit": "用于星球教师实操课程与文献阅读辅导。README 列有 Qwen/vLLM 兼容及 DeepSeek Harness 接入。教学使用时核查输出引用与答案。",
+      "growthNote": "北京时间 2026-11-10 09:02:12 至 2026-11-11 09:01:33（23.99 小时），累计 57624 → 57998 星，净变化 +374。本次日榜和周榜未列出该仓库。",
       "sources": [
         {
-          "name": "原始仓库与用途",
+          "name": "原仓库 README 与中文用途",
           "url": "https://github.com/HKUDS/DeepTutor/blob/main/README.md",
-          "note": "基于学习资料提供引导式学习、练习与问答，带中文资料和可配置模型服务。"
+          "note": "用于星球教师实操课程与文献阅读辅导。README 列有 Qwen/vLLM 兼容及 DeepSeek Harness 接入。教学使用时核查输出引用与答案。"
         },
         {
-          "name": "源码许可",
+          "name": "许可证原文",
           "url": "https://github.com/HKUDS/DeepTutor/blob/main/LICENSE",
           "note": "Apache-2.0；教材、模型、解析服务及生成内容分别核对使用条件。"
         },
         {
-          "name": "核验时的提交",
-          "url": "https://github.com/HKUDS/DeepTutor/commit/f7aed0744c36c5afef16a4261c31ebee1208cac2",
-          "note": "2026-10-31T16:50:27Z"
+          "name": "最近提交与归档状态",
+          "url": "https://github.com/HKUDS/DeepTutor/commit/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+          "note": "北京时间 2026-11-06 16:41:21，核验时未归档。"
         },
         {
-          "name": "GitHub 趋势榜快照",
-          "url": "https://github.com/trending?since=daily",
-          "note": "北京时间 2026-11-01 09:02 的 GitHub 日榜显示今日新增 1034 星；本地从 2026/11/1 00:20:58 至 2026/11/1 09:02:19 的 8.69 小时快照净增 323 星，不能当作完整一天的增量。"
+          "name": "GitHub 仓库快照",
+          "url": "https://api.github.com/repos/HKUDS/DeepTutor",
+          "note": "北京时间 2026-11-10 09:02:12 至 2026-11-11 09:01:33（23.99 小时），累计 57624 → 57998 星，净变化 +374。 research/catalog-github-snapshots-2026-11-15.json#2026-11-11T01:01:33.337Z。对照 research/catalog-github-snapshots-2026-11-15.json#2026-11-10T01:02:12.907Z。"
         }
       ],
       "starDeltaObservation": {
         "repository": "HKUDS/DeepTutor",
-        "from": "2026-10-31T16:20:58.849Z",
-        "to": "2026-11-01T01:02:19.085Z",
-        "previousStars": 52497,
-        "currentStars": 52820,
-        "netChange": 323,
-        "elapsedHours": 8.69
+        "from": "2026-11-10T01:02:12.907Z",
+        "to": "2026-11-11T01:01:33.337Z",
+        "previousStars": 57624,
+        "currentStars": 57998,
+        "netChange": 374,
+        "elapsedHours": 23.99,
+        "previousEvidence": "research/catalog-github-snapshots-2026-11-15.json#2026-11-10T01:02:12.907Z",
+        "currentEvidence": "research/catalog-github-snapshots-2026-11-15.json#2026-11-11T01:01:33.337Z"
       },
-      "starGrowth": {
-        "count": 1034,
-        "period": "daily",
-        "observedAt": "2026-11-01T01:02:19.085Z",
-        "sourceUrl": "https://github.com/trending?since=daily",
-        "basis": "GitHub Trending 页面快照"
-      }
+      "starGrowth": null
     },
     {
       "id": "cn-daily-aiworkskills-wechat-article-skills",
@@ -1760,26 +1752,20 @@
       "description": "将主题或授权文档组织为课件、测验和互动课堂，支持 AI 教师、同伴讨论及白板；可配置 DeepSeek、通义千问等国内模型或兼容接口。",
       "resourceDescription": "将主题或授权文档组织为课件、测验和互动课堂，支持 AI 教师、同伴讨论及白板；可配置 DeepSeek、通义千问等国内模型或兼容接口。",
       "licenseNote": "MIT；模型、语音、图像及素材服务的费用和授权单独核对。",
-      "checkedAt": "2026-11-01",
+      "checkedAt": "2026-11-03",
       "addedAt": "2026-11-01T01:02:44.945Z",
-      "upstreamCommit": "fe2cf7dade345f4eaaf9afb1771e6734e17edaab",
-      "upstreamCommitAt": "2026-10-30T09:30:33Z",
-      "upstreamCommitDate": "2026-10-30",
-      "stars": 42189,
-      "starsObservedAt": "2026-11-01T01:02:44.945Z",
+      "upstreamCommit": "c94aeac4f7560951c7c2b3f5072a92b672f8df20",
+      "upstreamCommitAt": "2026-11-02T06:20:40Z",
+      "upstreamCommitDate": "2026-11-02",
+      "stars": 42498,
+      "starsObservedAt": "2026-11-03T01:07:30.695Z",
       "relatedBusinesses": [
         "教育知识付费社群",
         "公众号流量主"
       ],
       "existingBusinessFit": "可为星球教师制作课堂提问与追问演练案例，并将经过人工复核的使用体验整理成公众号原创内容。",
-      "growthNote": "GitHub 日榜于北京时间 2026-11-01 09:02 显示今日新增 116 星；这是榜单快照，并非本地连续 24 小时测量。",
-      "starGrowth": {
-        "count": 116,
-        "period": "daily",
-        "observedAt": "2026-11-01T01:02:44.945Z",
-        "sourceUrl": "https://github.com/trending?since=daily",
-        "basis": "GitHub Trending 页面快照"
-      },
+      "growthNote": "北京时间 2026-11-02 09:03:58 至 2026-11-03 09:07:30（24.06 小时），星数 42398 → 42498，净增 100；为本地观察区间净变化，不是 GitHub 今日新增。本次取得的日榜与周榜未出现该仓库。",
+      "starGrowth": null,
       "sources": [
         {
           "name": "原始仓库与用途",
@@ -1792,16 +1778,27 @@
           "note": "MIT；模型、语音、图像及素材服务的费用和授权单独核对。"
         },
         {
-          "name": "核验时的提交",
-          "url": "https://github.com/THU-MAIC/OpenMAIC/commit/fe2cf7dade345f4eaaf9afb1771e6734e17edaab",
-          "note": "2026-10-30T09:30:33Z"
+          "name": "核验时的最近提交",
+          "url": "https://github.com/THU-MAIC/OpenMAIC/commit/c94aeac4f7560951c7c2b3f5072a92b672f8df20",
+          "note": "北京时间 2026-11-02 14:20:40；本次核验未归档。"
         },
         {
-          "name": "GitHub 当日趋势榜",
-          "url": "https://github.com/trending?since=daily",
-          "note": "GitHub 日榜于北京时间 2026-11-01 09:02 显示今日新增 116 星；这是榜单快照，并非本地连续 24 小时测量。"
+          "name": "GitHub 星数双快照",
+          "url": "https://api.github.com/repos/THU-MAIC/OpenMAIC",
+          "note": "research/catalog-github-snapshots-2026-11-15.json#2026-11-02T01:03:58.801Z 对比 research/catalog-github-snapshots-2026-11-15.json#2026-11-03T01:07:30.695Z；24.06 小时净增 100 星。"
         }
-      ]
+      ],
+      "starDeltaObservation": {
+        "repository": "THU-MAIC/OpenMAIC",
+        "from": "2026-11-02T01:03:58.801Z",
+        "to": "2026-11-03T01:07:30.695Z",
+        "previousStars": 42398,
+        "currentStars": 42498,
+        "netChange": 100,
+        "elapsedHours": 24.06,
+        "previousEvidence": "research/catalog-github-snapshots-2026-11-15.json#2026-11-02T01:03:58.801Z",
+        "currentEvidence": "research/catalog-github-snapshots-2026-11-15.json#2026-11-03T01:07:30.695Z"
+      }
     },
     {
       "id": "cn-daily-tencentcloudbase-awesome-miniprogram-skills",
@@ -1890,6 +1887,1279 @@
           "name": "核验时的提交",
           "url": "https://github.com/modelscope/Awesome-Vibe-Research/commit/e379fce2b50ae954fd75b3f4962a0955e281f57b",
           "note": "2026-10-31T07:47:43Z"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-jaychouchannel-plotcraft",
+      "name": "PlotCraft 科研矢量图与源码生成工具",
+      "repository": "jaychouchannel/PlotCraft",
+      "category": "内容制作与写作",
+      "categoryLabel": "内容制作与写作",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/jaychouchannel/PlotCraft",
+      "documentationUrl": "https://github.com/jaychouchannel/PlotCraft/blob/main/README.md",
+      "description": "根据文字要求生成 Matplotlib 绘图代码，导出可编辑 SVG 与 Python 源码；支持 DeepSeek、Qwen 等 OpenAI 兼容接口，适合论文与教学图表制作的本地原型。",
+      "resourceDescription": "根据文字要求生成 Matplotlib 绘图代码，导出可编辑 SVG 与 Python 源码；支持 DeepSeek、Qwen 等 OpenAI 兼容接口，适合论文与教学图表制作的本地原型。",
+      "licenseNote": "MIT，复用源码需保留版权与许可声明；字体、数据和模型服务另核对。仓库提供生成代码的本地执行功能，隔离能力未实测，不直接作为公共服务部署。",
+      "checkedAt": "2026-11-02",
+      "addedAt": "2026-11-02T01:04:29.663Z",
+      "upstreamCommit": "91d8bc888181862b5e2d0bca291a90c5d3800754",
+      "upstreamCommitAt": "2026-08-17T00:33:36Z",
+      "upstreamCommitDate": "2026-08-17",
+      "stars": 18,
+      "starsObservedAt": "2026-11-02T01:04:29.663Z",
+      "relatedBusinesses": [
+        "AI 写作辅助",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "衔接现有 AI 论文与教育写作辅助，把获授权的真实数据转为可编辑图表，并为知识星球制作原创科研绘图教学案例。",
+      "growthNote": "北京时间 2026-11-02 09:04:29 首次快照：累计 18 星，尚无可比快照，不能推断近期涨星速度；未列入本次取得的日榜或周榜。",
+      "starGrowth": null,
+      "sources": [
+        {
+          "name": "原始 README 与国内模型适配",
+          "url": "https://github.com/jaychouchannel/PlotCraft/blob/main/README.md",
+          "note": "支持 OpenAI 兼容接口，列出 DeepSeek、Qwen、Moonshot、智谱；目前导出 SVG 和 Python，PDF/EPS 仍在路线图。能力来自 README，未安装或执行。"
+        },
+        {
+          "name": "MIT 许可证原文",
+          "url": "https://github.com/jaychouchannel/PlotCraft/blob/main/LICENSE",
+          "note": "MIT，复用源码需保留版权与许可声明；字体、数据和模型服务另核对。仓库提供生成代码的本地执行功能，隔离能力未实测，不直接作为公共服务部署。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/jaychouchannel/PlotCraft/commit/91d8bc888181862b5e2d0bca291a90c5d3800754",
+          "note": "最近提交 2026-08-17 08:33:36（北京时间）；核验时未归档。"
+        },
+        {
+          "name": "GitHub 仓库元数据",
+          "url": "https://api.github.com/repos/jaychouchannel/PlotCraft",
+          "note": "北京时间 2026-11-02 09:04:29 核验；完整证据已保存于 research/catalog-github-snapshots-2026-11-15.json#2026-11-02T01:04:29.663Z。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-heygen-com-hyperframes",
+      "name": "HyperFrames 本地 HTML 动画视频工具",
+      "repository": "heygen-com/hyperframes",
+      "category": "内容制作与写作",
+      "categoryLabel": "内容制作与写作",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "documentationUrl": "https://github.com/heygen-com/hyperframes/blob/main/README.md",
+      "description": "把 HTML、CSS 和自有媒体渲染成 MP4，支持本地预览和可编辑动画源码，可用于中文教学动画与公众号配套短片。",
+      "resourceDescription": "把 HTML、CSS 和自有媒体渲染成 MP4，支持本地预览和可编辑动画源码，可用于中文教学动画与公众号配套短片。",
+      "licenseNote": "Apache-2.0；分发或修改源码时保留许可、版权和适用的 NOTICE。字体、音乐、图片、第三方组件与可选云服务需单独核对。",
+      "checkedAt": "2026-11-03",
+      "addedAt": "2026-11-03T01:07:56.583Z",
+      "upstreamCommit": "fc006f713beb8caf46554da468fa578247b8db08",
+      "upstreamCommitAt": "2026-11-03T14:22:36Z",
+      "upstreamCommitDate": "2026-11-03",
+      "stars": 78130,
+      "starsObservedAt": "2026-11-03T15:00:13.842Z",
+      "relatedBusinesses": [
+        "公众号流量主",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "为现有教育公众号和星球制作原创概念演示动画。README 明确本地 CLI、Chrome 与 FFmpeg 渲染路径；国内用途基于本地 HTML、中文字体及自有素材，不依赖海外广告平台。未实测环境或核验原生国产模型适配，可手工编写 HTML。",
+      "growthNote": "北京时间 2026-11-03 12:08:14 至 2026-11-03 23:00:13（10.87 小时），累计星数 77824 → 78130，净增 306；这是观察区间净变化，不是今日新增。本次日榜、周榜未出现该仓库。",
+      "starGrowth": null,
+      "sources": [
+        {
+          "name": "原始 README 与适配说明",
+          "url": "https://github.com/heygen-com/hyperframes/blob/main/README.md",
+          "note": "为现有教育公众号和星球制作原创概念演示动画。README 明确本地 CLI、Chrome 与 FFmpeg 渲染路径；国内用途基于本地 HTML、中文字体及自有素材，不依赖海外广告平台。未实测环境或核验原生国产模型适配，可手工编写 HTML。 本次只核验资料，未安装或执行。"
+        },
+        {
+          "name": "源码许可证",
+          "url": "https://github.com/heygen-com/hyperframes/blob/main/LICENSE",
+          "note": "Apache-2.0；分发或修改源码时保留许可、版权和适用的 NOTICE。字体、音乐、图片、第三方组件与可选云服务需单独核对。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/heygen-com/hyperframes/commit/fc006f713beb8caf46554da468fa578247b8db08",
+          "note": "北京时间 2026-11-03 22:22:36；核验时未归档。"
+        },
+        {
+          "name": "星数双快照",
+          "url": "https://api.github.com/repos/heygen-com/hyperframes",
+          "note": "research/catalog-github-snapshots-2026-11-15.json#2026-11-03T04:08:14.667Z 对比 research/catalog-github-snapshots-2026-11-15.json#2026-11-03T15:00:13.842Z；10.87 小时净增 306 星。"
+        }
+      ],
+      "starDeltaObservation": {
+        "repository": "heygen-com/hyperframes",
+        "from": "2026-11-03T04:08:14.667Z",
+        "to": "2026-11-03T15:00:13.842Z",
+        "previousStars": 77824,
+        "currentStars": 78130,
+        "netChange": 306,
+        "elapsedHours": 10.87,
+        "previousEvidence": "research/catalog-github-snapshots-2026-11-15.json#2026-11-03T04:08:14.667Z",
+        "currentEvidence": "research/catalog-github-snapshots-2026-11-15.json#2026-11-03T15:00:13.842Z"
+      }
+    },
+    {
+      "id": "cn-daily-yu-tao-li-dsh-reference-checker",
+      "name": "DSH 参考文献元数据核查插件",
+      "repository": "Yu-tao-Li/dsh-reference-checker",
+      "category": "内容制作与写作",
+      "categoryLabel": "内容制作与写作",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/Yu-tao-Li/dsh-reference-checker",
+      "documentationUrl": "https://github.com/Yu-tao-Li/dsh-reference-checker/blob/main/README.md",
+      "description": "为 DeepSeek Harness 增加参考文献核查工具，对照 Crossref、OpenAlex、arXiv 检查书目信息，输出候选记录与修正建议；支持 GB/T 7714 等格式，需人工复核。",
+      "resourceDescription": "为 DeepSeek Harness 增加参考文献核查工具，对照 Crossref、OpenAlex、arXiv 检查书目信息，输出候选记录与修正建议；支持 GB/T 7714 等格式，需人工复核。",
+      "licenseNote": "MIT；复用源码须保留版权与许可声明。DeepSeek Harness、pdf-parse 和外部书目服务分别遵循各自条件，外部接口限流与可访问性需实际验证。",
+      "checkedAt": "2026-11-03",
+      "addedAt": "2026-11-03T01:07:30.695Z",
+      "upstreamCommit": "15e2bff9581e0efba169c9285852033df5b651f7",
+      "upstreamCommitAt": "2026-10-31T13:23:06Z",
+      "upstreamCommitDate": "2026-10-31",
+      "stars": 5,
+      "starsObservedAt": "2026-11-03T01:07:30.695Z",
+      "relatedBusinesses": [
+        "AI 写作辅助",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "补充现有文献证据笔记与引用核查流程，供写作辅助和星球科研教学使用。中文 README、GB/T 7714 样式和 DeepSeek Harness 插件接口已核对；公开数据库未检索到不等于文献不存在，不覆盖全部中文期刊。",
+      "growthNote": "北京时间 2026-11-03 09:07:30 首次快照：累计 5 星，尚无可比快照，无法判断近期涨星速度；本次取得的日榜与周榜均未出现该仓库。",
+      "starGrowth": null,
+      "sources": [
+        {
+          "name": "原始 README 与业务适配",
+          "url": "https://github.com/Yu-tao-Li/dsh-reference-checker/blob/main/README.md",
+          "note": "补充现有文献证据笔记与引用核查流程，供写作辅助和星球科研教学使用。中文 README、GB/T 7714 样式和 DeepSeek Harness 插件接口已核对；公开数据库未检索到不等于文献不存在，不覆盖全部中文期刊。 能力来自原仓库说明，本次未安装或执行。"
+        },
+        {
+          "name": "源码许可证",
+          "url": "https://github.com/Yu-tao-Li/dsh-reference-checker/blob/main/LICENSE",
+          "note": "MIT；复用源码须保留版权与许可声明。DeepSeek Harness、pdf-parse 和外部书目服务分别遵循各自条件，外部接口限流与可访问性需实际验证。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/Yu-tao-Li/dsh-reference-checker/commit/15e2bff9581e0efba169c9285852033df5b651f7",
+          "note": "北京时间 2026-10-31 21:23:06；核验时未归档、不是 fork。"
+        },
+        {
+          "name": "仓库元数据快照",
+          "url": "https://api.github.com/repos/Yu-tao-Li/dsh-reference-checker",
+          "note": "北京时间 2026-11-03 09:07:30 核验；research/catalog-github-snapshots-2026-11-15.json#2026-11-03T01:07:30.695Z。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-watertian-wechat-devtools-mcp",
+      "name": "微信开发者工具 AI 调试与截图助手",
+      "repository": "WaterTian/wechat-devtools-mcp",
+      "category": "小程序开发",
+      "categoryLabel": "小程序开发",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/WaterTian/wechat-devtools-mcp",
+      "documentationUrl": "https://github.com/WaterTian/wechat-devtools-mcp/blob/main/README.md",
+      "description": "将微信开发者工具接入 AI 编辑器，辅助编译预览、页面操作、日志排查与长图截图，提供配套任务流程。",
+      "resourceDescription": "将微信开发者工具接入 AI 编辑器，辅助编译预览、页面操作、日志排查与长图截图，提供配套任务流程。",
+      "licenseNote": "MIT；复用源码保留许可和版权声明。微信开发者工具、MCP 客户端、模型及依赖分别核对；仓库要求 MCP 与配套 Skill 版本匹配。",
+      "checkedAt": "2026-11-03",
+      "addedAt": "2026-11-03T04:08:14.667Z",
+      "upstreamCommit": "2d1a2146e10459ec7eced79f9df05c7cb6000bbe",
+      "upstreamCommitAt": "2026-10-26T10:05:34Z",
+      "upstreamCommitDate": "2026-10-26",
+      "stars": 159,
+      "starsObservedAt": "2026-11-03T04:08:14.667Z",
+      "relatedBusinesses": [
+        "微信小程序流量主",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "直接服务现有微信小程序的页面回归与发布前检查。原始中文文档列出 Windows/macOS、微信开发者工具及 Trae 配置；实际兼容性须在本机开发者工具版本上验证。",
+      "growthNote": "北京时间 2026-11-03 12:08:14 首次快照：累计 159 星，尚无可比快照；本次日榜、周榜未出现该仓库，不能认定近期快速涨星。",
+      "starGrowth": null,
+      "sources": [
+        {
+          "name": "原始 README 与适配说明",
+          "url": "https://github.com/WaterTian/wechat-devtools-mcp/blob/main/README.md",
+          "note": "直接服务现有微信小程序的页面回归与发布前检查。原始中文文档列出 Windows/macOS、微信开发者工具及 Trae 配置；实际兼容性须在本机开发者工具版本上验证。 本次只核验资料，未安装或执行。"
+        },
+        {
+          "name": "源码许可证",
+          "url": "https://github.com/WaterTian/wechat-devtools-mcp/blob/main/LICENSE",
+          "note": "MIT；复用源码保留许可和版权声明。微信开发者工具、MCP 客户端、模型及依赖分别核对；仓库要求 MCP 与配套 Skill 版本匹配。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/WaterTian/wechat-devtools-mcp/commit/2d1a2146e10459ec7eced79f9df05c7cb6000bbe",
+          "note": "北京时间 2026-10-26 18:05:34；核验时未归档。"
+        },
+        {
+          "name": "仓库核验快照",
+          "url": "https://api.github.com/repos/WaterTian/wechat-devtools-mcp",
+          "note": "北京时间 2026-11-03 12:08:14 核验；证据 research/catalog-github-snapshots-2026-11-15.json#2026-11-03T04:08:14.667Z。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-dayuanjiang-next-ai-draw-io",
+      "name": "Next AI Draw.io 可编辑流程图工具",
+      "repository": "DayuanJiang/next-ai-draw-io",
+      "category": "教育工具",
+      "categoryLabel": "教育工具",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+      "documentationUrl": "https://github.com/DayuanJiang/next-ai-draw-io/blob/main/README.md",
+      "description": "用中文对话生成或修改流程图与结构图，保留可手工编辑的 draw.io 图形，支持版本回退以及 drawio、PNG、SVG 导出。",
+      "resourceDescription": "用中文对话生成或修改流程图与结构图，保留可手工编辑的 draw.io 图形，支持版本回退以及 drawio、PNG、SVG 导出。",
+      "licenseNote": "Apache-2.0；复用源码保留许可、版权和适用的 NOTICE，图标、素材、draw.io 组件与模型服务分别核对使用条件。",
+      "checkedAt": "2026-11-03",
+      "addedAt": "2026-11-03T04:08:14.667Z",
+      "upstreamCommit": "c9dc5f5cc62e7e5a327a62b39027d80033e1548c",
+      "upstreamCommitAt": "2026-11-01T04:55:06Z",
+      "upstreamCommitDate": "2026-11-01",
+      "stars": 36605,
+      "starsObservedAt": "2026-11-03T04:08:14.667Z",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "公众号流量主",
+        "AI 写作辅助"
+      ],
+      "existingBusinessFit": "用于星球教学图示、公众号讲解插图以及论文方法流程的可视化辅助。README 列出简体中文界面、DeepSeek、Qwen、豆包、智谱和 OpenAI 兼容接口；生成关系和文字需人工校对。",
+      "growthNote": "北京时间 2026-11-03 12:08:14 首次快照：累计 36605 星，尚无可比快照；本次日榜、周榜未出现该仓库，不能认定近期快速涨星。",
+      "starGrowth": null,
+      "sources": [
+        {
+          "name": "原始 README 与适配说明",
+          "url": "https://github.com/DayuanJiang/next-ai-draw-io/blob/main/README.md",
+          "note": "用于星球教学图示、公众号讲解插图以及论文方法流程的可视化辅助。README 列出简体中文界面、DeepSeek、Qwen、豆包、智谱和 OpenAI 兼容接口；生成关系和文字需人工校对。 本次只核验资料，未安装或执行。"
+        },
+        {
+          "name": "源码许可证",
+          "url": "https://github.com/DayuanJiang/next-ai-draw-io/blob/main/LICENSE",
+          "note": "Apache-2.0；复用源码保留许可、版权和适用的 NOTICE，图标、素材、draw.io 组件与模型服务分别核对使用条件。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/DayuanJiang/next-ai-draw-io/commit/c9dc5f5cc62e7e5a327a62b39027d80033e1548c",
+          "note": "北京时间 2026-11-01 12:55:06；核验时未归档。"
+        },
+        {
+          "name": "仓库核验快照",
+          "url": "https://api.github.com/repos/DayuanJiang/next-ai-draw-io",
+          "note": "北京时间 2026-11-03 12:08:14 核验；证据 research/catalog-github-snapshots-2026-11-15.json#2026-11-03T04:08:14.667Z。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-wechat-miniprogram-miniprogram-simulate",
+      "name": "微信官方小程序组件测试工具",
+      "repository": "wechat-miniprogram/miniprogram-simulate",
+      "category": "小程序开发",
+      "categoryLabel": "小程序开发",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/wechat-miniprogram/miniprogram-simulate",
+      "documentationUrl": "https://github.com/wechat-miniprogram/miniprogram-simulate/blob/master/README.md",
+      "description": "在 Node.js 与 DOM 模拟环境或浏览器中渲染小程序自定义组件，用于组件行为与交互的单元测试。",
+      "resourceDescription": "在 Node.js 与 DOM 模拟环境或浏览器中渲染小程序自定义组件，用于组件行为与交互的单元测试。",
+      "licenseNote": "MIT；分发时保留许可和版权声明。需要配套测试框架与 DOM 环境；组件模拟不代表真机或全部小程序能力。",
+      "checkedAt": "2026-11-03",
+      "addedAt": "2026-11-03T04:08:14.667Z",
+      "upstreamCommit": "f6044fd0ab3183eb170f4f64aebe1a9576ba76f2",
+      "upstreamCommitAt": "2026-06-30T03:08:09Z",
+      "upstreamCommitDate": "2026-06-30",
+      "stars": 538,
+      "starsObservedAt": "2026-11-03T04:08:14.667Z",
+      "relatedBusinesses": [
+        "微信小程序流量主"
+      ],
+      "existingBusinessFit": "为已有流量主小程序中的表单、计时器和记录组件建立重复可运行的检查，降低改版后功能出错的维护成本；直接适配微信小程序组件体系，不需要模型 API。",
+      "growthNote": "北京时间 2026-11-03 12:08:14 首次快照：累计 538 星，尚无可比快照；本次日榜、周榜未出现该仓库，不能认定近期快速涨星。",
+      "starGrowth": null,
+      "sources": [
+        {
+          "name": "原始 README 与适配说明",
+          "url": "https://github.com/wechat-miniprogram/miniprogram-simulate/blob/master/README.md",
+          "note": "为已有流量主小程序中的表单、计时器和记录组件建立重复可运行的检查，降低改版后功能出错的维护成本；直接适配微信小程序组件体系，不需要模型 API。 本次只核验资料，未安装或执行。"
+        },
+        {
+          "name": "源码许可证",
+          "url": "https://github.com/wechat-miniprogram/miniprogram-simulate/blob/master/LICENSE",
+          "note": "MIT；分发时保留许可和版权声明。需要配套测试框架与 DOM 环境；组件模拟不代表真机或全部小程序能力。"
+        },
+        {
+          "name": "核验时的提交",
+          "url": "https://github.com/wechat-miniprogram/miniprogram-simulate/commit/f6044fd0ab3183eb170f4f64aebe1a9576ba76f2",
+          "note": "北京时间 2026-06-30 11:08:09；核验时未归档。"
+        },
+        {
+          "name": "仓库核验快照",
+          "url": "https://api.github.com/repos/wechat-miniprogram/miniprogram-simulate",
+          "note": "北京时间 2026-11-03 12:08:14 核验；证据 research/catalog-github-snapshots-2026-11-15.json#2026-11-03T04:08:14.667Z。"
+        }
+      ]
+    },
+    {
+      "name": "Teacher Skill 中文分级教学流程",
+      "category": "教育工具",
+      "description": "中文 AI 教学技能包，提供学情判断、分级讲解、变式练习、进度记录和间隔复习流程，并列出 TRAE Rules 适配方式。",
+      "licenseNote": "MIT；复用源码与提示词时保留版权及许可。所用教材、字幕、模型和客户端的条件单独核对。",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "公众号流量主"
+      ],
+      "existingBusinessFit": "用于星球中的教师 AI 实操和公众号教学案例，把自编材料整理成循序讲解与练习。原仓库为中文文档，列出 TRAE 规则适配；这是客户端适配说明，不代表已验证原生国产模型接口。模型调用及资料传输取决于所用客户端，不能仅凭本地进度文件认定全部资料离线。最近提交为 2026-06-04，未归档，兼容性仍需实测。",
+      "id": "cn-daily-chentao326-teacher-skill",
+      "repository": "chentao326/teacher-skill",
+      "categoryLabel": "教育工具",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/chentao326/teacher-skill",
+      "documentationUrl": "https://github.com/chentao326/teacher-skill/blob/main/README.md",
+      "checkedAt": "2026-11-03",
+      "addedAt": "2026-11-03T15:00:13.842Z",
+      "upstreamCommit": "86056ac80f9e5f80c1e965a0de7e358ca54f4bdc",
+      "upstreamCommitAt": "2026-06-04T06:10:55Z",
+      "upstreamCommitDate": "2026-06-04",
+      "stars": 67,
+      "starsObservedAt": "2026-11-03T15:00:13.842Z",
+      "starGrowth": null,
+      "starDeltaObservation": null,
+      "growthNote": "北京时间 2026-11-03 23:00:13 首次核验快照：累计 67 星，尚无可比快照；本次日榜、周榜未出现该仓库，尚不能认定近期快速涨星。",
+      "resourceDescription": "中文 AI 教学技能包，提供学情判断、分级讲解、变式练习、进度记录和间隔复习流程，并列出 TRAE Rules 适配方式。",
+      "sources": [
+        {
+          "name": "原始 README 与适配说明",
+          "url": "https://github.com/chentao326/teacher-skill/blob/main/README.md",
+          "note": "用于星球中的教师 AI 实操和公众号教学案例，把自编材料整理成循序讲解与练习。原仓库为中文文档，列出 TRAE 规则适配；这是客户端适配说明，不代表已验证原生国产模型接口。模型调用及资料传输取决于所用客户端，不能仅凭本地进度文件认定全部资料离线。最近提交为 2026-06-04，未归档，兼容性仍需实测。 本次只核验资料，未安装或执行。"
+        },
+        {
+          "name": "源码许可证",
+          "url": "https://github.com/chentao326/teacher-skill/blob/main/LICENSE",
+          "note": "MIT；复用源码与提示词时保留版权及许可。所用教材、字幕、模型和客户端的条件单独核对。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/chentao326/teacher-skill/commit/86056ac80f9e5f80c1e965a0de7e358ca54f4bdc",
+          "note": "北京时间 2026-06-04 14:10:55；核验时未归档。"
+        },
+        {
+          "name": "仓库核验快照",
+          "url": "https://api.github.com/repos/chentao326/teacher-skill",
+          "note": "北京时间 2026-11-03 23:00:13；证据 research/catalog-github-snapshots-2026-11-15.json#2026-11-03T15:00:13.842Z。尚无可比快照。"
+        }
+      ]
+    },
+    {
+      "name": "Lychee 资料链接巡检工具",
+      "category": "知识付费与社群",
+      "description": "检查 Markdown、HTML 等资料中的链接，支持 JSON 报告、排除规则、缓存和重试，可辅助发现资料库中需要人工复核的失效入口。",
+      "licenseNote": "Apache-2.0（本次核对 LICENSE-APACHE）；README 另列 MIT 可选许可。按选择的许可保留声明，第三方依赖条件另查。",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "公众号流量主"
+      ],
+      "existingBusinessFit": "用于检查自编星球资料目录和公众号配套公开导航页，形成有日期的链接修订记录。支持 Windows 本地运行，无需模型 API；国内可用性取决于目标网站访问情况，不依赖海外付费平台。它是通用开源工具，并非国内平台专用接口；403、429 或超时需人工复核，不能直接视为链接失效。",
+      "id": "cn-daily-lycheeverse-lychee",
+      "repository": "lycheeverse/lychee",
+      "categoryLabel": "知识付费与社群",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/lycheeverse/lychee",
+      "documentationUrl": "https://github.com/lycheeverse/lychee/blob/master/README.md",
+      "checkedAt": "2026-11-03",
+      "addedAt": "2026-11-03T15:00:13.842Z",
+      "upstreamCommit": "d119b686aba77707bb4fc2037bdce3eea0ccaee6",
+      "upstreamCommitAt": "2026-11-02T12:51:41Z",
+      "upstreamCommitDate": "2026-11-02",
+      "stars": 4086,
+      "starsObservedAt": "2026-11-03T15:00:13.842Z",
+      "starGrowth": null,
+      "starDeltaObservation": null,
+      "growthNote": "北京时间 2026-11-03 23:00:13 首次核验快照：累计 4086 星，尚无可比快照；本次日榜、周榜未出现该仓库，尚不能认定近期快速涨星。",
+      "resourceDescription": "检查 Markdown、HTML 等资料中的链接，支持 JSON 报告、排除规则、缓存和重试，可辅助发现资料库中需要人工复核的失效入口。",
+      "sources": [
+        {
+          "name": "原始 README 与适配说明",
+          "url": "https://github.com/lycheeverse/lychee/blob/master/README.md",
+          "note": "用于检查自编星球资料目录和公众号配套公开导航页，形成有日期的链接修订记录。支持 Windows 本地运行，无需模型 API；国内可用性取决于目标网站访问情况，不依赖海外付费平台。它是通用开源工具，并非国内平台专用接口；403、429 或超时需人工复核，不能直接视为链接失效。 本次只核验资料，未安装或执行。"
+        },
+        {
+          "name": "源码许可证",
+          "url": "https://github.com/lycheeverse/lychee/blob/master/LICENSE-APACHE",
+          "note": "Apache-2.0（本次核对 LICENSE-APACHE）；README 另列 MIT 可选许可。按选择的许可保留声明，第三方依赖条件另查。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/lycheeverse/lychee/commit/d119b686aba77707bb4fc2037bdce3eea0ccaee6",
+          "note": "北京时间 2026-11-02 20:51:41；核验时未归档。"
+        },
+        {
+          "name": "仓库核验快照",
+          "url": "https://api.github.com/repos/lycheeverse/lychee",
+          "note": "北京时间 2026-11-03 23:00:13；证据 research/catalog-github-snapshots-2026-11-15.json#2026-11-03T15:00:13.842Z。尚无可比快照。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-zotero-chinese-styles",
+      "name": "Zotero 中文期刊与学位论文 CSL 样式库",
+      "repository": "zotero-chinese/styles",
+      "url": "https://github.com/zotero-chinese/styles",
+      "documentationUrl": "https://github.com/zotero-chinese/styles/blob/main/README.md",
+      "region": "中国大陆",
+      "category": "内容制作与写作",
+      "categoryLabel": "内容制作与写作",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "description": "提供中文期刊和学位论文的 Zotero CSL 引用样式，多数由 GB/T 7714—2015 衍生。可用于参考文献排版，具体格式以投稿期刊或学校的现行要求为准。",
+      "resourceDescription": "提供中文期刊和学位论文的 Zotero CSL 引用样式，多数由 GB/T 7714—2015 衍生。可用于参考文献排版，具体格式以投稿期刊或学校的现行要求为准。",
+      "licenseNote": "CC BY-SA 3.0 Unported。再分发须遵守署名与许可声明要求，分享改编样式时须遵守相同方式共享条款。",
+      "checkedAt": "2026-11-04",
+      "addedAt": "2026-11-04T01:05:09.098Z",
+      "upstreamCommit": "cf56b119812c83c91c99606405d7e7861685c3b7",
+      "upstreamCommitAt": "2026-08-23T11:59:00Z",
+      "upstreamCommitDate": "2026-08-23",
+      "stars": 6350,
+      "starsObservedAt": "2026-11-04T01:05:09.098Z",
+      "starGrowth": null,
+      "growthNote": "北京时间 2026-11-04 09:05:09 核验，累计 6350 星。尚无可比快照，本次日榜和周榜均未列出该仓库。",
+      "relatedBusinesses": [
+        "AI 写作辅助",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "用于论文与教研写作的引文排版辅助，以及星球里的中文文献管理演示。原仓库说明支持 Zotero，并提供 Gitee 镜像入口。使用本地样式无需模型 API，排版后人工核对中英文条目及刊校要求。",
+      "sources": [
+        {
+          "name": "中文 README",
+          "url": "https://github.com/zotero-chinese/styles/blob/main/README.md",
+          "note": "中文 CSL 样式、双语混排及 Gitee 镜像说明。"
+        },
+        {
+          "name": "许可证原文",
+          "url": "https://github.com/zotero-chinese/styles/blob/main/LICENSE",
+          "note": "CC BY-SA 3.0 Unported。再分发须遵守署名与许可声明要求，分享改编样式时须遵守相同方式共享条款。"
+        },
+        {
+          "name": "核验时最近提交",
+          "url": "https://github.com/zotero-chinese/styles/commit/cf56b119812c83c91c99606405d7e7861685c3b7",
+          "note": "北京时间 2026-08-23 19:59，核验时未归档。"
+        },
+        {
+          "name": "GitHub API 快照",
+          "url": "https://api.github.com/repos/zotero-chinese/styles",
+          "note": "research/catalog-github-snapshots-2026-11-15.json#2026-11-04T01:05:09.098Z，核验时间北京时间 2026-11-04 09:05:09。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-harry0703-moneyprinterturbo",
+      "name": "MoneyPrinterTurbo 短视频脚本与合成工具",
+      "repository": "harry0703/MoneyPrinterTurbo",
+      "category": "内容制作与写作",
+      "categoryLabel": "内容制作与写作",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "documentationUrl": "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/README.md",
+      "description": "将自备脚本和授权素材组织成短视频，可生成字幕、配音并合成成片。适合把原创公众号文章或星球教学材料剪成配套短片。",
+      "resourceDescription": "将自备脚本和授权素材组织成短视频，可生成字幕、配音并合成成片。适合把原创公众号文章或星球教学材料剪成配套短片。",
+      "licenseNote": "MIT。分发源码或主要部分时保留版权与许可声明。素材、配乐、配音音色和模型服务的授权按各自来源核对。",
+      "checkedAt": "2026-11-06",
+      "addedAt": "2026-11-05T01:08:39.760Z",
+      "upstreamCommit": "ace6c8f3a8dd9508776dbbf6f0bdc9b2d973254a",
+      "upstreamCommitAt": "2026-11-05T23:33:59Z",
+      "upstreamCommitDate": "2026-11-06",
+      "stars": 139790,
+      "starsObservedAt": "2026-11-06T01:08:16.183Z",
+      "relatedBusinesses": [
+        "公众号流量主",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "可用原创教案、文章脚本或自有录屏制作中文短片，为公众号案例和星球练习提供演示。README 功能列表明确支持 DeepSeek、通义千问以及自定义脚本与素材。模型及素材可用性按实际配置核对，成片由作者审核后上传。",
+      "growthNote": "北京时间 2026-11-05 09:08:39 至 2026-11-06 09:08:16（23.99 小时），累计 138975 → 139790 星，净变化 +815。本次日榜和周榜均未列出该仓库。",
+      "starGrowth": null,
+      "starDeltaObservation": {
+        "repository": "harry0703/MoneyPrinterTurbo",
+        "from": "2026-11-05T01:08:39.760Z",
+        "to": "2026-11-06T01:08:16.183Z",
+        "previousStars": 138975,
+        "currentStars": 139790,
+        "netChange": 815,
+        "elapsedHours": 23.99,
+        "previousEvidence": "research/catalog-github-snapshots-2026-11-15.json#2026-11-05T01:08:39.760Z",
+        "currentEvidence": "research/catalog-github-snapshots-2026-11-15.json#2026-11-06T01:08:16.183Z"
+      },
+      "sources": [
+        {
+          "name": "原仓库 README",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/README.md",
+          "note": "可用原创教案、文章脚本或自有录屏制作中文短片，为公众号案例和星球练习提供演示。README 功能列表明确支持 DeepSeek、通义千问以及自定义脚本与素材。模型及素材可用性按实际配置核对，成片由作者审核后上传。"
+        },
+        {
+          "name": "许可证原文",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/LICENSE",
+          "note": "MIT。分发源码或主要部分时保留版权与许可声明。素材、配乐、配音音色和模型服务的授权按各自来源核对。"
+        },
+        {
+          "name": "最近提交与归档状态",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo/commit/ace6c8f3a8dd9508776dbbf6f0bdc9b2d973254a",
+          "note": "北京时间 2026-11-06 07:33:59，核验时未归档。"
+        },
+        {
+          "name": "仓库 API 快照",
+          "url": "https://api.github.com/repos/harry0703/MoneyPrinterTurbo",
+          "note": "北京时间 2026-11-05 09:08:39 至 2026-11-06 09:08:16（23.99 小时），累计 138975 → 139790 星，净变化 +815。 本次证据 research/catalog-github-snapshots-2026-11-15.json#2026-11-06T01:08:16.183Z。对照 research/catalog-github-snapshots-2026-11-15.json#2026-11-05T01:08:39.760Z。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-typst-typst",
+      "name": "Typst 本地中文文档排版",
+      "category": "内容制作与写作",
+      "categoryLabel": "内容制作与写作",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "description": "将标记文档编译成 PDF，支持公式、表格和自定义字体。可用同一份中文内容输出不同版式或版本。",
+      "resourceDescription": "将标记文档编译成 PDF，支持公式、表格和自定义字体。可用同一份中文内容输出不同版式或版本。",
+      "licenseNote": "Apache-2.0。分发源码时保留许可、版权声明及适用的 NOTICE。模板、依赖和中文字体的授权按各自来源核对。",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "AI 写作辅助"
+      ],
+      "existingBusinessFit": "用于星球中文讲义、练习打印与原创教研稿件排版。README 提供 Windows 本地编译及字体路径配置。排版可使用本机授权中文字体，无需模型 API。",
+      "repository": "typst/typst",
+      "url": "https://github.com/typst/typst",
+      "documentationUrl": "https://github.com/typst/typst/blob/main/README.md",
+      "checkedAt": "2026-11-06",
+      "addedAt": "2026-11-06T01:08:17.938Z",
+      "upstreamCommit": "84cca406aafe7f830ed3f37f1cc6f0c8b6b65a03",
+      "upstreamCommitAt": "2026-10-28T11:22:33Z",
+      "upstreamCommitDate": "2026-10-28",
+      "stars": 57007,
+      "starsObservedAt": "2026-11-06T01:08:17.938Z",
+      "starDeltaObservation": null,
+      "starGrowth": null,
+      "growthNote": "北京时间 2026-11-06 09:08:17 核验累计 57007 星，尚无可比的仓库 API 快照。本次日榜和周榜均未列出该仓库。",
+      "sources": [
+        {
+          "name": "原仓库 README",
+          "url": "https://github.com/typst/typst/blob/main/README.md",
+          "note": "用于星球中文讲义、练习打印与原创教研稿件排版。README 提供 Windows 本地编译及字体路径配置。排版可使用本机授权中文字体，无需模型 API。"
+        },
+        {
+          "name": "许可证原文",
+          "url": "https://github.com/typst/typst/blob/main/LICENSE",
+          "note": "Apache-2.0。分发源码时保留许可、版权声明及适用的 NOTICE。模板、依赖和中文字体的授权按各自来源核对。"
+        },
+        {
+          "name": "最近提交与归档状态",
+          "url": "https://github.com/typst/typst/commit/84cca406aafe7f830ed3f37f1cc6f0c8b6b65a03",
+          "note": "北京时间 2026-10-28 19:22:33，核验时未归档。"
+        },
+        {
+          "name": "仓库 API 快照",
+          "url": "https://api.github.com/repos/typst/typst",
+          "note": "北京时间 2026-11-06 09:08:17 核验累计 57007 星，尚无可比的仓库 API 快照。 本次证据 research/catalog-github-snapshots-2026-11-15.json#2026-11-06T01:08:17.938Z。"
+        },
+        {
+          "name": "官方编译参数文档",
+          "url": "https://typst.app/docs/reference/foundations/sys/",
+          "note": "支持通过命令行传入版本参数，供同源文档导出不同成品。"
+        },
+        {
+          "name": "中文高校模板索引",
+          "url": "https://github.com/1195343015/cn-university-typst-thesis-templates",
+          "note": "了解中文高校排版示例。索引与各模板授权分别核对，学校规范以官方文件为准。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-antvis-f2",
+      "name": "AntV F2 微信小程序图表引擎",
+      "category": "小程序开发",
+      "categoryLabel": "小程序开发",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "description": "移动端数据可视化库，可在微信小程序页面绘制柱状图等图表。适合展示学习进度、课堂测验汇总和工具内的统计结果。",
+      "resourceDescription": "移动端数据可视化库，可在微信小程序页面绘制柱状图等图表。适合展示学习进度、课堂测验汇总和工具内的统计结果。",
+      "licenseNote": "F2 与 FEngine 仓库均为 MIT。分发源码或主要部分时保留版权及许可声明。其他依赖按各自许可核对。",
+      "relatedBusinesses": [
+        "微信小程序流量主",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "可把小程序里教师主动录入的班级测验汇总绘成可交互的柱状图，并在星球提供教研复盘示例。官方中文文档给出 @antv/f-wx 的微信接入示例，无需模型 API。旧版 @antv/wx-f2 有不同的依赖版本，按目标依赖和微信基础库做真机验证。",
+      "repository": "antvis/F2",
+      "url": "https://github.com/antvis/F2",
+      "documentationUrl": "https://github.com/antvis/F2/blob/master/README.md",
+      "checkedAt": "2026-11-07",
+      "addedAt": "2026-11-07T01:07:25.886Z",
+      "upstreamCommit": "fff56a0f6e0d6109a003bfb29b3376ab9865c731",
+      "upstreamCommitAt": "2026-04-07T11:20:49Z",
+      "upstreamCommitDate": "2026-04-07",
+      "stars": 7995,
+      "starsObservedAt": "2026-11-07T01:07:25.886Z",
+      "starDeltaObservation": null,
+      "starGrowth": null,
+      "growthNote": "北京时间 2026-11-07 09:07:25，累计 7995 星。尚无可比仓库 API 快照。本次日榜和周榜未列出该仓库。",
+      "sources": [
+        {
+          "name": "原仓库 README",
+          "url": "https://github.com/antvis/F2/blob/master/README.md",
+          "note": "可把小程序里教师主动录入的班级测验汇总绘成可交互的柱状图，并在星球提供教研复盘示例。官方中文文档给出 @antv/f-wx 的微信接入示例，无需模型 API。旧版 @antv/wx-f2 有不同的依赖版本，按目标依赖和微信基础库做真机验证。"
+        },
+        {
+          "name": "许可证原文",
+          "url": "https://github.com/antvis/F2/blob/master/LICENSE",
+          "note": "F2 与 FEngine 仓库均为 MIT。分发源码或主要部分时保留版权及许可声明。其他依赖按各自许可核对。"
+        },
+        {
+          "name": "最近提交与归档状态",
+          "url": "https://github.com/antvis/F2/commit/fff56a0f6e0d6109a003bfb29b3376ab9865c731",
+          "note": "北京时间 2026-04-07 19:20:49，核验时未归档。"
+        },
+        {
+          "name": "仓库 API 快照",
+          "url": "https://api.github.com/repos/antvis/F2",
+          "note": "北京时间 2026-11-07 09:07:25，累计 7995 星。尚无可比仓库 API 快照。 research/catalog-github-snapshots-2026-11-15.json#2026-11-07T01:07:25.886Z。"
+        },
+        {
+          "name": "AntV 官方微信小程序接入示例",
+          "url": "https://f2.antv.antgroup.com/tutorial/framework/miniprogram",
+          "note": "微信章节展示 @antv/f-wx 与 F2 Interval 柱状图的接入。"
+        },
+        {
+          "name": "微信组件所在仓库",
+          "url": "https://github.com/antvis/FEngine",
+          "note": "FEngine 含 f-wx 示例，最近提交为北京时间 2026-07-22 14:29:34，未归档。证据 research/catalog-github-snapshots-2026-11-15.json#2026-11-07T01:08:00.679Z。"
+        },
+        {
+          "name": "FEngine 许可证原文",
+          "url": "https://github.com/antvis/FEngine/blob/master/LICENSE",
+          "note": "MIT。"
+        }
+      ]
+    },
+    {
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "category": "教育工具",
+      "categoryLabel": "教育工具",
+      "id": "cn-daily-122-syf-wcy-physicsos",
+      "name": "PhysicsOS 物理交互探究平台",
+      "description": "面向初高中物理的交互探究平台，提供可改参数的运动、电路、光学等实验场景及观察数据，可用于设计课堂探究活动。",
+      "resourceDescription": "面向初高中物理的交互探究平台，提供可改参数的运动、电路、光学等实验场景及观察数据，可用于设计课堂探究活动。",
+      "licenseNote": "Apache-2.0。分发源码保留许可、版权与适用的 NOTICE。DeepSeek Harness、第三方依赖和素材条件单独核对。",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "公众号流量主"
+      ],
+      "existingBusinessFit": "可为星球教师设计参数对照和观察记录任务，公众号展示原创探究案例。原仓库有中文界面和 DeepSeek Harness 接入说明，完整平台依赖相应客户端、数据库和模型通道，当前为公测阶段。仿真读数与教学结论需要教师复核。",
+      "repository": "122-syf-wcy/PhysicsOS",
+      "url": "https://github.com/122-syf-wcy/PhysicsOS",
+      "documentationUrl": "https://github.com/122-syf-wcy/PhysicsOS/blob/main/README.md",
+      "checkedAt": "2026-11-09",
+      "addedAt": "2026-11-08T01:00:12.787Z",
+      "upstreamCommit": "d974790a9b68d763662e8cbb74b1652b3c2809be",
+      "upstreamCommitAt": "2026-11-08T05:52:58Z",
+      "upstreamCommitDate": "2026-11-08",
+      "stars": 265,
+      "starsObservedAt": "2026-11-09T01:04:04.073Z",
+      "starDeltaObservation": {
+        "repository": "122-syf-wcy/PhysicsOS",
+        "from": "2026-11-08T01:00:12.787Z",
+        "to": "2026-11-09T01:04:04.073Z",
+        "previousStars": 265,
+        "currentStars": 265,
+        "netChange": 0,
+        "elapsedHours": 24.06,
+        "previousEvidence": "research/catalog-github-snapshots-2026-11-15.json#2026-11-08T01:00:12.787Z",
+        "currentEvidence": "research/catalog-github-snapshots-2026-11-15.json#2026-11-09T01:04:04.073Z"
+      },
+      "starGrowth": null,
+      "growthNote": "北京时间 2026-11-08 09:00:12 至 2026-11-09 09:04:04（24.06 小时），累计 265 → 265 星，净变化 +0。本次日榜和周榜未列出该仓库。",
+      "sources": [
+        {
+          "name": "原仓库 README",
+          "url": "https://github.com/122-syf-wcy/PhysicsOS/blob/main/README.md",
+          "note": "可为星球教师设计参数对照和观察记录任务，公众号展示原创探究案例。原仓库有中文界面和 DeepSeek Harness 接入说明，完整平台依赖相应客户端、数据库和模型通道，当前为公测阶段。仿真读数与教学结论需要教师复核。"
+        },
+        {
+          "name": "许可证原文",
+          "url": "https://github.com/122-syf-wcy/PhysicsOS/blob/main/LICENSE",
+          "note": "Apache-2.0。分发源码保留许可、版权与适用的 NOTICE。DeepSeek Harness、第三方依赖和素材条件单独核对。"
+        },
+        {
+          "name": "最近提交及归档状态",
+          "url": "https://github.com/122-syf-wcy/PhysicsOS/commit/d974790a9b68d763662e8cbb74b1652b3c2809be",
+          "note": "北京时间 2026-11-08 13:52:58，核验时未归档。"
+        },
+        {
+          "name": "GitHub 仓库快照",
+          "url": "https://api.github.com/repos/122-syf-wcy/PhysicsOS",
+          "note": "北京时间 2026-11-08 09:00:12 至 2026-11-09 09:04:04（24.06 小时），累计 265 → 265 星，净变化 +0。 research/catalog-github-snapshots-2026-11-15.json#2026-11-09T01:04:04.073Z。对照 research/catalog-github-snapshots-2026-11-15.json#2026-11-08T01:00:12.787Z。"
+        }
+      ]
+    },
+    {
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "category": "教育工具",
+      "categoryLabel": "教育工具",
+      "id": "cn-daily-wy51ai-edulab",
+      "name": "Edulab 学科交互课件工具集",
+      "description": "将学科问题整理为交互式教学网页或带讲解的视频，含立体几何、解析几何、化学反应等示例与计算内核。",
+      "resourceDescription": "将学科问题整理为交互式教学网页或带讲解的视频，含立体几何、解析几何、化学反应等示例与计算内核。",
+      "licenseNote": "Apache-2.0。复用源码与文档时保留许可、版权及适用的 NOTICE。SymPy、渲染组件、字体、语音与模型服务条件分别核对。",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "公众号流量主"
+      ],
+      "existingBusinessFit": "用于星球里的教师课件制作实操和公众号学科案例。仓库提供中文文档与中文任务入口，视频配音列有智谱、豆包和 MiniMax。网页示例依赖相应 Python 与前端组件，生成内容需人工检查，运行环境和外部资源加载仍需实测。",
+      "repository": "wy51ai/edulab",
+      "url": "https://github.com/wy51ai/edulab",
+      "documentationUrl": "https://github.com/wy51ai/edulab/blob/master/README.md",
+      "checkedAt": "2026-11-08",
+      "addedAt": "2026-11-08T01:00:12.787Z",
+      "upstreamCommit": "805fdc5dd6bdf942290a7791924bf0ee08f26632",
+      "upstreamCommitAt": "2026-10-23T06:24:56Z",
+      "upstreamCommitDate": "2026-10-23",
+      "stars": 1766,
+      "starsObservedAt": "2026-11-08T01:00:12.787Z",
+      "starDeltaObservation": null,
+      "starGrowth": null,
+      "growthNote": "北京时间 2026-11-08 09:00:12，累计 1766 星。尚无可比的仓库 API 快照。北京时间 2026-11-08 09:00:12 的日榜和周榜未列出该仓库。",
+      "sources": [
+        {
+          "name": "原仓库 README 与国内适配",
+          "url": "https://github.com/wy51ai/edulab/blob/master/README.md",
+          "note": "用于星球里的教师课件制作实操和公众号学科案例。仓库提供中文文档与中文任务入口，视频配音列有智谱、豆包和 MiniMax。网页示例依赖相应 Python 与前端组件，生成内容需人工检查，运行环境和外部资源加载仍需实测。"
+        },
+        {
+          "name": "许可证原文",
+          "url": "https://github.com/wy51ai/edulab/blob/master/LICENSE",
+          "note": "Apache-2.0。复用源码与文档时保留许可、版权及适用的 NOTICE。SymPy、渲染组件、字体、语音与模型服务条件分别核对。"
+        },
+        {
+          "name": "核验时最近提交",
+          "url": "https://github.com/wy51ai/edulab/commit/805fdc5dd6bdf942290a7791924bf0ee08f26632",
+          "note": "北京时间 2026-10-23 14:24:56，未归档。"
+        },
+        {
+          "name": "仓库 API 核验快照",
+          "url": "https://api.github.com/repos/wy51ai/edulab",
+          "note": "北京时间 2026-11-08 09:00:12，累计 1766 星。尚无可比的仓库 API 快照。 research/catalog-github-snapshots-2026-11-15.json#2026-11-08T01:00:12.787Z。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-promptfoo-promptfoo",
+      "name": "Promptfoo 模型与提示词批量评测工具",
+      "category": "人工智能应用",
+      "categoryLabel": "人工智能应用",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "description": "用固定案例和断言比较不同模型、提示词或知识库问答的输出，生成可重复运行的评测结果与并排对照。",
+      "resourceDescription": "用固定案例和断言比较不同模型、提示词或知识库问答的输出，生成可重复运行的评测结果与并排对照。",
+      "licenseNote": "MIT。复用或分发源码时保留版权与许可声明。模型接口和依赖分别核对使用条件与费用。",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "AI 写作辅助",
+        "公众号流量主"
+      ],
+      "existingBusinessFit": "补充已有教师国产模型选型实测包，用固定中文教案、写作辅助和文章样例复测。原仓库文档明确支持 DeepSeek，以及自定义 apiBaseUrl 的 OpenAI 兼容接口。评测任务可在本机运行，使用远程模型时测试内容会发送给对应接口，事实与引文由人工复核。",
+      "repository": "promptfoo/promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "documentationUrl": "https://github.com/promptfoo/promptfoo/blob/main/README.md",
+      "checkedAt": "2026-11-09",
+      "addedAt": "2026-11-09T01:04:04.073Z",
+      "upstreamCommit": "b76f5a1b7ee2b2dcbb377dfcd008b6f6b255ebfa",
+      "upstreamCommitAt": "2026-11-08T19:56:32Z",
+      "upstreamCommitDate": "2026-11-09",
+      "stars": 26970,
+      "starsObservedAt": "2026-11-09T01:04:04.073Z",
+      "starDeltaObservation": null,
+      "starGrowth": null,
+      "growthNote": "北京时间 2026-11-09 09:04:04 核验，累计 26970 星，尚无可比仓库 API 快照。本次日榜和周榜未列出该仓库。",
+      "sources": [
+        {
+          "name": "原仓库 README",
+          "url": "https://github.com/promptfoo/promptfoo/blob/main/README.md",
+          "note": "补充已有教师国产模型选型实测包，用固定中文教案、写作辅助和文章样例复测。原仓库文档明确支持 DeepSeek，以及自定义 apiBaseUrl 的 OpenAI 兼容接口。评测任务可在本机运行，使用远程模型时测试内容会发送给对应接口，事实与引文由人工复核。"
+        },
+        {
+          "name": "许可证原文",
+          "url": "https://github.com/promptfoo/promptfoo/blob/main/LICENSE",
+          "note": "MIT。复用或分发源码时保留版权与许可声明。模型接口和依赖分别核对使用条件与费用。"
+        },
+        {
+          "name": "最近提交及归档状态",
+          "url": "https://github.com/promptfoo/promptfoo/commit/b76f5a1b7ee2b2dcbb377dfcd008b6f6b255ebfa",
+          "note": "北京时间 2026-11-09 03:56:32，核验时未归档。"
+        },
+        {
+          "name": "GitHub 仓库快照",
+          "url": "https://api.github.com/repos/promptfoo/promptfoo",
+          "note": "北京时间 2026-11-09 09:04:04 核验，累计 26970 星，尚无可比仓库 API 快照。 research/catalog-github-snapshots-2026-11-15.json#2026-11-09T01:04:04.073Z。"
+        },
+        {
+          "name": "DeepSeek 接入文档",
+          "url": "https://github.com/promptfoo/promptfoo/blob/b76f5a1b7ee2b2dcbb377dfcd008b6f6b255ebfa/site/docs/providers/deepseek.md",
+          "note": "原始提交快照已保存到 research/daily/2026-11-09/2026-11-09T01-04-04.073Z/promptfoo-provider-deepseek.md。"
+        },
+        {
+          "name": "兼容 API 配置文档",
+          "url": "https://github.com/promptfoo/promptfoo/blob/b76f5a1b7ee2b2dcbb377dfcd008b6f6b255ebfa/site/docs/providers/openai.md",
+          "note": "核对 apiBaseUrl 与接口路径配置，原始提交快照已保存到 research/daily/2026-11-09/2026-11-09T01-04-04.073Z/promptfoo-provider-openai.md。"
+        }
+      ]
+    },
+    {
+      "category": "内容制作与写作",
+      "categoryLabel": "内容制作与写作",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "relatedBusinesses": [
+        "AI 写作辅助",
+        "教育知识付费社群"
+      ],
+      "id": "cn-daily-retorquere-zotero-better-bibtex",
+      "name": "Better BibTeX 引用键与文献列表导出插件",
+      "description": "为 Zotero 文献生成引用键，并在集合变化后自动导出 BibTeX、BibLaTeX 等文献列表，适合基于文本文件维护的写作流程。",
+      "resourceDescription": "为 Zotero 文献生成引用键，并在集合变化后自动导出 BibTeX、BibLaTeX 等文献列表，适合基于文本文件维护的写作流程。",
+      "licenseNote": "MIT。分发源码或主要部分时保留版权与许可声明。Zotero 宿主及其他依赖的许可单独核对。",
+      "existingBusinessFit": "用于论文与教研写作辅助，将自有 Zotero 集合导出为可维护的文献列表，衔接已有 Typst 排版和中文 CSL 样式。README 明确 Unicode 处理及自动导出，可在本地文献库使用，无需模型接口。当前文档已调整为 Zotero 8 原生引用键，Zotero 7 的最后兼容版本停止维护，使用前核对版本及引用键迁移说明。",
+      "repository": "retorquere/zotero-better-bibtex",
+      "url": "https://github.com/retorquere/zotero-better-bibtex",
+      "documentationUrl": "https://github.com/retorquere/zotero-better-bibtex/blob/master/README.md",
+      "checkedAt": "2026-11-10",
+      "addedAt": "2026-11-10T01:02:12.907Z",
+      "upstreamCommit": "202a8b66c4123ea2eac4c230fc2600535d405fd5",
+      "upstreamCommitAt": "2026-11-09T08:16:05Z",
+      "upstreamCommitDate": "2026-11-09",
+      "stars": 7292,
+      "starsObservedAt": "2026-11-10T01:02:12.907Z",
+      "starDeltaObservation": null,
+      "starGrowth": null,
+      "growthNote": "北京时间 2026-11-10 09:02:12 核验，累计 7292 星，尚无可比仓库 API 快照。北京时间 2026-11-10 09:02:12 的日榜和周榜未列出该仓库。",
+      "sources": [
+        {
+          "name": "原仓库 README 与国内用途",
+          "url": "https://github.com/retorquere/zotero-better-bibtex/blob/master/README.md",
+          "note": "用于论文与教研写作辅助，将自有 Zotero 集合导出为可维护的文献列表，衔接已有 Typst 排版和中文 CSL 样式。README 明确 Unicode 处理及自动导出，可在本地文献库使用，无需模型接口。当前文档已调整为 Zotero 8 原生引用键，Zotero 7 的最后兼容版本停止维护，使用前核对版本及引用键迁移说明。"
+        },
+        {
+          "name": "许可证原文",
+          "url": "https://github.com/retorquere/zotero-better-bibtex/blob/master/LICENSE",
+          "note": "MIT。分发源码或主要部分时保留版权与许可声明。Zotero 宿主及其他依赖的许可单独核对。"
+        },
+        {
+          "name": "最近提交及归档状态",
+          "url": "https://github.com/retorquere/zotero-better-bibtex/commit/202a8b66c4123ea2eac4c230fc2600535d405fd5",
+          "note": "北京时间 2026-11-09 16:16:05，核验时未归档。"
+        },
+        {
+          "name": "GitHub 仓库快照",
+          "url": "https://api.github.com/repos/retorquere/zotero-better-bibtex",
+          "note": "北京时间 2026-11-10 09:02:12 核验，累计 7292 星，尚无可比仓库 API 快照。 research/catalog-github-snapshots-2026-11-15.json#2026-11-10T01:02:12.907Z。"
+        }
+      ]
+    },
+    {
+      "category": "内容制作与写作",
+      "categoryLabel": "内容制作与写作",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "relatedBusinesses": [
+        "AI 写作辅助",
+        "教育知识付费社群"
+      ],
+      "id": "cn-daily-l0o0-jasminum",
+      "name": "茉莉花 Zotero 中文文献管理插件",
+      "description": "面向中文文献管理的 Zotero 插件，提供中文元数据识别、姓名处理、附件匹配、书签与大纲管理，并连接中文转换器和引用格式资源。",
+      "resourceDescription": "面向中文文献管理的 Zotero 插件，提供中文元数据识别、姓名处理、附件匹配、书签与大纲管理，并连接中文转换器和引用格式资源。",
+      "licenseNote": "AGPL-3.0。分发修改版及提供基于修改版的网络服务时，遵守相应的源码提供等许可要求。Zotero 宿主、数据来源和模型服务分别核对。",
+      "existingBusinessFit": "补充现有中文引文排版工具，为授权中文资料核对作者、期刊和其他书目信息，也可用于星球的文献管理教程。README 列出中文数据源及 DeepSeek、硅基流动等模型配置预设，抓取结果需人工确认。当前插件最低要求 Zotero 9.0.3，AI 识别需要 Zotero 10 以上以及支持图片输入和 JSON 输出的模型，具体模型能力需单独测试。",
+      "repository": "l0o0/jasminum",
+      "url": "https://github.com/l0o0/jasminum",
+      "documentationUrl": "https://github.com/l0o0/jasminum/blob/main/README.md",
+      "checkedAt": "2026-11-10",
+      "addedAt": "2026-11-10T01:02:02.718Z",
+      "upstreamCommit": "944333993c008a88133665a057600e8d7f0ff081",
+      "upstreamCommitAt": "2026-11-07T14:52:54Z",
+      "upstreamCommitDate": "2026-11-07",
+      "stars": 7366,
+      "starsObservedAt": "2026-11-10T01:02:02.718Z",
+      "starDeltaObservation": null,
+      "starGrowth": null,
+      "growthNote": "北京时间 2026-11-10 09:02:02 核验，累计 7366 星，尚无可比仓库 API 快照。北京时间 2026-11-10 09:02:12 的日榜和周榜未列出该仓库。",
+      "sources": [
+        {
+          "name": "原仓库 README 与国内用途",
+          "url": "https://github.com/l0o0/jasminum/blob/main/README.md",
+          "note": "补充现有中文引文排版工具，为授权中文资料核对作者、期刊和其他书目信息，也可用于星球的文献管理教程。README 列出中文数据源及 DeepSeek、硅基流动等模型配置预设，抓取结果需人工确认。当前插件最低要求 Zotero 9.0.3，AI 识别需要 Zotero 10 以上以及支持图片输入和 JSON 输出的模型，具体模型能力需单独测试。"
+        },
+        {
+          "name": "许可证原文",
+          "url": "https://github.com/l0o0/jasminum/blob/main/LICENSE",
+          "note": "AGPL-3.0。分发修改版及提供基于修改版的网络服务时，遵守相应的源码提供等许可要求。Zotero 宿主、数据来源和模型服务分别核对。"
+        },
+        {
+          "name": "最近提交及归档状态",
+          "url": "https://github.com/l0o0/jasminum/commit/944333993c008a88133665a057600e8d7f0ff081",
+          "note": "北京时间 2026-11-07 22:52:54，核验时未归档。"
+        },
+        {
+          "name": "GitHub 仓库快照",
+          "url": "https://api.github.com/repos/l0o0/jasminum",
+          "note": "北京时间 2026-11-10 09:02:02 核验，累计 7366 星，尚无可比仓库 API 快照。 research/catalog-github-snapshots-2026-11-15.json#2026-11-10T01:02:02.718Z。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-zh-lx-pinyin-pro",
+      "name": "pinyin-pro 中文注音与多音字工具库",
+      "category": "教育工具",
+      "categoryLabel": "教育工具",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "description": "汉字转拼音的 JavaScript 库，支持词组多音字处理、自定义读音，以及生成带拼音的 HTML。可辅助制作中文阅读材料和注音练习。",
+      "resourceDescription": "汉字转拼音的 JavaScript 库，支持词组多音字处理、自定义读音，以及生成带拼音的 HTML。可辅助制作中文阅读材料和注音练习。",
+      "licenseNote": "MIT。分发源码或主要部分时保留版权和许可声明，扩展词典、字体和教材素材分别核对授权。",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "公众号流量主"
+      ],
+      "existingBusinessFit": "用于星球教师的中文阅读材料实操，以及公众号原创语文案例。原仓库提供中文文档，支持浏览器环境和自定义读音，本地使用已打包的库无需模型 API。自动注音需结合句意人工核对。",
+      "repository": "zh-lx/pinyin-pro",
+      "url": "https://github.com/zh-lx/pinyin-pro",
+      "documentationUrl": "https://github.com/zh-lx/pinyin-pro/blob/main/README.md",
+      "checkedAt": "2026-11-11",
+      "addedAt": "2026-11-11T01:01:33.337Z",
+      "upstreamCommit": "0785234b4dc0fa3ea9f244e3d77703b2df6a9db4",
+      "upstreamCommitAt": "2026-10-10T00:13:40Z",
+      "upstreamCommitDate": "2026-10-10",
+      "stars": 4762,
+      "starsObservedAt": "2026-11-11T01:01:33.337Z",
+      "starDeltaObservation": null,
+      "starGrowth": null,
+      "growthNote": "北京时间 2026-11-11 09:01:33 核验累计 4762 星，尚无可比仓库 API 快照。本次日榜和周榜未列出该仓库。",
+      "sources": [
+        {
+          "name": "原仓库 README 与中文用途",
+          "url": "https://github.com/zh-lx/pinyin-pro/blob/main/README.md",
+          "note": "用于星球教师的中文阅读材料实操，以及公众号原创语文案例。原仓库提供中文文档，支持浏览器环境和自定义读音，本地使用已打包的库无需模型 API。自动注音需结合句意人工核对。"
+        },
+        {
+          "name": "许可证原文",
+          "url": "https://github.com/zh-lx/pinyin-pro/blob/main/LICENSE",
+          "note": "MIT。分发源码或主要部分时保留版权和许可声明，扩展词典、字体和教材素材分别核对授权。"
+        },
+        {
+          "name": "最近提交与归档状态",
+          "url": "https://github.com/zh-lx/pinyin-pro/commit/0785234b4dc0fa3ea9f244e3d77703b2df6a9db4",
+          "note": "北京时间 2026-10-10 08:13:40，核验时未归档。"
+        },
+        {
+          "name": "GitHub 仓库快照",
+          "url": "https://api.github.com/repos/zh-lx/pinyin-pro",
+          "note": "北京时间 2026-11-11 09:01:33 核验累计 4762 星，尚无可比仓库 API 快照。 research/catalog-github-snapshots-2026-11-15.json#2026-11-11T01:01:33.337Z。"
+        },
+        {
+          "name": "注音 HTML 官方用法",
+          "url": "https://pinyin-pro.cn/use/html.html",
+          "note": "原 README 链接的注音页面接口说明。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-dgtlmoon-changedetection-io",
+      "name": "ChangeDetection.io 网页正文变更监测",
+      "repository": "dgtlmoon/changedetection.io",
+      "category": "公众号与微信开发",
+      "categoryLabel": "公众号与微信开发",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/dgtlmoon/changedetection.io",
+      "documentationUrl": "https://github.com/dgtlmoon/changedetection.io/blob/master/README.md",
+      "description": "按计划比对公开网页指定段落的文本，也可监测公开 PDF 的文本变化。支持 CSS、XPath 选择器和变更历史。",
+      "resourceDescription": "按计划比对公开网页指定段落的文本，也可监测公开 PDF 的文本变化。支持 CSS、XPath 选择器和变更历史。",
+      "licenseNote": "Apache-2.0。分发时遵循许可证和通知要求，源站内容的使用条件单独核对。",
+      "checkedAt": "2026-11-13",
+      "addedAt": "2026-11-13T00:59:06.212Z",
+      "upstreamCommit": "a624cc54bbf90a8d604b7d90b7e78c553f3fc37e",
+      "upstreamCommitAt": "2026-11-12T09:23:42Z",
+      "upstreamCommitDate": "2026-11-12",
+      "stars": 35777,
+      "starsObservedAt": "2026-11-13T00:59:06.212Z",
+      "relatedBusinesses": [
+        "公众号流量主",
+        "微信小程序流量主",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "自托管的文本比对无需模型，可辅助复核公众号、小程序和星球教程里引用的公开官方说明。每个目标先确认本地可访问和允许检查，动态页面、登录限制及改版会影响自动检查。",
+      "growthNote": "已保存本次 GitHub API 星数，尚无可比快照。",
+      "starGrowth": null,
+      "starDeltaObservation": null,
+      "sources": [
+        {
+          "name": "原仓库 README",
+          "url": "https://github.com/dgtlmoon/changedetection.io/blob/master/README.md",
+          "note": "README 说明了抓取方式、定时检查、正文过滤、PDF 监测和差异查看。"
+        },
+        {
+          "name": "源码许可证",
+          "url": "https://github.com/dgtlmoon/changedetection.io/blob/master/LICENSE",
+          "note": "Apache-2.0。分发时遵循许可证和通知要求，源站内容的使用条件单独核对。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/dgtlmoon/changedetection.io/commit/a624cc54bbf90a8d604b7d90b7e78c553f3fc37e",
+          "note": "2026-11-12 17:23:42（北京时间）。GitHub API 显示仓库未归档。"
+        },
+        {
+          "name": "GitHub 仓库元数据",
+          "url": "https://api.github.com/repos/dgtlmoon/changedetection.io",
+          "note": "2026-11-13 08:59:06（北京时间）观测累计星数 35777。快照 research/catalog-github-snapshots-2026-11-15.json#2026-11-13T00:59:06.212Z。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-rrweb-io-rrweb",
+      "name": "rrweb 网页操作录制与回放",
+      "repository": "rrweb-io/rrweb",
+      "category": "教育工具",
+      "categoryLabel": "教育工具",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/rrweb-io/rrweb",
+      "documentationUrl": "https://github.com/rrweb-io/rrweb/blob/main/guide.zh_CN.md",
+      "description": "在自己可修改的网页中记录页面状态和操作事件，按时间回放并支持跳到指定步骤。提供中文开发指南。",
+      "resourceDescription": "在自己可修改的网页中记录页面状态和操作事件，按时间回放并支持跳到指定步骤。提供中文开发指南。",
+      "licenseNote": "MIT。分发源码或软件时保留版权及许可声明，演示素材另行核对授权。",
+      "checkedAt": "2026-11-13",
+      "addedAt": "2026-11-13T00:59:06.212Z",
+      "upstreamCommit": "3339038d31bc15491e9def76fd4f4818b2eae6aa",
+      "upstreamCommitAt": "2026-11-10T16:41:51Z",
+      "upstreamCommitDate": "2026-11-11",
+      "stars": 20371,
+      "starsObservedAt": "2026-11-13T00:59:06.212Z",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "公众号流量主"
+      ],
+      "existingBusinessFit": "可把自有中文教学 H5 中的操作录成可跳转演示，作为知识星球课程和公众号教程的配套网页。浏览器内回放无需模型。先用虚构数据，并验证微信内打开和手机浏览器回放。",
+      "growthNote": "已保存本次 GitHub API 星数，尚无可比快照。",
+      "starGrowth": null,
+      "starDeltaObservation": null,
+      "sources": [
+        {
+          "name": "原仓库 README",
+          "url": "https://github.com/rrweb-io/rrweb/blob/main/README.md",
+          "note": "README 链接录制、回放、播放器及中文文档。"
+        },
+        {
+          "name": "源码许可证",
+          "url": "https://github.com/rrweb-io/rrweb/blob/main/LICENSE",
+          "note": "MIT。分发源码或软件时保留版权及许可声明，演示素材另行核对授权。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/rrweb-io/rrweb/commit/3339038d31bc15491e9def76fd4f4818b2eae6aa",
+          "note": "2026-11-11 00:41:51（北京时间）。GitHub API 显示仓库未归档。"
+        },
+        {
+          "name": "GitHub 仓库元数据",
+          "url": "https://api.github.com/repos/rrweb-io/rrweb",
+          "note": "2026-11-13 08:59:06（北京时间）观测累计星数 20371。快照 research/catalog-github-snapshots-2026-11-15.json#2026-11-13T00:59:06.212Z。"
+        },
+        {
+          "name": "中文开发指南",
+          "url": "https://github.com/rrweb-io/rrweb/blob/main/guide.zh_CN.md",
+          "note": "说明事件录制、输入遮罩、回放定位和浏览器兼容性。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-dequelabs-axe-core",
+      "name": "axe-core 网页无障碍检查引擎",
+      "category": "教育工具",
+      "description": "在浏览器测试中检查文字对比度、表单标签和图片替代文本等问题，可输出待人工复核项，并提供简体中文规则提示。",
+      "licenseNote": "MPL-2.0。对外分发时核对受许可覆盖的源码文件及其修改的披露义务，测试报告与网页素材另行管理。",
+      "relatedBusinesses": [
+        "教育知识付费社群",
+        "公众号流量主",
+        "微信小程序流量主"
+      ],
+      "existingBusinessFit": "用于检查星球课程配套 H5、公众号可分享的教学网页，以及自有小程序的独立 H5 配套页。浏览器测试无需模型，微信内阅读与手机读屏需要真机复核。",
+      "repository": "dequelabs/axe-core",
+      "categoryLabel": "教育工具",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/dequelabs/axe-core",
+      "documentationUrl": "https://github.com/dequelabs/axe-core/blob/develop/README.md",
+      "resourceDescription": "在浏览器测试中检查文字对比度、表单标签和图片替代文本等问题，可输出待人工复核项，并提供简体中文规则提示。",
+      "checkedAt": "2026-11-14",
+      "addedAt": "2026-11-14T01:05:09.040Z",
+      "upstreamCommit": "d991e05ac6eb42df88f9e61c1679692534bb92e2",
+      "upstreamCommitAt": "2026-11-13T12:37:39Z",
+      "upstreamCommitDate": "2026-11-13",
+      "stars": 7818,
+      "starsObservedAt": "2026-11-14T01:05:09.040Z",
+      "growthNote": "已保存 GitHub API 的累计星数，尚无可比历史快照。",
+      "starGrowth": null,
+      "starDeltaObservation": null,
+      "sources": [
+        {
+          "name": "原仓库 README",
+          "url": "https://github.com/dequelabs/axe-core/blob/develop/README.md",
+          "note": "在浏览器测试中检查文字对比度、表单标签和图片替代文本等问题，可输出待人工复核项，并提供简体中文规则提示。"
+        },
+        {
+          "name": "源码许可证",
+          "url": "https://github.com/dequelabs/axe-core/blob/develop/LICENSE",
+          "note": "MPL-2.0。对外分发时核对受许可覆盖的源码文件及其修改的披露义务，测试报告与网页素材另行管理。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/dequelabs/axe-core/commit/d991e05ac6eb42df88f9e61c1679692534bb92e2",
+          "note": "2026-11-13 20:37:39（北京时间）。GitHub API 显示未归档。"
+        },
+        {
+          "name": "GitHub API 仓库快照",
+          "url": "https://api.github.com/repos/dequelabs/axe-core",
+          "note": "2026-11-14 09:05:09（北京时间）核验，证据见 research/catalog-github-snapshots-2026-11-15.json#2026-11-14T01:05:09.040Z。"
+        },
+        {
+          "name": "官方规则说明",
+          "url": "https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md",
+          "note": "对比度、图像替代文本、表单标签等规则与人工复核条件。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-lxw112190-wechat-article-formatter",
+      "name": "公众号 Markdown 编辑与定稿存档工具",
+      "category": "公众号与微信开发",
+      "description": "中文浏览器编辑器，可检查稿件的图片和占位内容、导出 Word 或打印 PDF，并用带校验的 ZIP 备份恢复文章历史与本地配图。",
+      "licenseNote": "MIT。分发代码时保留版权及许可声明，配图、字体和插件许可单独核对。",
+      "relatedBusinesses": [
+        "公众号流量主",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "给现有公众号教育长文保留可恢复的编辑稿和配图，便于星球使用经核对的定稿。使用本地素材可减少外链依赖。粘贴到微信后台后需手动补上传本地图并实机预览。",
+      "repository": "lxw112190/wechat-article-formatter",
+      "categoryLabel": "公众号与微信开发",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/lxw112190/wechat-article-formatter",
+      "documentationUrl": "https://github.com/lxw112190/wechat-article-formatter/blob/main/README.md",
+      "resourceDescription": "中文浏览器编辑器，可检查稿件的图片和占位内容、导出 Word 或打印 PDF，并用带校验的 ZIP 备份恢复文章历史与本地配图。",
+      "checkedAt": "2026-11-14",
+      "addedAt": "2026-11-14T01:05:09.040Z",
+      "upstreamCommit": "b1e78dba49b8bbfaee2742f4c7f1f814bb26d54c",
+      "upstreamCommitAt": "2026-09-17T05:46:43Z",
+      "upstreamCommitDate": "2026-09-17",
+      "stars": 27,
+      "starsObservedAt": "2026-11-14T01:05:09.040Z",
+      "growthNote": "已保存 GitHub API 的累计星数，尚无可比历史快照。",
+      "starGrowth": null,
+      "starDeltaObservation": null,
+      "sources": [
+        {
+          "name": "原仓库 README",
+          "url": "https://github.com/lxw112190/wechat-article-formatter/blob/main/README.md",
+          "note": "中文浏览器编辑器，可检查稿件的图片和占位内容、导出 Word 或打印 PDF，并用带校验的 ZIP 备份恢复文章历史与本地配图。"
+        },
+        {
+          "name": "源码许可证",
+          "url": "https://github.com/lxw112190/wechat-article-formatter/blob/main/LICENSE",
+          "note": "MIT。分发代码时保留版权及许可声明，配图、字体和插件许可单独核对。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/lxw112190/wechat-article-formatter/commit/b1e78dba49b8bbfaee2742f4c7f1f814bb26d54c",
+          "note": "2026-09-17 13:46:43（北京时间）。GitHub API 显示未归档。"
+        },
+        {
+          "name": "GitHub API 仓库快照",
+          "url": "https://api.github.com/repos/lxw112190/wechat-article-formatter",
+          "note": "2026-11-14 09:05:09（北京时间）核验，证据见 research/catalog-github-snapshots-2026-11-15.json#2026-11-14T01:05:09.040Z。"
+        }
+      ]
+    },
+    {
+      "id": "cn-daily-jin-yufeng-mp-html",
+      "name": "mp-html 微信小程序富文本组件",
+      "category": "小程序开发",
+      "description": "在微信小程序里展示 HTML 图文、表格和 SVG，可开启页内锚点跳转、表格横向滚动与长按复制，提供中文文档。",
+      "licenseNote": "组件源码采用 MIT，分发时保留版权和许可声明。扩展插件、字体与配图按各自许可核对。",
+      "relatedBusinesses": [
+        "微信小程序流量主",
+        "教育知识付费社群"
+      ],
+      "existingBusinessFit": "将星球原创实验讲义的章节、图解和数据表接入现有微信小程序。基础图文渲染无需模型，正式发布前用微信真机核对滚动与跳转。",
+      "repository": "jin-yufeng/mp-html",
+      "categoryLabel": "小程序开发",
+      "region": "中国大陆",
+      "resourceKind": "repository",
+      "type": "源码与开发工具",
+      "url": "https://github.com/jin-yufeng/mp-html",
+      "documentationUrl": "https://github.com/jin-yufeng/mp-html/blob/master/README.md",
+      "resourceDescription": "在微信小程序里展示 HTML 图文、表格和 SVG，可开启页内锚点跳转、表格横向滚动与长按复制，提供中文文档。",
+      "checkedAt": "2026-11-15",
+      "addedAt": "2026-11-15T00:56:19.491Z",
+      "upstreamCommit": "60483c4fa921b7fd28d3fd6d525d124a09126651",
+      "upstreamCommitAt": "2026-04-19T11:18:39Z",
+      "upstreamCommitDate": "2026-04-19",
+      "stars": 3752,
+      "starsObservedAt": "2026-11-15T00:56:19.491Z",
+      "growthNote": "已保存 GitHub API 的累计星数，尚无可比历史快照。",
+      "starGrowth": null,
+      "starDeltaObservation": null,
+      "sources": [
+        {
+          "name": "原仓库 README",
+          "url": "https://github.com/jin-yufeng/mp-html/blob/master/README.md",
+          "note": "在微信小程序里展示 HTML 图文、表格和 SVG，可开启页内锚点跳转、表格横向滚动与长按复制，提供中文文档。"
+        },
+        {
+          "name": "源码许可证",
+          "url": "https://github.com/jin-yufeng/mp-html/blob/master/LICENSE",
+          "note": "组件源码采用 MIT，分发时保留版权和许可声明。扩展插件、字体与配图按各自许可核对。"
+        },
+        {
+          "name": "核验时的最近提交",
+          "url": "https://github.com/jin-yufeng/mp-html/commit/60483c4fa921b7fd28d3fd6d525d124a09126651",
+          "note": "2026-04-19 19:18:39（北京时间）。GitHub API 显示未归档。"
+        },
+        {
+          "name": "GitHub API 仓库快照",
+          "url": "https://api.github.com/repos/jin-yufeng/mp-html",
+          "note": "2026-11-15 08:56:19（北京时间）核验，证据见 research/catalog-github-snapshots-2026-11-15.json#2026-11-15T00:56:19.491Z。"
         }
       ]
     }

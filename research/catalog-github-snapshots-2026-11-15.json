@@ -1,0 +1,461 @@
+{
+  "reviewedAt": "2026-11-15",
+  "source": "GitHub REST API",
+  "note": "仅保留公开资源目录及引用仓库的核验数据。目录证据地址中的 # 后缀对应 snapshotsByObservedAt 的 UTC 时间键。",
+  "snapshotsByObservedAt": {
+    "2026-11-02T01:03:58.801Z": [
+      {
+        "repository": "HKUDS/DeepTutor",
+        "sourceUrl": "https://api.github.com/repos/HKUDS/DeepTutor",
+        "observedAt": "2026-11-02T01:03:58.801Z",
+        "stars": 53671,
+        "archived": false,
+        "latestCommit": "f7aed0744c36c5afef16a4261c31ebee1208cac2",
+        "latestCommitAt": "2026-10-31T16:50:27Z"
+      },
+      {
+        "repository": "AstrBotDevs/AstrBot",
+        "sourceUrl": "https://api.github.com/repos/AstrBotDevs/AstrBot",
+        "observedAt": "2026-11-02T01:03:58.801Z",
+        "stars": 45517,
+        "archived": false,
+        "latestCommit": "4f60422f9ca15b7e1ebb9d22b2ac289eae782f8e",
+        "latestCommitAt": "2026-11-02T00:57:54Z"
+      },
+      {
+        "repository": "THU-MAIC/OpenMAIC",
+        "sourceUrl": "https://api.github.com/repos/THU-MAIC/OpenMAIC",
+        "observedAt": "2026-11-02T01:03:58.801Z",
+        "stars": 42398,
+        "archived": false,
+        "latestCommit": "595a76794e5edd1c789608e067cc05f1fc6a0e39",
+        "latestCommitAt": "2026-11-01T15:16:07Z"
+      }
+    ],
+    "2026-11-02T01:04:29.663Z": [
+      {
+        "repository": "jaychouchannel/PlotCraft",
+        "sourceUrl": "https://api.github.com/repos/jaychouchannel/PlotCraft",
+        "observedAt": "2026-11-02T01:04:29.663Z",
+        "stars": 18,
+        "archived": false,
+        "latestCommit": "91d8bc888181862b5e2d0bca291a90c5d3800754",
+        "latestCommitAt": "2026-08-17T00:33:36Z"
+      }
+    ],
+    "2026-11-03T01:07:30.695Z": [
+      {
+        "repository": "AstrBotDevs/AstrBot",
+        "sourceUrl": "https://api.github.com/repos/AstrBotDevs/AstrBot",
+        "observedAt": "2026-11-03T01:07:30.695Z",
+        "stars": 45673,
+        "archived": false,
+        "latestCommit": "6c942855cb06b6d43854e8b841859d60a5c6043e",
+        "latestCommitAt": "2026-11-02T11:04:03Z"
+      },
+      {
+        "repository": "HKUDS/DeepTutor",
+        "sourceUrl": "https://api.github.com/repos/HKUDS/DeepTutor",
+        "observedAt": "2026-11-03T01:07:30.695Z",
+        "stars": 54318,
+        "archived": false,
+        "latestCommit": "f7aed0744c36c5afef16a4261c31ebee1208cac2",
+        "latestCommitAt": "2026-10-31T16:50:27Z"
+      },
+      {
+        "repository": "THU-MAIC/OpenMAIC",
+        "sourceUrl": "https://api.github.com/repos/THU-MAIC/OpenMAIC",
+        "observedAt": "2026-11-03T01:07:30.695Z",
+        "stars": 42498,
+        "archived": false,
+        "latestCommit": "c94aeac4f7560951c7c2b3f5072a92b672f8df20",
+        "latestCommitAt": "2026-11-02T06:20:40Z"
+      },
+      {
+        "repository": "Yu-tao-Li/dsh-reference-checker",
+        "sourceUrl": "https://api.github.com/repos/Yu-tao-Li/dsh-reference-checker",
+        "observedAt": "2026-11-03T01:07:30.695Z",
+        "stars": 5,
+        "archived": false,
+        "latestCommit": "15e2bff9581e0efba169c9285852033df5b651f7",
+        "latestCommitAt": "2026-10-31T13:23:06Z"
+      }
+    ],
+    "2026-11-03T01:07:56.583Z": [
+      {
+        "repository": "heygen-com/hyperframes",
+        "sourceUrl": "https://api.github.com/repos/heygen-com/hyperframes",
+        "observedAt": "2026-11-03T01:07:56.583Z",
+        "stars": 77745,
+        "archived": false,
+        "latestCommit": "eb3562966fcbac74da75566b660cbb41aa940739",
+        "latestCommitAt": "2026-11-03T00:23:50Z"
+      }
+    ],
+    "2026-11-03T04:08:14.667Z": [
+      {
+        "repository": "DayuanJiang/next-ai-draw-io",
+        "sourceUrl": "https://api.github.com/repos/DayuanJiang/next-ai-draw-io",
+        "observedAt": "2026-11-03T04:08:14.667Z",
+        "stars": 36605,
+        "archived": false,
+        "latestCommit": "c9dc5f5cc62e7e5a327a62b39027d80033e1548c",
+        "latestCommitAt": "2026-11-01T04:55:06Z"
+      },
+      {
+        "repository": "WaterTian/wechat-devtools-mcp",
+        "sourceUrl": "https://api.github.com/repos/WaterTian/wechat-devtools-mcp",
+        "observedAt": "2026-11-03T04:08:14.667Z",
+        "stars": 159,
+        "archived": false,
+        "latestCommit": "2d1a2146e10459ec7eced79f9df05c7cb6000bbe",
+        "latestCommitAt": "2026-10-26T10:05:34Z"
+      },
+      {
+        "repository": "heygen-com/hyperframes",
+        "sourceUrl": "https://api.github.com/repos/heygen-com/hyperframes",
+        "observedAt": "2026-11-03T04:08:14.667Z",
+        "stars": 77824,
+        "archived": false,
+        "latestCommit": "05ddddbbf08fd358b5879726f935d5414733da3a",
+        "latestCommitAt": "2026-11-03T03:13:11Z"
+      },
+      {
+        "repository": "wechat-miniprogram/miniprogram-simulate",
+        "sourceUrl": "https://api.github.com/repos/wechat-miniprogram/miniprogram-simulate",
+        "observedAt": "2026-11-03T04:08:14.667Z",
+        "stars": 538,
+        "archived": false,
+        "latestCommit": "f6044fd0ab3183eb170f4f64aebe1a9576ba76f2",
+        "latestCommitAt": "2026-06-30T03:08:09Z"
+      }
+    ],
+    "2026-11-03T15:00:13.842Z": [
+      {
+        "repository": "chentao326/teacher-skill",
+        "sourceUrl": "https://api.github.com/repos/chentao326/teacher-skill",
+        "observedAt": "2026-11-03T15:00:13.842Z",
+        "stars": 67,
+        "archived": false,
+        "latestCommit": "86056ac80f9e5f80c1e965a0de7e358ca54f4bdc",
+        "latestCommitAt": "2026-06-04T06:10:55Z"
+      },
+      {
+        "repository": "lycheeverse/lychee",
+        "sourceUrl": "https://api.github.com/repos/lycheeverse/lychee",
+        "observedAt": "2026-11-03T15:00:13.842Z",
+        "stars": 4086,
+        "archived": false,
+        "latestCommit": "d119b686aba77707bb4fc2037bdce3eea0ccaee6",
+        "latestCommitAt": "2026-11-02T12:51:41Z"
+      },
+      {
+        "repository": "heygen-com/hyperframes",
+        "sourceUrl": "https://api.github.com/repos/heygen-com/hyperframes",
+        "observedAt": "2026-11-03T15:00:13.842Z",
+        "stars": 78130,
+        "archived": false,
+        "latestCommit": "fc006f713beb8caf46554da468fa578247b8db08",
+        "latestCommitAt": "2026-11-03T14:22:36Z"
+      },
+      {
+        "repository": "HKUDS/DeepTutor",
+        "sourceUrl": "https://api.github.com/repos/HKUDS/DeepTutor",
+        "observedAt": "2026-11-03T15:00:13.842Z",
+        "stars": 54618,
+        "archived": false,
+        "latestCommit": "f7aed0744c36c5afef16a4261c31ebee1208cac2",
+        "latestCommitAt": "2026-10-31T16:50:27Z"
+      }
+    ],
+    "2026-11-04T01:05:09.098Z": [
+      {
+        "repository": "zotero-chinese/styles",
+        "sourceUrl": "https://api.github.com/repos/zotero-chinese/styles",
+        "observedAt": "2026-11-04T01:05:09.098Z",
+        "stars": 6350,
+        "archived": false,
+        "latestCommit": "cf56b119812c83c91c99606405d7e7861685c3b7",
+        "latestCommitAt": "2026-08-23T11:59:00Z"
+      }
+    ],
+    "2026-11-05T01:08:39.760Z": [
+      {
+        "repository": "harry0703/MoneyPrinterTurbo",
+        "sourceUrl": "https://api.github.com/repos/harry0703/MoneyPrinterTurbo",
+        "observedAt": "2026-11-05T01:08:39.760Z",
+        "stars": 138975,
+        "archived": false,
+        "latestCommit": "c8dbf96e9dfee43b30f7c3f440175d6bd4de61de",
+        "latestCommitAt": "2026-11-04T02:11:21Z"
+      }
+    ],
+    "2026-11-06T01:08:16.183Z": [
+      {
+        "repository": "harry0703/MoneyPrinterTurbo",
+        "sourceUrl": "https://api.github.com/repos/harry0703/MoneyPrinterTurbo",
+        "observedAt": "2026-11-06T01:08:16.183Z",
+        "stars": 139790,
+        "archived": false,
+        "latestCommit": "ace6c8f3a8dd9508776dbbf6f0bdc9b2d973254a",
+        "latestCommitAt": "2026-11-05T23:33:59Z"
+      }
+    ],
+    "2026-11-06T01:08:17.938Z": [
+      {
+        "repository": "1195343015/cn-university-typst-thesis-templates",
+        "sourceUrl": "https://api.github.com/repos/1195343015/cn-university-typst-thesis-templates",
+        "observedAt": "2026-11-06T01:08:17.938Z",
+        "stars": 8,
+        "archived": false,
+        "latestCommit": "60b8d6209cd6821f474406e295ce2089f1ec9a4e",
+        "latestCommitAt": "2026-11-05T10:50:31Z"
+      },
+      {
+        "repository": "typst/typst",
+        "sourceUrl": "https://api.github.com/repos/typst/typst",
+        "observedAt": "2026-11-06T01:08:17.938Z",
+        "stars": 57007,
+        "archived": false,
+        "latestCommit": "84cca406aafe7f830ed3f37f1cc6f0c8b6b65a03",
+        "latestCommitAt": "2026-10-28T11:22:33Z"
+      }
+    ],
+    "2026-11-07T01:07:25.886Z": [
+      {
+        "repository": "antvis/F2",
+        "sourceUrl": "https://api.github.com/repos/antvis/F2",
+        "observedAt": "2026-11-07T01:07:25.886Z",
+        "stars": 7995,
+        "archived": false,
+        "latestCommit": "fff56a0f6e0d6109a003bfb29b3376ab9865c731",
+        "latestCommitAt": "2026-04-07T11:20:49Z"
+      }
+    ],
+    "2026-11-07T01:08:00.679Z": [
+      {
+        "repository": "antvis/FEngine",
+        "sourceUrl": "https://api.github.com/repos/antvis/FEngine",
+        "observedAt": "2026-11-07T01:08:00.679Z",
+        "stars": 42,
+        "archived": false,
+        "latestCommit": "1f56c86f018403d5a3584b36204e676d096e2483",
+        "latestCommitAt": "2026-07-22T06:29:34Z"
+      }
+    ],
+    "2026-11-08T01:00:12.787Z": [
+      {
+        "repository": "122-syf-wcy/PhysicsOS",
+        "sourceUrl": "https://api.github.com/repos/122-syf-wcy/PhysicsOS",
+        "observedAt": "2026-11-08T01:00:12.787Z",
+        "stars": 265,
+        "archived": false,
+        "latestCommit": "7aafeee0e3029ecb5199014e2444f820a0c6bd28",
+        "latestCommitAt": "2026-11-07T23:46:10Z"
+      },
+      {
+        "repository": "wy51ai/edulab",
+        "sourceUrl": "https://api.github.com/repos/wy51ai/edulab",
+        "observedAt": "2026-11-08T01:00:12.787Z",
+        "stars": 1766,
+        "archived": false,
+        "latestCommit": "805fdc5dd6bdf942290a7791924bf0ee08f26632",
+        "latestCommitAt": "2026-10-23T06:24:56Z"
+      }
+    ],
+    "2026-11-09T01:04:04.073Z": [
+      {
+        "repository": "122-syf-wcy/PhysicsOS",
+        "sourceUrl": "https://api.github.com/repos/122-syf-wcy/PhysicsOS",
+        "observedAt": "2026-11-09T01:04:04.073Z",
+        "stars": 265,
+        "archived": false,
+        "latestCommit": "d974790a9b68d763662e8cbb74b1652b3c2809be",
+        "latestCommitAt": "2026-11-08T05:52:58Z"
+      },
+      {
+        "repository": "promptfoo/promptfoo",
+        "sourceUrl": "https://api.github.com/repos/promptfoo/promptfoo",
+        "observedAt": "2026-11-09T01:04:04.073Z",
+        "stars": 26970,
+        "archived": false,
+        "latestCommit": "b76f5a1b7ee2b2dcbb377dfcd008b6f6b255ebfa",
+        "latestCommitAt": "2026-11-08T19:56:32Z"
+      },
+      {
+        "repository": "HKUDS/DeepTutor",
+        "sourceUrl": "https://api.github.com/repos/HKUDS/DeepTutor",
+        "observedAt": "2026-11-09T01:04:04.073Z",
+        "stars": 57014,
+        "archived": false,
+        "latestCommit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+        "latestCommitAt": "2026-11-06T08:41:21Z"
+      },
+      {
+        "repository": "lycheeverse/lychee",
+        "sourceUrl": "https://api.github.com/repos/lycheeverse/lychee",
+        "observedAt": "2026-11-09T01:04:04.073Z",
+        "stars": 4109,
+        "archived": false,
+        "latestCommit": "cb856d526038d4697df811775a834d0bdc1baac8",
+        "latestCommitAt": "2026-11-08T23:02:23Z"
+      },
+      {
+        "repository": "wy51ai/edulab",
+        "sourceUrl": "https://api.github.com/repos/wy51ai/edulab",
+        "observedAt": "2026-11-09T01:04:04.073Z",
+        "stars": 1771,
+        "archived": false,
+        "latestCommit": "805fdc5dd6bdf942290a7791924bf0ee08f26632",
+        "latestCommitAt": "2026-10-23T06:24:56Z"
+      }
+    ],
+    "2026-11-10T01:02:02.718Z": [
+      {
+        "repository": "l0o0/jasminum",
+        "sourceUrl": "https://api.github.com/repos/l0o0/jasminum",
+        "observedAt": "2026-11-10T01:02:02.718Z",
+        "stars": 7366,
+        "archived": false,
+        "latestCommit": "944333993c008a88133665a057600e8d7f0ff081",
+        "latestCommitAt": "2026-11-07T14:52:54Z"
+      }
+    ],
+    "2026-11-10T01:02:12.907Z": [
+      {
+        "repository": "jaychouchannel/PlotCraft",
+        "sourceUrl": "https://api.github.com/repos/jaychouchannel/PlotCraft",
+        "observedAt": "2026-11-10T01:02:12.907Z",
+        "stars": 18,
+        "archived": false,
+        "latestCommit": "91d8bc888181862b5e2d0bca291a90c5d3800754",
+        "latestCommitAt": "2026-08-17T00:33:36Z"
+      },
+      {
+        "repository": "promptfoo/promptfoo",
+        "sourceUrl": "https://api.github.com/repos/promptfoo/promptfoo",
+        "observedAt": "2026-11-10T01:02:12.907Z",
+        "stars": 27000,
+        "archived": false,
+        "latestCommit": "b3603fab85bb331da98a8b68ca442e1f4af7e368",
+        "latestCommitAt": "2026-11-09T21:42:24Z"
+      },
+      {
+        "repository": "HKUDS/DeepTutor",
+        "sourceUrl": "https://api.github.com/repos/HKUDS/DeepTutor",
+        "observedAt": "2026-11-10T01:02:12.907Z",
+        "stars": 57624,
+        "archived": false,
+        "latestCommit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+        "latestCommitAt": "2026-11-06T08:41:21Z"
+      },
+      {
+        "repository": "retorquere/zotero-better-bibtex",
+        "sourceUrl": "https://api.github.com/repos/retorquere/zotero-better-bibtex",
+        "observedAt": "2026-11-10T01:02:12.907Z",
+        "stars": 7292,
+        "archived": false,
+        "latestCommit": "202a8b66c4123ea2eac4c230fc2600535d405fd5",
+        "latestCommitAt": "2026-11-09T08:16:05Z"
+      }
+    ],
+    "2026-11-11T01:01:33.337Z": [
+      {
+        "repository": "zh-lx/pinyin-pro",
+        "sourceUrl": "https://api.github.com/repos/zh-lx/pinyin-pro",
+        "observedAt": "2026-11-11T01:01:33.337Z",
+        "stars": 4762,
+        "archived": false,
+        "latestCommit": "0785234b4dc0fa3ea9f244e3d77703b2df6a9db4",
+        "latestCommitAt": "2026-10-10T00:13:40Z"
+      },
+      {
+        "repository": "HKUDS/DeepTutor",
+        "sourceUrl": "https://api.github.com/repos/HKUDS/DeepTutor",
+        "observedAt": "2026-11-11T01:01:33.337Z",
+        "stars": 57998,
+        "archived": false,
+        "latestCommit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+        "latestCommitAt": "2026-11-06T08:41:21Z"
+      }
+    ],
+    "2026-11-13T00:59:06.212Z": [
+      {
+        "repository": "rrweb-io/rrweb",
+        "sourceUrl": "https://api.github.com/repos/rrweb-io/rrweb",
+        "observedAt": "2026-11-13T00:59:06.212Z",
+        "stars": 20371,
+        "archived": false,
+        "latestCommit": "3339038d31bc15491e9def76fd4f4818b2eae6aa",
+        "latestCommitAt": "2026-11-10T16:41:51Z"
+      },
+      {
+        "repository": "dgtlmoon/changedetection.io",
+        "sourceUrl": "https://api.github.com/repos/dgtlmoon/changedetection.io",
+        "observedAt": "2026-11-13T00:59:06.212Z",
+        "stars": 35777,
+        "archived": false,
+        "latestCommit": "a624cc54bbf90a8d604b7d90b7e78c553f3fc37e",
+        "latestCommitAt": "2026-11-12T09:23:42Z"
+      },
+      {
+        "repository": "HKUDS/DeepTutor",
+        "sourceUrl": "https://api.github.com/repos/HKUDS/DeepTutor",
+        "observedAt": "2026-11-13T00:59:06.212Z",
+        "stars": 58653,
+        "archived": false,
+        "latestCommit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+        "latestCommitAt": "2026-11-06T08:41:21Z"
+      }
+    ],
+    "2026-11-14T01:05:09.040Z": [
+      {
+        "repository": "dequelabs/axe-core",
+        "sourceUrl": "https://api.github.com/repos/dequelabs/axe-core",
+        "observedAt": "2026-11-14T01:05:09.040Z",
+        "stars": 7818,
+        "archived": false,
+        "latestCommit": "d991e05ac6eb42df88f9e61c1679692534bb92e2",
+        "latestCommitAt": "2026-11-13T12:37:39Z"
+      },
+      {
+        "repository": "lxw112190/wechat-article-formatter",
+        "sourceUrl": "https://api.github.com/repos/lxw112190/wechat-article-formatter",
+        "observedAt": "2026-11-14T01:05:09.040Z",
+        "stars": 27,
+        "archived": false,
+        "latestCommit": "b1e78dba49b8bbfaee2742f4c7f1f814bb26d54c",
+        "latestCommitAt": "2026-09-17T05:46:43Z"
+      },
+      {
+        "repository": "dgtlmoon/changedetection.io",
+        "sourceUrl": "https://api.github.com/repos/dgtlmoon/changedetection.io",
+        "observedAt": "2026-11-14T01:05:09.040Z",
+        "stars": 35800,
+        "archived": false,
+        "latestCommit": "e36975798b3b12145ebf891eaa3a651e68031ae6",
+        "latestCommitAt": "2026-11-13T15:44:04Z"
+      },
+      {
+        "repository": "rrweb-io/rrweb",
+        "sourceUrl": "https://api.github.com/repos/rrweb-io/rrweb",
+        "observedAt": "2026-11-14T01:05:09.040Z",
+        "stars": 20375,
+        "archived": false,
+        "latestCommit": "3339038d31bc15491e9def76fd4f4818b2eae6aa",
+        "latestCommitAt": "2026-11-10T16:41:51Z"
+      }
+    ],
+    "2026-11-15T00:56:19.491Z": [
+      {
+        "repository": "jin-yufeng/mp-html",
+        "sourceUrl": "https://api.github.com/repos/jin-yufeng/mp-html",
+        "observedAt": "2026-11-15T00:56:19.491Z",
+        "stars": 3752,
+        "archived": false,
+        "latestCommit": "60483c4fa921b7fd28d3fd6d525d124a09126651",
+        "latestCommitAt": "2026-04-19T11:18:39Z"
+      }
+    ]
+  }
+}
